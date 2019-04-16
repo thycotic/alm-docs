@@ -1,0 +1,13 @@
+﻿[title]: # (Manage Groups)
+[tags]: # (,)
+[priority]: # (1340)
+## Manage Groups
+
+On the Manage Group page you can edit the **Name**, disable/enable the group, and add users to it.
+
+![](images/placeholder.gif)
+
+To add a user to this Group, click **Add user**, then search and select a user from the list. Click **Add**.
+
+![](images/placeholder.gif)
+
