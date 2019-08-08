@@ -1,0 +1,14 @@
+﻿[title]: # (Reference Topics)
+[tags]: # (Account  Manager,ALM,)
+[priority]: # (8000)
+
+# Reference Topics
+ 
+This section collects reference material, so far including:
+
+* a summary of ALM user personas and use cases
+
+* a guide to service account end-of-lifecycle actions
+
+* a table of events, notifications, and notification recipients
+
