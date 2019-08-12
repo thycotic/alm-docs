@@ -1,5 +1,5 @@
 ﻿[title]: # (Modern IT and Least Privileged Access)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (2100)
 
 ## Modern IT and Least Privileged Access

@@ -1,5 +1,5 @@
 ﻿[title]: # (Create a Workflow Template to Define a Workflow)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5350)
 
 ### Create a Workflow Template to Define a Workflow

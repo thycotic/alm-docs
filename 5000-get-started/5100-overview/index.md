@@ -1,5 +1,5 @@
 ﻿[title]: # (Overview)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5100)
 
 ## Overview

@@ -1,5 +1,5 @@
 ﻿[title]: # (ALM: The Big Picture)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (2000)
 
 # ALM: The Big Picture

@@ -1,5 +1,5 @@
 ﻿[title]: # (Support Resources)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (9900)
 
 # Support Resources

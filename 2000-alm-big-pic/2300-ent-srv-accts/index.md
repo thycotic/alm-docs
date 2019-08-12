@@ -1,5 +1,5 @@
 ﻿[title]: # (Enterprise Service Accounts: Have Privileges, Will Travel)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (2300)
 
 ## Enterprise Service Accounts: Have Privileges, Will Travel
