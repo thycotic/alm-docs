@@ -24,7 +24,7 @@ The navigation panel’s main headings collect all the information necessary to 
 
 **Occasional Operations** recaps tasks ALM users will occasionally perform, such as updating templates.
 
-**Reference Topics** collects reference material, including a Summary of ALM User Personas and Use Cases, a Guide to Service Account End of  Actions, and a Table of Events, Notifications, and Notification Recipients.
+**Reference Topics** collects reference material, including a Summary of ALM User Personas and Use Cases, a Guide to Service Account End of Lifecycle Actions, and a Table of Events, Notifications, and Notification Recipients.
 
 **Support Resources** connects you to available support resources.
 
