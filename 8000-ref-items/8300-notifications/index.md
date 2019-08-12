@@ -1,5 +1,5 @@
 ﻿[title]: # (Events, Notifications, and Notification Recipients)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (8300)
 
 # Events, Notifications, and Notification Recipients

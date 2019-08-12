@@ -1,5 +1,5 @@
 ﻿[title]: # (Create Groups)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5315)
 
 ### Create Groups

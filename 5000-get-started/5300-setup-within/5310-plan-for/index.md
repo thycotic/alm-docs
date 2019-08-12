@@ -1,5 +1,5 @@
 ﻿[title]: # (Plan for Groups, Roles, and Users)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5310)
 
 ### Plan for Groups, Roles, and Users

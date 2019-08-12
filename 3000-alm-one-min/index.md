@@ -1,5 +1,5 @@
 ﻿[title]: # (ALM in One Minute)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (3000)
 
 # ALM in One Minute
@@ -8,7 +8,7 @@ ALM came from a straightforward idea—provide a cloud app’s clean design and 
 
 That is the essence of ALM. The tasks involved form a simple, linear workflow:
 
-* members of the organization use Account  Manager to **request service accounts**
+* members of the organization use Account Lifecycle Manager to **request service accounts**
 
 * ALM **notifies the staff holding approval authority** for the requested service accounts
 

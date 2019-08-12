@@ -1,5 +1,5 @@
 ﻿[title]: # (Workflow Process)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5345)
 
 ### Workflow Process

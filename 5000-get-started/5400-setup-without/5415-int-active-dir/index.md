@@ -1,5 +1,5 @@
 ﻿[title]: # (Integrate ALM with Active Directory)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5415)
 
 ### Integrate ALM with Active Directory

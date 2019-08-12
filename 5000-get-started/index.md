@@ -1,5 +1,5 @@
 ﻿[title]: # (Getting Started with ALM)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5000)
 
 # Getting Started with ALM
@@ -12,6 +12,6 @@ As with any tool primarily serving the DevOps crowd, careful preparation—with 
 
 * However, its successful use from access points within your enterprise requires that your organization’s enterprise infrastructure meet several criteria.
 
-This section focuses on steps organizations should take to prepare their enterprise systems to interact effectively with the Account  Manager cloud service.
+This section focuses on steps organizations should take to prepare their enterprise systems to interact effectively with the Account Lifecycle Manager cloud service.
 
 
