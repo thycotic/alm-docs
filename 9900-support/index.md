@@ -1,6 +1,6 @@
 ﻿[title]: # (Support Resources)
 [tags]: # (Account  Manager,ALM,)
-[priority]: # (10000)
+[priority]: # (9900)
 
 # Support Resources
 
