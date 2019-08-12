@@ -10,7 +10,7 @@ Additionally, ALM uses familiar objects like users, groups, and roles—so setti
 
 * It is important to understand that while ALM replicates its user objects in Active Directory, such that there will be a one to one correspondence between ALM user objects and Active Directory user objects, **nothing similar to this** applies to ALM group objects.
 
->   ALM does not create Active Directory groups, and no equivalency of function >   exists between ALM groups and AD groups.
+>   ALM does not create Active Directory groups, and no equivalency of function exists between ALM groups and AD groups.
 
 To manage ALM user privileges within ALM, you can add ALM users to ALM groups, and then either or both of these entities to ALM roles.
 
