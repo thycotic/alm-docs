@@ -1,5 +1,5 @@
 ﻿[title]: # (Before You Start)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5305)
 
 ### Before You Start

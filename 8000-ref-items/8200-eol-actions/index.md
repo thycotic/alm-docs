@@ -1,10 +1,10 @@
 ﻿[title]: # (End of Lifecycle Actions Guide)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (8200)
 
 # End of Lifecycle Actions Guide
 
-Account  Manager allows the System Administrator to define in the Workflow Template what will happen to an account at the end of its lifecycle.
+Account Lifecycle Manager allows the System Administrator to define in the Workflow Template what will happen to an account at the end of its lifecycle.
 
 All accounts provisioned against the Workflow Template will have review actions available in accordance with the determined End of  Action. The Requestor will be displayed the End of  Action for the Workflow Template they have chosen to provision the account against, as well as be displayed the End of  Action on the Managed page.
 
@@ -32,7 +32,7 @@ Accounts that are have Review as the End of  Action will allow the Account Owner
 
 * Disable
 
-  This Action button is enabled on the Managed screen for the account at any time of the account’s lifecycle. Selecting Disable will disable the account in Account  Manager and Active Directory. After an account is disable the Disable button will pivot to Enable, allowing the user to re-enable the account as needed.
+  This Action button is enabled on the Managed screen for the account at any time of the account’s lifecycle. Selecting Disable will disable the account in Account Lifecycle Manager and Active Directory. After an account is disable the Disable button will pivot to Enable, allowing the user to re-enable the account as needed.
 
 * Delete Account and Secret
 
@@ -50,7 +50,7 @@ Accounts that are have Disable as the End of  Action will allow the Account Owne
 
 * Disable
 
-  This Action button is enabled on the Managed screen for the account at any time of the account’s lifecycle. Selecting Disable will disable the account in Account  Manager and Active Directory. After an account is disable the Disable button will pivot to Enable, allowing the user to re-enable the account as needed.
+  This Action button is enabled on the Managed screen for the account at any time of the account’s lifecycle. Selecting Disable will disable the account in Account Lifecycle Manager and Active Directory. After an account is disable the Disable button will pivot to Enable, allowing the user to re-enable the account as needed.
 
 * Delete Account and Secret
 
@@ -72,7 +72,7 @@ Accounts that are have Expire as the End of  Action will allow the Account Owner
 
 * Disable
 
-  This Action button is enabled on the Managed screen for the account at any time of the account’s lifecycle. Selecting Disable will disable the account in Account  Manager and Active Directory. After an account is disable the Disable button will pivot to Enable, allowing the user to re-enable the account as needed.
+  This Action button is enabled on the Managed screen for the account at any time of the account’s lifecycle. Selecting Disable will disable the account in Account Lifecycle Manager and Active Directory. After an account is disable the Disable button will pivot to Enable, allowing the user to re-enable the account as needed.
 
 * Delete Account and Secret
 
@@ -90,7 +90,7 @@ Accounts that are have Expire as the End of  Action will allow the Account Owner
 
 * Disable
 
-  This Action button is enabled on the Managed screen for the account at any time of the account’s lifecycle. Selecting Disable will disable the account in Account  Manager and Active Directory. After an account is disable the Disable button will pivot to Enable, allowing the user to re-enable the account as needed.
+  This Action button is enabled on the Managed screen for the account at any time of the account’s lifecycle. Selecting Disable will disable the account in Account Lifecycle Manager and Active Directory. After an account is disable the Disable button will pivot to Enable, allowing the user to re-enable the account as needed.
 
 * Delete Account and Secret
 

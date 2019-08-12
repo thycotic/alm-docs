@@ -1,5 +1,5 @@
 ﻿[title]: # (Initial Setup: Within ALM)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5300)
 
 ## Initial Setup: Within ALM

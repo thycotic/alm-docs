@@ -1,5 +1,5 @@
 ﻿[title]: # (Initial Setup: Outside ALM)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5400)
 
 ## Initial Setup: Outside ALM

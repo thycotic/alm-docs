@@ -1,5 +1,5 @@
 ﻿[title]: # (Requirements Verification)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5200)
 
 ## Requirements Verification

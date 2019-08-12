@@ -1,5 +1,5 @@
 ﻿[title]: # (Build Workflow Templates for Approval Processes)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5335)
 
 ### Build Workflow Templates for Approval Processes

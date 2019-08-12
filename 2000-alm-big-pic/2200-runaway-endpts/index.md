@@ -1,5 +1,5 @@
 ﻿[title]: # (Runaway Privileges at Endpoints)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (2200)
 
 ## Runaway Privileges at Endpoints

@@ -1,5 +1,5 @@
 ﻿[title]: # (Reference Topics)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (8000)
 
 # Reference Topics

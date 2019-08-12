@@ -1,5 +1,5 @@
 ﻿[title]: # (Summary of ALM User Personas and Use Cases)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (8100)
 
 # Summary of ALM User Personas and Use Cases 

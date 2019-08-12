@@ -1,5 +1,5 @@
 ﻿[title]: # (Setup the Remote Worker Service)
-[tags]: # (Account  Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5405)
 
 ### Setup the Remote Worker Service
