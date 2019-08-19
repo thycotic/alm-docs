@@ -12,3 +12,7 @@ This section collects reference material, so far including:
 
 * a table of events, notifications, and notification recipients
 
+* a guide to the free Service Account Risk Snapshot Tool
+
+* the ALM User Role Guide
+

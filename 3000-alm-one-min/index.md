@@ -20,10 +20,7 @@ That is the essence of ALM. The tasks involved form a simple, linear workflow:
 
 * ALM **notifies the requester** of the request outcome
 
-* using properties assigned within ALM to the proxies of the service accounts, ALM tracks accounts to ensure their timely retirement or renewal on designated dates
+* using properties assigned within ALM to the proxies of the service accounts, ALM tracks accounts to promote their timely evaluation for renewal or retirement on designated dates
 
 These activities follow **workflows** defined by the organization using **workflow templates**. ALM logs each step to support a robust audit capacity.
-
-
- 
 

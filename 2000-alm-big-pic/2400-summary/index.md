@@ -10,7 +10,7 @@ Poor password hygiene, motivated by an excessive number of passwords to remember
 
 * Privilege Manager brings forgotten, poorly understood, or otherwise problematic endpoint local accounts back under control, with tools to discover and characterize local admin accounts and mitigate risks they create.
 
-* Account Lifecycle Manager (ALM) applies control and automation to the process for requesting new service accounts, approving (or denying) them, and eventually retiring them, while facilitating scrutiny of all service accounts at the time of their renewal or expiration.
+* Account Lifecycle Manager (ALM) applies control and automation to the process for requesting new service accounts, approving or denying them, and eventually retiring them, while facilitating scrutiny of all service accounts at the time of their renewal or expiration.
 
  
 

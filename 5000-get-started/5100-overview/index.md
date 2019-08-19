@@ -14,6 +14,12 @@ Preparing for ALM requires these tasks:
 
   These pages include detailed information about the requirements.
 
+* Initial Setup: Outside ALM
+
+  ALM requires installation of a Windows Service, referred to as the ALM Remote Worker, on your organization’s hardware. Additionally, you must integrate ALM with Secret Server and connect it to Active Directory.
+
+    These pages include instructions for those tasks.
+
 * Initial Setup: Within ALM
 
   You must complete certain setup tasks within your freshly provisioned cloud ALM environment for the service to work as designed.
@@ -22,10 +28,5 @@ Preparing for ALM requires these tasks:
 
   These pages include detailed coverage of these first ALM setup tasks.
 
-* Initial Setup: Outside ALM
-
-  ALM requires installation of a Windows Service, referred to as the ALM Remote Worker, on your organization’s hardware. Additionally, you must integrate ALM with Secret Server and connect it to Active Directory.
-
-    These pages include instructions for those tasks.
 
 
