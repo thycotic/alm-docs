@@ -18,7 +18,7 @@ When these local workstation service accounts have privileges greater than those
 
 ### Privilege Manager: Bringing PAM to Endpoints
 
-Thycotic’s Privilege Manager service helps organizations take back control of local account security excesses.
+Thycotic’s Privilege Manager service helps organizations take back control of local-account security excesses.
 
 As an endpoint least privilege and application control solution for Windows and Macs, Privilege Manager allows administrators to automatically discover local administrator privileges and enforce least privilege principles through policy-driven actions.
 

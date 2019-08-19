@@ -24,7 +24,7 @@ That is a bad outcome, but so is doing nothing. Many such accounts have substant
 
 It gets worse. Too often, the uncompiled code behind the computer processes using service accounts remains exposed somewhere on the network—and that code sometimes contains the plain-text account names and passwords for each service account the developer thought the computer process might need to use.
 
-* Hackers preferentially target service accounts for compromise, knowing they may lack effective monitoring and have elevated privileges.
+* Hackers preferentially target service accounts for compromise, knowing they sometimes lack effective monitoring and have elevated privileges.
 
 * A malicious actor using a compromised service account can severely harm an organization.
 
@@ -42,11 +42,13 @@ Solving this problem requires sustained effort in two areas:
 
 Thycotic’s Account Lifecycle Manager service applies controls and standards to service account provisioning, allowing consistent application of least-privilege principles for these accounts.
 
-* Using ALM structures an organization’s process for requesting and approving service accounts, as well as ensuring the prompt review, renewal, or expiration of service accounts.
+* Using ALM structures an organization’s process for requesting and approving service accounts. It also promotes timely evaluation for renewal or retirement as accounts near their expiration dates.
 
 * This halts the accumulation of forgotten, little-used, or unknown accounts.
 
 * ALM also supports workflows to automate the structure it brings to account requests, approvals, and provisioning. This conserves staff time for tasks requiring human discernment and judgment, for example, reviewing audit trails to detect service account anomalies.
+
+* Integration with Secret Server further reduces the risks associated with service accounts by securing the credentials passed by software authenticating as these accounts.
 
 #### What About Existing Service Accounts?
 
@@ -54,7 +56,8 @@ When it comes to dealing with an extant collection of service accounts of unknow
 
 However, with ALM bringing order to the provisioning of new service accounts, the organization acquires a better understanding of its use of service accounts, in general. That helps in determining the provenance and continued relevance of existing accounts.
 
-Furthermore, since most service accounts eventually expire, on consideration for renewal they become subject to the same provisioning rules the organization enforces via ALM for new service accounts. This eases the work of resolving the extant collection of service accounts by breaking it down as manageable, steadily paced piecework.
+Furthermore, since most service accounts eventually expire, on consideration for renewal they become subject to the same provisioning rules the organization enforces via ALM for new service accounts. This eases the work of resolving the extant collection of service accounts by breaking it down to manageable, steadily paced piecework.
 
-Moving forward, Secret Server also helps reduce the risks associated with service accounts by securing the service account credentials passed by software authenticating as these accounts.
+#### Service Account Risk Snapshot Tool
 
+Thycotic’s free [Service Account Risk Snapshot Tool](././8000-ref-items/8400-discovery-tool/index.md) can assist enterprise administrators as they work through their extant inventory of AD service accounts. Follow the link to the Reference Topic for details.
