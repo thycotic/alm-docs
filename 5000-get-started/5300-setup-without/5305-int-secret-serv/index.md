@@ -1,6 +1,6 @@
 ﻿[title]: # (Integrate ALM with Secret Server)
 [tags]: # (Account Lifecycle Manager,ALM,)
-[priority]: # (5310)
+[priority]: # (5305)
 
 ### Integrate ALM with Secret Server
 
