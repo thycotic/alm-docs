@@ -12,25 +12,24 @@ This technical documentation collection for Account Lifecycle Manager (ALM) incl
 
 The navigation panel’s headings collect the information necessary to begin using Account Lifecycle Manager:
 
-ALM: The Big Picture defines the service in broad terms, explaining its relationship to the Privileged Access Management (PAM) market and how it fits into Thycotic’s line of PAM products and services. The essay-form writing in this section equips you to understand the role of ALM in enterprise IT.
+[ALM: The Big Picture](./2000-alm-big-pic/) defines the service in broad terms, explaining its relationship to the Privileged Access Management (PAM) market and how it fits into Thycotic’s line of PAM products and services. The essay-form writing in this section equips you to understand the role of ALM in enterprise IT.
 
-ALM In One Minute describes in just a minute’s worth of words what ALM does and how it works, complementing the broad sketches of the big picture by distilling everything ALM to a single, condensed work-flow walk-through.
+[ALM In One Minute](./3000-alm-one-min/) describes in just a minute’s worth of words what ALM does and how it works, complementing the broad sketches of the big picture by distilling everything ALM to a single, condensed work-flow walk-through.
 
-ALM Provisioning reminds those new to cloud computing that although becoming an ALM subscriber requires no installation of boxed software, it does require your organization’s enterprise infrastructure to meet several criteria.
+[ALM Provisioning](./4000-alm-prov/) reminds those new to cloud computing that although becoming an ALM subscriber requires no installation of boxed software, it does require your organization’s enterprise infrastructure to meet several criteria.
 
-Getting Started with ALM presently forms the bulk of this collection, describing the major steps from initial provisioning to setup both inside and outside of ALM, with information about how to configure and customize the service to fit your organization.
+[Architecture and Security](./4500-architecture/) describes the external architecture of ALM, with attention to security matters, including SOC II.
 
-Normal Operations lists and outlines the tasks ALM users will routinely perform during normal operations.
+[Getting Started with ALM](./5000-get-started/) presently forms the bulk of this collection, describing the major steps from initial provisioning to setup both inside and outside of ALM, with information about how to configure and customize the service to fit your organization.
 
-Occasional Operations recaps tasks ALM users will occasionally perform, such as updating templates.
+[Normal Operations](./6000-normal-ops/) lists and outlines the tasks ALM users will routinely perform during normal operations.
 
-Reference Topics collects reference material, including a Summary of ALM User Personas and Use Cases, a Guide to Service Account End of Lifecycle Actions, and a Table of Events, Notifications, and Notification Recipients.
+[Occasional Operations](./7000-occas-ops/) recaps tasks ALM users will occasionally perform, such as updating templates.
 
-Support Resources connects you to available product support.
+[Reference Topics](./8000-ref-items/) collects reference material, including a User Roles Guide, a Guide to Service Account End of Lifecycle Actions, and a Table of Events, Notifications, and Notification Recipients.
 
-Release Notes will document the history of changes and updates to the Account Lifecycle Manager service. For this first General Availability launch of the ALM service, it simply notes the date and version number and that this is the first release.
+[Support Resources](./9000-support/) connects you to available product support.
 
-Additionally, maintained independently of this collection, Thycotic provides an **Account Lifecycle Manager API Reference**.
+[Release Notes](./9400-rel-notes/) will document the history of changes and updates to the Account Lifecycle Manager service. For this first General Availability launch of the ALM service, it simply notes the date and version number and that this is the first release.
 
-
-
+Additionally, maintained independently of this collection, Thycotic provides an [Account Lifecycle Manager API Reference](https://thycotic.accountlifecyclecloud.com/docs/api-reference).
