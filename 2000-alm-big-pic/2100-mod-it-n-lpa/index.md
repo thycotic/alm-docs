@@ -8,13 +8,13 @@ The principle of Least Privileged Access holds that users of protected systems (
 
 * When users have access to systems for which they have no business need, the risk increases that a careless or malicious user will abuse that access to cause harm.
 
-* Therefore, in an ideal environment, user accounts will have privileges just adequate for the tasks the account user must perform—and no more.
+* Therefore, in an ideal environment, user accounts will have privileges adequate for the tasks the account user must perform—and no more.
 
 * Modern IT embraces this idea, but most organizations face multiple barriers to conforming the enterprise to least privilege.
 
 Typically, complex directory services software (such as Active Directory) nominally control access to the enterprise. In practice, diverse other applications and systems require users to additionally authenticate. Password proliferation results.
 
-Frustrated by how many passwords they must remember, users often do things that reduce security, such as:
+Frustrated by how many passwords they must remember, users develop habits that reduce security, such as:
 
 * relying on weak passwords
 
@@ -28,7 +28,7 @@ Frustrated by how many passwords they must remember, users often do things that 
 
 Enter Secret Server, Thycotic’s flagship product. Secret Server counters the adverse effects of password proliferation on user security behavior, offering to generate strong passwords whenever a user sets up credentials for a protected resource. Secret Server stores the passwords, or “secrets,” in a vault securely located in the cloud. Later, when a resource prompts for a password, Secret Server provides it.
 
-This setup replaces many user authentication tasks with just one login to Secret Server per work session. Commonly, this means users will sign in with Secret Server right after they log in to the enterprise, such as by logging in to a workstation, and subsequently access resources almost as though passwords were not required.
+This setup replaces many user authentication tasks with just one login to Secret Server per work session. Commonly, this means users will sign in with Secret Server right after they log in to the enterprise, such as by logging in to a workstation. After the Secret Server sign-in, they access resources almost as though passwords were not required.
 
 * Users no longer need to remember so many passwords. Passwords seem to go away, with most never seen by human eyes.
 

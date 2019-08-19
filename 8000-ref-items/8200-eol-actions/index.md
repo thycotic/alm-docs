@@ -6,7 +6,7 @@
 
 Account Lifecycle Manager allows the System Administrator to define in the Workflow Template what will happen to an account at the end of its lifecycle.
 
-All accounts provisioned against the Workflow Template will have review actions available in accordance with the determined End of Lifecycle Action. The Requestor will be displayed the End of Lifecycle Action for the Workflow Template they have chosen to provision the account against, as well as be displayed the End of Lifecycle Action on the Managed page.
+All accounts provisioned against the Workflow Template will have review actions available in accordance with the determined End of Lifecycle Action. The Requester will be displayed the End of Lifecycle Action for the Workflow Template they have chosen to provision the account against, as well as be displayed the End of Lifecycle Action on the Managed page.
 
 The End of Lifecycle Action is determined in the Workflow Template will send notifications to the Account Owners indicating attention and action to the account is needed. The date to which the initial notification is sent to Account Owner(s) is also determined by the System Administrator in the Workflow Template. Reminders are sent to the Account Owner(s) periodically on a Workflow Template determined interval before the end of lifecycle. Urgent notifications can be configured in the Workflow Template to remind the Account Owner(s) more frequently leading up to the end of the account’s lifecycle, with an option to include the System Administrator in these notifications.
 

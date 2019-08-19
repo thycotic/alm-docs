@@ -4,7 +4,7 @@
 
 # Normal Operations
 
-Normal operations for ALM encompasses routine service account lifecycle management activities.
+Normal operations for ALM encompass routine service account lifecycle management activities.
 
 ## Sign In to ALM
 
@@ -28,7 +28,7 @@ Use these steps to request a new service account via the approval process set by
 
 * Select the **Review Interval** for the Account. The template controls the available review interval options.
 
-* Ability to Add users as Account Owners MARK
+* Determine whether the Account will have the ability to add users as Account Owners.
 
 * Review the **Approval Steps** that apply to this Request.
 
@@ -44,9 +44,8 @@ When you send the Request, ALM will notify the Approver that the Request awaits 
 
 ## Approve or Deny a Request
 
- The Approver (or multiple Approvers) listed for Approval Step 1 in the Request record will review the request and decide the outcome:
+The Approver (or multiple Approvers) listed for Approval Step 1 in the Request record will review the request and decide the outcome:
 
-* **Approve** provisions the account for the Requestor. The requesting party receives notification of the approval.
+* **Approve** provisions the account for the Requester. The requesting party receives notification of the approval.
 
 * **Deny** requires the Approver to record the reason for the denying the Request. The requesting party receives notification of the denial and the reason given.
-
