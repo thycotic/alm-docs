@@ -2,7 +2,7 @@
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5405)
 
-### Before You Start
+# Before You Start
 
 After Thycotic provisions your organization, you will have access to ALM.
 

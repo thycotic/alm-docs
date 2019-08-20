@@ -1,8 +1,8 @@
-﻿[title]: # (Occasional Operations)
+﻿[title]: # (Administrative ALM)
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (7000)
 
-# Occasional Operations
+# Administrative ALM
 
 Some operations will be performed only occasionally, for example, managing roles or administering workflows.
 
@@ -48,6 +48,7 @@ System Administrators can replace published Workflow Templates with updated vers
 
 ALM tracks sequential Workflow Template versions to associate the provisioning of each account with the version of the template that controlled the approval process for the account.
 
- 
+  
 
-
+  
+  

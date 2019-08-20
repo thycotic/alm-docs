@@ -2,11 +2,11 @@
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5315)
 
-### Setup the Remote Worker Service
+# Setup the Remote Worker Service
 
 The Remote Worker is a Windows Service that runs on your organization’s hardware. It manages interactions between the ALM cloud service and your Active Directory installation. It also supports ALM’s integration with your organization’s Secret Server instance.
 
-#### Remote Worker Installation
+## Remote Worker Installation
 
 To install a new Remote Worker, go to the **Remote Worker Pools** section of ALM. Use **Download Installer** to obtain the installer files.
 
@@ -16,12 +16,9 @@ Copy the installer to the computer that will host the Remote Worker. Unzip the f
 
 Follow the prompts until the installation finishes.
 
-#### Remote Worker Logon Account Configuration in AD
+## Remote Worker Logon Account Configuration in AD
 
 Change the logon account for the Thycotic Remote Worker to an AD account with the following AD permissions.
-
-**Minimum Remote Worker AD Service Account Permissions**
-
   
 ---
   
@@ -43,6 +40,7 @@ Change the logon account for the Thycotic Remote Worker to an AD account with th
 |                     | read all properties           |
 |                     | write member                  |
 
+  
   
 ---
   
@@ -68,17 +66,17 @@ To change the logon account:
 
 * Click the Remote Worker, assign it to a pool, and click **Activate**.
 
-#### Additional Remote Worker Logon Account Information
+## Additional Remote Worker Logon Account Information
 
 The Remote Worker’s AD Service Account requires several machine-specific permissions. The installer sets these permissions, but you may need to reapply them if the service account changes.
 
 * Local Security or Domain Policy: “Log on as a service”
 
-* Registry: Full Control on `Computer\\HKLM\\SOFTWARE\\Thycotic Software Ltd`
+* Registry: Full Control on `Computer\HKLM\SOFTWARE\Thycotic Software Ltd`
 
-* File System: `C:\\ProgramData\\Thycotic Software Ltd`
+* File System: `C:\ProgramData\Thycotic Software Ltd`
 
-#### Remote Worker Logs
+## Remote Worker Logs
 
 Admins can view Remote Worker error messages and sync information in the Remote Worker Log, available in ALM under **Audit > Remote Worker Logs**. This is an abbreviated log; the Remote Worker does not send all log messages back to ALM.
 
@@ -92,13 +90,16 @@ To change the log level, update the `appsettings.json` file and restart the Remo
 
 * C:\\ProgramData\\Thycotic Software Ltd\\RemoteWorker\\packages\\Thycotic Provisioning\\appsettings.json
 
-### LDAPS
+## LDAPS
 
 ALM requires LDAPS for AD integration, with reliance on port 636; the port number is not configurable.
 
-### Remote Worker: Troubleshooting
+## Remote Worker: Troubleshooting
 
 If the Remote Worker does not run properly, review its operation logs for clues.
 
 If you cannot resolve the problem, contact Thycotic for support.
+
+  
+  
 

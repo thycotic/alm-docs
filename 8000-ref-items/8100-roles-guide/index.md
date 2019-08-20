@@ -106,3 +106,9 @@ Permissions confer abilities to take actions within ALM. Distinct permissions wi
 *  **Delete**: Ability to delate items for their respective feature.
 
 *  **Manage**: Acts as a modifier to indicate that the role allows admin access to a respective feature. This will vary from feature to feature on how items can be managed. (e.g. If the role has Manage permissions on the directory-service feature, this would allow the role to perform manual synchronization on Active Directory Objects.)
+
+  
+
+
+  
+

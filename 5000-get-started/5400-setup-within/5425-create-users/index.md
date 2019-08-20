@@ -2,15 +2,15 @@
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5425)
 
-### Create ALM Users
+# Create ALM Users
 
 Because ALM is based in the Thycotic cloud, each member of your organization who will use ALM must have two distinct accounts.
 
 * First, they must have a **Thycotic One** account. These free accounts provide authentication to Thycotic’s cloud services.
 
->   To open a Thycotic One account, visit *login.thycotic.com*.
+* To open a Thycotic One account, visit *login.thycotic.com*.
 
->   If your organization has previously used Thycotic cloud services, some members of your organization may already have Thycotic One accounts.
+If your organization has previously used Thycotic cloud services, some members of your organization may already have Thycotic One accounts.
 
 The email a person uses to sign up for Thycotic One determines the email that must be used for that person’s ALM user account.
 
@@ -29,4 +29,6 @@ Thycotic refers to ALM accounts and the people who use them as “users,” with
 * **Save** the new user record.
 
 Continue until you have created the ALM users that enable your organization’s use cases.
+  
+  
 

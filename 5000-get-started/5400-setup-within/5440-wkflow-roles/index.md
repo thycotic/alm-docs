@@ -2,7 +2,7 @@
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5440)
 
-### Workflow Roles
+# Workflow Roles
 
 To define the approval process and manage account provisioning, requests, and approvals, ALM’s Workflow system relies on three built-in user roles:
 

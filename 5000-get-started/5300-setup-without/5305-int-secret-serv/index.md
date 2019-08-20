@@ -1,8 +1,8 @@
 ﻿[title]: # (Integrate ALM with Secret Server)
 [tags]: # (Account Lifecycle Manager,ALM,)
-[priority]: # (5305)
+[priority]: # (5310)
 
-### Integrate ALM with Secret Server
+# Integrate ALM with Secret Server
 
 ALM integrates with Secret Server for storage and management of account credentials, connecting to Secret Server through the Remote Worker service, which uses the Secret Server Rest API.
 
@@ -30,7 +30,7 @@ The Secret Server Account used for the integration must have access to at least 
 
 * Generate password based on the template
 
-You must use a template with these fields:
+You must use a template with these fields, and you must not add new required fields to the template:
 
 * domain
 
@@ -40,4 +40,9 @@ You must use a template with these fields:
 
 * notes
 
+
+
+  
+
+    
 

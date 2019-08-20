@@ -1,18 +1,19 @@
-﻿[title]: # (Reference Topics)
+﻿[title]: # (ALM in Depth)
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (8000)
 
-# Reference Topics
+# ALM in Depth
  
 This section collects reference material, so far including:
 
-* a summary of ALM user personas and use cases
+* an ALM Roles Guide
 
-* a guide to service account end-of-lifecycle actions
+* an End of Lifecycle Actions Guide
 
 * a table of events, notifications, and notification recipients
 
 * a guide to the free Service Account Risk Snapshot Tool
 
-* the ALM User Role Guide
+  
 
+  

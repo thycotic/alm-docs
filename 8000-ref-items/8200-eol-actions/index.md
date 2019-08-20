@@ -102,4 +102,9 @@ Accounts that are have Expire as the End of Lifecycle Action will allow the Acco
 
   When the ‘Submit for Approval to Reinstate’ button is selected by user the Approval Steps will be initiated and the button will pivot to ‘Approvals in Process’ until complete. If Approval is denied by Approval Steps the ‘Submit for Approval to Reinstate’ button will be re-enabled to the Account Owner. If the Approval is approved by the Approval Steps the button will be disabled until the next renewal is available for the account.
 
+  
+
+ 
+
+
 
