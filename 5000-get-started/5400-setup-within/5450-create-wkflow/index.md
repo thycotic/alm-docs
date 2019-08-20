@@ -2,7 +2,7 @@
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5450)
 
-### Create a Workflow Template to Define a Workflow
+# Create a Workflow Template to Define a Workflow
 
 You must have the System Administrator role to perform this procedure, and you must have already configured your ALM provision with your Secret Server.
 
@@ -26,15 +26,15 @@ To create Workflow Templates, use these steps:
 
 * Choose the **End of Lifecycle Action** for accounts based on this template:
 
-   * Review, Disable, Expire, or Delete
+ * Review, Disable, Expire, or Delete
 
 * Define the **Review Intervals** available to the Requester.
 
 * Choose **Notification Options**:
 
-   * Before End of Lifecycle Notifications
+ * Before End of Lifecycle Notifications
 
-   * On/After End of Lifecycle Notifications
+ * On/After End of Lifecycle Notifications
 
 * Define the Approval Steps.
 

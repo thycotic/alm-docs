@@ -1,11 +1,17 @@
-﻿[title]: # (Events, Notifications, and Notification Recipients)
+﻿[title]: # (Events, Notifications, and Recipients)
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (8300)
 
-# Events, Notifications, and Notification Recipients
+# Events, Notifications, and Recipients
+
+  
+
   
 ---
   
+
+  
+
 
 | **Object**          | **Event**               | **Description**                           | **Email Notification Recipients**                                      |
 |---------------------|-------------------------|-------------------------------------------|------------------------------------------------------------------------|
@@ -24,5 +30,10 @@
 |                     | Requires Renewal        |                                           | Account Owners                                                         |
 
   
+
+  
+
 ---
+  
+
   

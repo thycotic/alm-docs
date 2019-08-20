@@ -2,7 +2,7 @@
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5200)
 
-## Requirements Verification
+# Requirements Verification
 
 Several requirements apply to your organization’s IT infrastructure. These include:
 
@@ -12,7 +12,7 @@ Several requirements apply to your organization’s IT infrastructure. These inc
 
   To open a Thycotic One account, visit *login.thycotic.com*.
 
-  * The email a user submits when signing up for Thycotic One determines the email they must provide when obtaining an ALM user account.
+* The email a user submits when signing up for Thycotic One determines the email they must provide when obtaining an ALM user account.
 
 * suitable browsers: ALM supports Google Chrome and Mozilla Firefox
 
@@ -20,7 +20,7 @@ Several requirements apply to your organization’s IT infrastructure. These inc
 
   You must have an Active Directory Domain Controller on **Windows Server 2012** or later, *or* **Azure AD Domain Services** and a user account with the privileges to create an AD account for ALM to use that will be privileged, itself, to create accounts in AD. ALM will authenticate to Active Directory using that account.
 
-  ALM users creates proxies for new Active Directory service accounts in ALM, and ALM replicates these in Active Directory, creating the actual service accounts.
+  ALM users create proxies for new Active Directory service accounts in ALM, and ALM replicates these in Active Directory, creating the actual service accounts.
 
   ALM supports only Active Directory, but future releases may support other directory services.
 
@@ -38,9 +38,9 @@ Several requirements apply to your organization’s IT infrastructure. These inc
 
 Additional requirement details apply to the Secret Server and Remote Worker components. Both involve technical matters requiring the attention of your organization’s IT staff.
 
-### Secret Server Requirements in Detail
+## Secret Server Requirements in Detail
 
-If you are not using Secret Server Cloud, your Secret Server version must be Version 10.2.000018 with the Secret Server Platinum license or the API Add-on.
+If you are not using Secret Server Cloud, your Secret Server version must be Version 10.2.000018 or later with the Secret Server Platinum license or the API Add-on.
 
 Because Account Lifecycle Manager works with Secret Server through Secret Server’s web services, you must enable those services on your Secret Server instance.
 
@@ -66,7 +66,7 @@ You must also set up a Secret Server account for ALM that has privileges to:
 
 * view Secret Template permissions
 
-### Remote Worker Service Requirements
+## Remote Worker Service Requirements
 
 The Remote Worker is a Windows service. It must:
 
@@ -87,4 +87,8 @@ The Remote Worker is a Windows service. It must:
   * read all user information
 
   * modify the membership of a group
+
+  
+
+  
 

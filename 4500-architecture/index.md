@@ -10,17 +10,17 @@ ALM’s external architecture relies on a Windows Service called the Remote Work
 ---
   
 
-![ALM External Architecture](media/arch-02.png)
+![ALM External Architecture](arch-02.png)
 
   
 ---
   
 
-## Availability
+# Availability
 
 Account Lifecycle Manager offers a 99.9% Uptime SLA based on the Azure uptime SLAs of its component products and services.
 
-### Business Continuity
+## Business Continuity
 
 Every 5 to 10 minutes, ALM backs up transaction logs to local storage. This supports a Recovery Point Objective (RPO) of ten minutes.
 
@@ -28,14 +28,13 @@ Every hour, ALM backs up transaction logs to a geographically redundant location
 
 ALM also creates differential backups approximately every 12 hours, and full database backups approximately every 24 hours.
 
-### Disaster Recovery
+## Disaster Recovery
 
 The failure of an entire Azure Region would cause complete loss of access to Thycotic’s cloud entities located in the failed region for an indefinite, ongoing time.
 
 To recover from such, Thycotic would rebuild an ALM instance in another Azure region. The target for rebuilding and connecting to the geographically redundant database is 12 hours, although Thycotic cannot guarantee that target.
 
 ## Confidentiality
-===============
 
 ### Data-at-rest
 
@@ -47,11 +46,11 @@ Encryption transparently applies to all data stored in the Azure SQL Server data
 
 ALM establishes HTTPS connections in conformance with TLS 1.2 protocols. This includes API and Remote Worker connections.
 
-### Client Authentication
+## Client Authentication
 
 Authentication proceeds using OIDC to Thycotic One.
 
-### Integrity: Code Signing
+## Integrity: Code Signing
 
 Code signing applies to the Remote Worker software, which is downloaded to the customer’s premises to coordinate interactions among ALM and the customer’s Active Directory and Secret Server resources.
 
@@ -74,3 +73,5 @@ Thycotic conducts a Privacy Impact Assessment (PIA) annually to verify continued
 Thycotic offers its customers a SOC II Type II Annual Report documenting two rounds of checks. A third party creates the report as an independent assessment of Thycotic’s control environment.
 
 The SOC II report, issued annually in accordance with the AICPA’s AT Section 101 (Attest Engagements) and based on the AICPA’s Trust Services Criteria, addresses the Security, Availability, and Confidentiality criteria.
+
+  

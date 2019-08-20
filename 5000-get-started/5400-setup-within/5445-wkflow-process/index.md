@@ -2,7 +2,7 @@
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5445)
 
-### Workflow Process
+# Workflow Process
 
 As illustrated, the Workflow system follows a simple, linear process, from template definition through account requests and approvals.
 
@@ -10,8 +10,10 @@ As illustrated, the Workflow system follows a simple, linear process, from templ
 ----
   
 
-![Workflow Process](media/workflow-process.png)
+   
+![Workflow Process](workflow-process.png)
 
+  
   
 ----
   
