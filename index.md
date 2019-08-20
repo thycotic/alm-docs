@@ -10,7 +10,7 @@ This technical documentation collection for Account Lifecycle Manager (ALM) incl
 
 * The navigation panel (to the left) presents the core article collection ordered as an ALM primer. It also lists the most recent additions to the extended collection (typically articles in the style of Knowledge Base, but may include other materials).
 
-The navigation panel’s headings collect the information necessary to begin using Account Lifecycle Manager:
+The navigation panel’s headings pull together information supporting a solid grounding in Account Lifecycle Manager:
 
 [ALM: The Big Picture](./2000-alm-big-pic/) defines the service in broad terms, explaining its relationship to the Privileged Access Management (PAM) market and how it fits into Thycotic’s line of PAM products and services. The essay-form writing in this section equips you to understand the role of ALM in enterprise IT.
 
