@@ -2,7 +2,7 @@
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5435)
 
-### Build Workflow Templates for Approval Processes
+# Build Workflow Templates for Approval Processes
 
 Life cycle management of service accounts begins with controls on the creation of new accounts.
 

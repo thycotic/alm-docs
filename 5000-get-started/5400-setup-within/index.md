@@ -2,7 +2,7 @@
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5300)
 
-## Initial Setup: Within ALM
+# Initial Setup: Within ALM
 
 ALM assigns the **all-privileged** System Administrator role to **the account that first logs in** to your organization’s ALM provision.
 

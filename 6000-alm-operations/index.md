@@ -1,10 +1,10 @@
-﻿[title]: # (Normal Operations)
+﻿[title]: # (Operational ALM)
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (6000)
 
-# Normal Operations
+# Operational ALM
 
-Normal operations for ALM encompass routine service account lifecycle management activities.
+Routine operations for ALM encompass typical and common service account lifecycle management activities.
 
 ## Sign In to ALM
 
@@ -34,11 +34,11 @@ Use these steps to request a new service account via the approval process set by
 
 * Submit the Request.
 
-### Workflow Execution
+## Workflow Execution
 
 The workflow proceeds unless you withdraw the Request. At any time, you can withdraw the Request by deleting it.
 
-### Request Notifications
+## Notifications of Requests
 
 When you send the Request, ALM will notify the Approver that the Request awaits their action.
 
@@ -49,3 +49,8 @@ The Approver (or multiple Approvers) listed for Approval Step 1 in the Request r
 * **Approve** provisions the account for the Requester. The requesting party receives notification of the approval.
 
 * **Deny** requires the Approver to record the reason for the denying the Request. The requesting party receives notification of the denial and the reason given.
+
+  
+  
+
+ 

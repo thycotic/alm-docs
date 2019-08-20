@@ -2,7 +2,7 @@
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5415)
 
-### Create Groups
+# Create Groups
 
 **Groups** identify by inclusion users who share the same privileges.
 

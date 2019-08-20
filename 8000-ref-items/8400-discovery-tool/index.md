@@ -22,17 +22,17 @@ These steps will ensure the account has the appropriate privileges to run a succ
 
 * Right-click **Local Users and groups** and select **New** \> **Local Group**.
 
-![](media/001.png)
+![](001.png)
 
 * Leave the **Action** value set as **Update**.
 
 * For **Group name:**, use the drop-down menu to select **Administrators (Built-in)**.
 
-![](media/002.png)
+![](002.png)
 
 * Click **Add…** and search for the account you will use for Discovery scanning.
 
-![](media/003.png)
+![](003.png)
 
 * Click **OK** to save your changes. The next time the group policy updates across your environment, the Discovery Account will be part of the Local Administrators group.
 
@@ -40,11 +40,11 @@ For the best security, configure Group Policy to limit the logon privileges of t
 
 * In the Group Policy editor for your domain policy, go to **Computer Configuration** \> **Policies** \> **Windows Settings** \> **Security Settings** \> **Local Policies** \> **User Rights Assignment**.
 
-![](media/004.png)
+![](004.png)
 
 * Add your Discovery account to the **Deny log on locally** and **Deny log on through Remote Desktop Services** policies at right.
 
-![](media/005.png)
+![](005.png)
 
 * Optional: make sure that the account is not part of the Remote Desktop Users group.
 
@@ -83,9 +83,9 @@ The scanner will first prompt for credentials and the fully-qualified domain nam
 
 If the scanner cannot reach the domain or the credentials are not valid, it will state that it cannot connect to the domain with supplied credentials.
 
-![](media/006.png)
+![](006.png)
 
-![](media/007.png)
+![](007.png)
 
 In that case, check your credentials or use different credentials. 
 
@@ -101,15 +101,15 @@ While the scan runs, you will see the number of computers scanned progress. You 
 
 The time to complete the scan will vary based on network latency, the number of machines, and how many machines actually exist. Testing in a large environment resulted in a scan of approximately 1,000 Windows machines in slightly under an hour.
 
-![](media/008.png)
+![](008.png)
 
-![](media/009.png)
+![](009.png)
 
 ### Results
 
 Once the scan completes, you can generate the Executive Summary report and the detailed CSV reports. Just enter a company name and click **Generate Reports**.
 
-![](media/010.png)
+![](010.png)
 
 The reports will be created in the folder you select. They consist of two files.
 
