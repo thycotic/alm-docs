@@ -2,7 +2,7 @@
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5300)
 
-## Initial Setup: Outside ALM
+# Initial Setup: Outside ALM
 
 Although ALM operates as a cloud service powered by cloud infrastructure, it must interact directly with your organization’s enterprise infrastructure.
 

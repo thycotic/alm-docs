@@ -2,7 +2,7 @@
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5310)
 
-### Integrate ALM with Active Directory
+# Integrate ALM with Active Directory
 
 ALM presently supports Active Directory only. Future releases of ALM may support other directory services.
 
@@ -26,7 +26,7 @@ After you create the Active Directory domain in ALM, you must assign it to a Rem
 
 * Start synchronization by managing the External Domain.
 
-  * Each section (**Domain Groups**, **Domain Organizational Units**, and **Domain Attributes**) will have a **Synchronization** button. Use the buttons to start the syncs.
+ * Each section (**Domain Groups**, **Domain Organizational Units**, and **Domain Attributes**) will have a **Synchronization** button. Use the buttons to start the syncs.
 
 * Depending on the size of the domains, synchronizing each may require up to 15 minutes.
 
