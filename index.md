@@ -1,4 +1,4 @@
-﻿=[title]: # (ALM Technicals Collection)
+﻿[title]: # (ALM Technicals Collection)
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (1)
 

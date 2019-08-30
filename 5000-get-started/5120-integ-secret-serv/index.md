@@ -40,7 +40,7 @@ To integrate ALM with Secret Server, use these steps:
 
 * Thycotic recommends creating a Secret Server Application Account with the minimum permissions.
 
-[Permissions](permissions.png)
+![Permissions](permissions.png)
 
 You must use a template with the following fields, and you must not add new required fields to the template:
 
