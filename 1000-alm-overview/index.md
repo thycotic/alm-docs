@@ -1,8 +1,8 @@
-﻿[title]: # (ALM Overview)
+﻿[title]: # (Overview)
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (1000)
 
-# ALM Overview
+# Overview
 
 ALM came from a straightforward idea—provide a cloud app’s clean design and intuitive UI as a front end to Active Directory (and in the future, other directory services), allowing enterprise IT users to more easily and efficiently request, approve, privilege, manage, and retire service accounts by delegating the Active Directory intricacies to the cloud app.
 
