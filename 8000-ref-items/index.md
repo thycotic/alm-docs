@@ -1,10 +1,10 @@
-﻿[title]: # (ALM Accessories)
+﻿[title]: # (Tools)
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (8000)
 
-# ALM Accessories
+# Tools
  
-This section collects information about software accessories to ALM, so far including:
+This section collects information about tools and other software accessories to ALM, so far including:
 
 * a guide to the free [Service Account Risk Snapshot Tool](./8400-discovery-tool/)
 
