@@ -1,8 +1,8 @@
-﻿[title]: # (User Interface Guide)
+﻿[title]: # (User Interface)
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (3000)
 
-# User Interface Guide
+# User Interface
 
 pending
 

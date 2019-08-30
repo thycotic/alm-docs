@@ -1,8 +1,8 @@
-﻿[title]: # (ALM Setup)
+﻿[title]: # (Setup)
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5000)
 
-# ALM Setup
+# Setup
 
 Thycotic Software offers Account Lifecycle Manager as a tool for achieving and maintaining strong organizational governance over Active Directory service accounts and their privileges.
 

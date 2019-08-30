@@ -1,8 +1,8 @@
-﻿[title]: # (ALM Operations)
+﻿[title]: # (Operations)
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5500)
 
-# ALM Operations
+# Operations
 
 Routine operations for ALM encompass typical and common service account lifecycle management activities.
 

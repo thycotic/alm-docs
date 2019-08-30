@@ -1,8 +1,8 @@
-﻿[title]: # (ALM Administration)
+﻿[title]: # (Administration)
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (6000)
 
-# ALM Administration
+# Administration
 
 Some operations will be performed only occasionally, for example, managing Roles or administering Workflows.
 
