@@ -53,19 +53,11 @@ For the best security, configure Group Policy to limit the logon privileges of t
 The Discovery scan makes use of several ports to connect to the target Windows
 machines to scan them for local and service account usage.
 
-  
----
-  
-
 | **Traffic Type**         | **Ports Used**         |
 |--------------------------|------------------------|
 | RPC Dynamic Port Range   | 1025-5000, 49152-65535 |
 | Microsoft DS             | 445                    |
 | epmap                    | 135                    |
-
-  
----
-  
 
 The RPC Dynamic Port ranges are a range of ports utilized by Microsoft’s Remote Procedure Callback (RPC) functionality. This port range varies by operating system. For Windows Server 2008 or greater, this port range is 49,152 to 65,535. This entire port range must be open for RPC technology to work.
 
@@ -113,18 +105,10 @@ Once the scan completes, you can generate the Executive Summary report and the d
 
 The reports will be created in the folder you select. They consist of two files.
 
-  
----
-  
-
 | **File**                                | **Description**            |
 |-----------------------------------------|----------------------------|
 | ThycoticServiceAccountRiskSnapshot.html | Summary report of findings |
 | ThycoticServiceAccountRiskSnapshot.pdf  | Summary report of findings |
-
-  
----
-  
 
 ### FAQ
 
@@ -139,3 +123,9 @@ The reports will be created in the folder you select. They consist of two files.
 **Q:** The PDF report has inconsistent margins or page breaks.
 
 **A:** Some display drivers or screen resolutions can cause these PDF defects. Run the scan from a different machine, or use the HTML version. The HTML file contains the same information as the PDF.
+
+![Article End](../../alm-bug.png)
+
+  
+
+  
