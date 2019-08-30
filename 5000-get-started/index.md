@@ -1,19 +1,49 @@
-﻿[title]: # (Get Started with ALM)
+﻿[title]: # (ALM Setup)
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (5000)
 
-# Get Started with ALM
+# ALM Setup
 
 Thycotic Software offers Account Lifecycle Manager as a tool for achieving and maintaining strong organizational governance over Active Directory service accounts and their privileges.
 
-As with any tool primarily serving DevOps staff, careful preparation gives the best results.
-
-* Being a cloud service, ALM requires no boxed software installation.
+Being a cloud service, ALM requires no boxed software installation.
 
 * However, to successfully use ALM from access points within your enterprise requires that your organization’s IT infrastructure meet several criteria.
 
-This section focuses on steps organizations should take to prepare their enterprise systems to interact effectively with the Account Lifecycle Manager cloud service.
-  
-  
+* Additionally, ALM as provisioned requires initial setup and configuration steps to correctly connect to your organization’s enterprise architecture.
 
+Neither onerous nor time consuming, these steps do justify advance consideration, and most require elevated privileges in ALM or on your corporate domain.
 
+## Best Practices for Using Highly Privileged Roles
+
+When using accounts with elevated privileges, inside of ALM or on your network, take extra care at all times. Be deliberative about each task you perform; keep in mind that with the power to do anything you could accidentally damage everything.
+
+Use highly privileged accounts only for tasks that require the privileges. When you complete the tasks, log out of the privileged accounts. Nobody should routinely log in with elevated privileges ‘just in case’ they need to perform administrative tasks.
+
+## ALM Setup Task List
+
+Getting started with ALM requires these tasks:
+
+* provisioning
+
+* verify requirements readiness
+
+* integrate with Secret Server
+
+* integrate with Active Directory
+
+* set up a Remote Worker
+
+* create ALM groups
+
+* create ALM roles
+
+* create ALM users
+
+* add ALM users to ALM Groups; add ALM Users and ALM Groups to ALM roles
+
+* build Workflows
+
+![Article End](../../alm-bug.png)
+
+  

@@ -1,18 +1,14 @@
-﻿[title]: # (ALM in Depth)
+﻿[title]: # (ALM Accessories)
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (8000)
 
-# ALM in Depth
+# ALM Accessories
  
-This section collects reference material, so far including:
+This section collects information about software accessories to ALM, so far including:
 
-* an ALM Roles Guide
+* a guide to the free [Service Account Risk Snapshot Tool](./8400-discovery-tool/)
 
-* an End of Lifecycle Actions Guide
-
-* a table of events, notifications, and notification recipients
-
-* a guide to the free Service Account Risk Snapshot Tool
+![Article End](../alm-bug.png)
 
   
 
