@@ -44,7 +44,7 @@ On the **Manage User** page you can
 
 ## Workflow Administration
 
-System Administrators can replace published Workflow Templates with updated versions, or publish updated versions alongside the earlier versions. The UI used to create the Templates (see ../5000-get-started/5190-build-workflows/) also supports updating them.
+System Administrators can replace published Workflow Templates with updated versions, or publish updated versions alongside the earlier versions. The UI used to [create the Templates](../5000-get-started/5190-build-workflows/) also supports updating them.
 
 ALM tracks sequential Workflow Template versions to associate the provisioning of each account with the version of the template that controlled the approval process for the account.
 

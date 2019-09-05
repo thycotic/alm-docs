@@ -33,8 +33,9 @@ ALM provides for varied and strongly granular lifecycle event tracking and notif
 |                     |                         |                                                   |                                                   |
 | **Managed Account** | Ownership Changed       |                                                   | Account Owners                                    |
 |                     | Requires Renewal        |                                                   | Account Owners                                    |
-
-
+ 
+ 
+ 
 Closely related to these notifications, ALM [End of Lifecycle Actions (EOLAs)](eol-actions.md) define the actions Account Owners can take when an account expires, for example, renew the account. Similarly, BEOLs refers to Before End of Lifecycle Actions, the steps Account Owners can take when an account nears its expiration date.
 
-[Article End](../alm-bug.png)
+![Article End](../alm-bug.png)

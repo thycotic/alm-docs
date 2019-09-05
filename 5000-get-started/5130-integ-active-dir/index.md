@@ -26,7 +26,7 @@ After you create the Active Directory domain in ALM, you must assign it to a Rem
 
 * Start synchronization by managing the External Domain.
 
- * Each section (**Domain Groups**, **Domain Organizational Units**, and **Domain Attributes**) will have a **Synchronization** button. Use the buttons to start the syncs.
+* Each section (**Domain Groups**, **Domain Organizational Units**, and **Domain Attributes**) will have a **Synchronization** button. Use the buttons to start the syncs.
 
 * Depending on the size of the domains, synchronizing each may require up to 15 minutes.
 
