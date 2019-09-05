@@ -1,41 +1,37 @@
 ﻿[title]: # (ALM Technicals Collection)
 [tags]: # (Account Lifecycle Manager,ALM,)
-[priority]: # (1000)
+[priority]: # (1)
 
-# Welcome to the Account Lifecycle Manager (ALM) Technical Documentation Collection
+# Welcome to Account Lifecycle Manager Technical Assistance
 
-This technical documentation collection for Account Lifecycle Manager (ALM) includes short, topically focused, technically oriented material, including product descriptions, diagrams, instructions, general guidance, and reference content.
+Thycotic created this collection of short-form technical materials to quickly and directly connect you with answers to your ALM questions. We aim to conserve your time by applying brevity and focus at every turn.
 
-* The search box at upper right provides direct access to articles relevant to your search terms. It pulls results from the entire collection, both core and extended.
+The collection includes two parts, **Core** and **Extended**:
 
-* The navigation panel (to the left) presents the core article collection ordered as an ALM primer. It also lists the most recent additions to the extended collection (typically articles in the style of Knowledge Base, but may include other materials).
+* Core Collection articles form the essential documentation set. These appear in the Navigation Panel at left, ordered as an ALM primer.
 
-The navigation panel’s headings pull together information supporting a solid grounding in Account Lifecycle Manager:
+* The forthcoming [Extended Collection](./9000-extended/) will include KB-style articles, training materials, user bulletins, and discussion threads.
+ 
+* The search box at upper right pulls results from the entire collection, both Core and (eventually) Extended.
 
-[ALM Overview](./3000-alm-overview/) defines the Account Lifecycle Manager service in broad terms, explaining what ALM does and how it works and placing it in context alongside Thycotic’s other PAM products.
+The Navigation Panel’s headings pull together information supporting a solid grounding in Account Lifecycle Manager:
 
-[ALM Provisioning](./4000-alm-prov/) reminds those new to cloud computing that although becoming an ALM subscriber requires no installation of boxed software, it does require your organization’s enterprise infrastructure to meet several criteria.
+[Overview](./1000-alm-overview/) defines the Account Lifecycle Manager service in broad terms. It describes ALM as typically used and illustrates the service architecture.
 
-[Architecture and Security](./4500-architecture/) describes the external architecture of ALM, with attention to security matters, including SOC II.
+[ALM Objects](./2000-alm-objects/) describes the four essential objects within ALM—Users, Roles, Groups, and Workflow Templates—and explains how ALM provides governance over service accounts using these objects and a system of End of Lifecycle Actions and related Notifications.
 
-[Get Started with ALM](./5000-get-started/) presently forms the bulk of this collection, describing the major steps from initial provisioning to setup both inside and outside of ALM, with information about how to configure and customize the service to fit your organization.
+[Setup](./5000-get-started/) forms the bulk of this collection, describing steps from provisioning to setup inside and outside of ALM. Learn how to configure and customize ALM to fit your organization.
 
-[Operational ALM](./6000-alm-operations/) lists and outlines the tasks ALM users will routinely perform when using ALM for typical purposes.
+[Operations](./5500-alm-operations/) outlines tasks ALM users perform during normal operations.
 
-[Administrative ALM](./7000-alm-admin/) describes administrative tasks such as updating templates.
+[Administration](./6000-alm-admin/) describes administrative tasks such as updating templates.
 
-[ALM In Depth](./8000-ref-items/) provides additional depth for several topics; it includes the ALM Roles Guide and the End of Lifecycle Actions Guide.
+[Tools](./8000-ref-items/) provides a guide to the free [Service Account Risk Snapshot Tool](./8000-ref-items/8400-discovery-tool/).
 
-[Support Resources](./9000-support/) connects you to available product support.
+[Support](./8500-support/) connects you with our support staff. [Release Notes](./8500-support/8510-release-notes.md) post here, along with information pertinent to performance, regulatory, and compliance considerations (SLAs, SOC II, GDPR, and similar).
 
-[Release Notes](./9400-rel-notes/) will document the history of changes and updates to the Account Lifecycle Manager service. For this first General Availability launch of the ALM service, it simply notes the date and version number and that this is the first release.
+The [Extended Collection](./9000-extended/) will house a range of materials, most significantly KB-style articles.
 
-  
----
-  
+Alongside this collection, Thycotic maintains an [Account Lifecycle Manager API Reference](https://thycotic.accountlifecyclecloud.com/docs/api-reference).
 
-Additionally, maintained independently of this collection, Thycotic provides an [Account Lifecycle Manager API Reference](https://thycotic.accountlifecyclecloud.com/docs/api-reference).
-
-  
----
-  
+![Article End](alm-bug.png)
