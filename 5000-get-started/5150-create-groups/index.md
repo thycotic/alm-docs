@@ -10,7 +10,7 @@
 
 * ALM groups do **not** correspond to Active Directory groups.
 
-They are ALM objects used to control ALM user privileges, entirely within ALM.
+  They are ALM objects used to control ALM user privileges, entirely within ALM.
 
 * To create groups, go to **Groups \> Create Group**.
 

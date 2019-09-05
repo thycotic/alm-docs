@@ -4,27 +4,27 @@
 
 # Add Users and Groups to Roles
 
-When you add an ALM user to an ALM role, the user gains the privileges of the role.
+When you add an ALM User to an ALM Role, the User gains the privileges of the Role.
 
-Likewise, when you add an ALM group to an ALM role, the group (and all of its added users, now and in the future) gains the privileges of the role.
+Likewise, when you add an ALM Group to an ALM Role, the Group (and all of its added Users, now and in the future) gains the privileges of the Role.
 
 The bottom of the **Manage Role** page displays the **Add User** and **Add Group** buttons.
 
-* To add an ALM user to an ALM role, click the **Add User** button.
+* To add an ALM User to an ALM Role, click the **Add User** button.
 
    * ALM displays the **Add User** panel.
 
-   * Search for the user you intend to add to the role.
+   * Search for the User you intend to add to the Role.
 
-   * When you have located the user, check the toggle box to select the user, and click **Add**.
+   * When you have located the User, check the toggle box to select the User, and click **Add**.
 
-* To add an ALM group to an ALM role, click the **Add Group** button.
+* To add an ALM Group to an ALM Role, click the **Add Group** button.
 
    * ALM displays the **Add Group** panel.
 
-   * Search for the group you intend to add to the role.
+   * Search for the Group you intend to add to the Role.
 
-* When you have located the group, check the toggle box to select the group, and click **Add**.
+* When you have located the Group, check the toggle box to select the Group, and click **Add**.
 
 ![Article End](../../alm-bug.png)
 

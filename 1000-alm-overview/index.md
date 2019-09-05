@@ -18,19 +18,19 @@ That is the essence of ALM. The tasks involved form a simple, linear workflow:
 
 * For approvals,
 
-  * The approver (or other designated role) **creates ALM proxies for the requested Active Directory service accounts**.
+  * The approver (or other designated role) **creates proxies within ALM for the requested Active Directory service accounts**.
 
   * ALM **logs in to Active Directory** using a suitably privileged service account and **creates the actual AD user accounts**, naming them the same as their proxies in ALM.
 
   * ALM **notifies the requester** of the account’s provisioning in Active Directory.
 
-With an account provisioned, the account lifecycle monitoring begins:
+Once a service account has been provisioned, ALM monitors the account throughout its lifecycle:
 
-* Using ALM properties assigned within ALM to the ALM proxies of the Active Directory service accounts, ALM tracks service accounts after their creation—promoting their timely evaluation for renewal or retirement on designated dates.
+* Using ALM properties assigned within ALM to the ALM proxies of the Active Directory service accounts, ALM tracks service accounts after their creation—promoting their timely evaluation for renewal or retirement by designated dates.
 
 * ALM’s tracking relies on a system of Notifications and adherence to **workflows** defined by **Workflow Templates** created by the organization.
 
-* For each customer-designated category of service account, an ALM Workflow Template determines which BEOL (before end of lifecycle) and AEOL (at end of lifecycle) Notifications ALM sends, when, and to whom, plus what options the Notification will offer for managing the service account.
+* For each customer-designated category of service accounts, an ALM Workflow Template determines which BEOL (before end of lifecycle) and AEOL (at end of lifecycle) Notifications ALM sends, when, and to whom, plus what options the notified party has for managing the account.
 
 ALM’s Workflow Templates support its straightforward customization to fit each organization’s particulars.
 

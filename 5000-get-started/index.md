@@ -4,7 +4,7 @@
 
 # Setup
 
-Thycotic Software offers Account Lifecycle Manager as a tool for achieving and maintaining strong organizational governance over Active Directory service accounts and their privileges.
+Thycotic Software offers Account Lifecycle Manager as a tool for achieving and maintaining organizational governance over Active Directory service accounts and their privileges.
 
 Being a cloud service, ALM requires no boxed software installation.
 
@@ -12,13 +12,15 @@ Being a cloud service, ALM requires no boxed software installation.
 
 * Additionally, ALM as provisioned requires initial setup and configuration steps to correctly connect to your organization’s enterprise architecture.
 
-Neither onerous nor time consuming, these steps do justify advance consideration, and most require elevated privileges in ALM or on your corporate domain.
+Neither onerous nor time consuming, these steps do justify advance consideration, and most require elevated privileges in ALM or on your corporate infrastructure.
 
 ## Best Practices for Using Highly Privileged Roles
 
-When using accounts with elevated privileges, inside of ALM or on your network, take extra care at all times. Be deliberative about each task you perform; keep in mind that with the power to do anything you could accidentally damage everything.
+When using accounts with elevated privileges, inside ALM or on your network, be cautious and deliberative about each task you perform.
 
-Use highly privileged accounts only for tasks that require the privileges. When you complete the tasks, log out of the privileged accounts. Nobody should routinely log in with elevated privileges ‘just in case’ they need to perform administrative tasks.
+Keeping in mind that with the power to do anything you could accidentally damage everything, use highly privileged accounts only for tasks that require the privileges. When you complete the tasks, log out of the privileged accounts.
+
+Nobody should routinely log in with elevated privileges ‘just in case’ they need to perform administrative tasks.
 
 ## ALM Setup Task List
 
