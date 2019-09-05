@@ -16,17 +16,17 @@ To enable or disable a role:
 
 * Use **Enable** or **Disable** to recommission or decommission a role, respectively.
 
-Newly created roles will be automatically enabled.
+Note that ALM automatically enables newly created Roles.
 
 ## Manage Groups
 
-On the **Manage Groups** page you can edit the group name, disable or enable the group, and add users to the group.
+On the **Manage Groups** page you can edit the Group name, disable or enable the Group, and add Users to the Group.
 
-* To add a user to this group, click **Add User**.
+* To add a User to the Group, click **Add User**.
 
 * Enter search criteria.
 
-* Select a user from the list of results.
+* Select a User from the list of results.
 
 * Click **Add**.
 
@@ -34,17 +34,17 @@ On the **Manage Groups** page you can edit the group name, disable or enable the
 
 On the **Manage User** page you can
 
-* edit the user **Display Name**
+* edit the User **Display Name**
 
-* disable or enable the user account
+* disable or enable the User
 
 * add an email address
 
-* assign the user to groups and roles
+* assign the User to Groups and Roles
 
 ## Workflow Administration
 
-System Administrators can replace published Workflow Templates with updated versions, or publish updated versions alongside the earlier versions. The UI used to create the Templates also supports updating them.
+System Administrators can replace published Workflow Templates with updated versions, or publish updated versions alongside the earlier versions. The UI used to create the Templates (see ../5000-get-started/5190-build-workflows/) also supports updating them.
 
 ALM tracks sequential Workflow Template versions to associate the provisioning of each account with the version of the template that controlled the approval process for the account.
 

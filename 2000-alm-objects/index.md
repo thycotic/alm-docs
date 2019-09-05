@@ -28,11 +28,11 @@ Thycotic provisions ALM with several roles already set up—Requester, Approver,
 
 ### Requester
 
-People in this role request provisioning of service accounts and lifecycle management for same. Requesters begin each request by selecting a Workflow Template, the specific details of which will drive the rest of request and approval process. The template also controls the specifics of the options selectable for lifecycle management to be applied to the account.
+People in this role request provisioning of service accounts and lifecycle management for same. Requesters begin each Request by selecting a Workflow Template, the specific details of which will drive the rest of the Request and Approval process. The template also controls the specifics of the options selectable for lifecycle management to be applied to the account.
 
 ### Approver
 
-ALM delivers requests to Approvers according to the workflow and approval steps specified by the template. An Approver receives notices of account requests and takes steps to approve or deny each request, all in conformance with the given workflow; more than one Approver may need to participate for some accounts.
+ALM delivers Requests to Approvers according to the workflow and approval steps specified by the template. An Approver receives notices of account Requests and takes steps to approve or deny each Request, all in conformance with the given workflow; more than one Approver may need to participate for some accounts.
 
 On approval, ALM provisions the account and designates the Requester as the first owner.
 
@@ -56,11 +56,11 @@ An ALM **Group** object defines groups of ALM user objects that have something i
 
 ## Workflow Templates
 
-An ALM **Workflow Template** defines a workflow applicable to requests **made in ALM** for provisioning **in Active Directory** of a service account of a particular type.
+An ALM **Workflow Template** defines a workflow applicable to Requests **made in ALM** for provisioning **in Active Directory** of a service account of a particular type.
 
-* The Workflow Template defines the information that must be provided with the request, the approval steps that must be completed for the request to be granted, and who has approval authority at each step.
+* The Workflow Template defines the information that must be provided with the Request, the approval steps that must be completed for the Request to be granted, and who has approval authority at each step.
 
-* Requests for some kinds of service accounts may require just one step, approved by only one person. Requests for other kinds of service accounts may require multiple steps and approvals by more than one person at some or all of the approval steps.
+* Requests for some kinds of service accounts may require just one step, approved by only one person. Requests for other kinds of service accounts may require multiple steps and Approvals by more than one person at some or all of the approval steps.
 
 * Workflow templates also control the selection of BEOL (before end of lifecycle) and AEOL (at end of lifecycle) Notifications ALM sends, when it sends them, and to whom, plus what options the Notifications will offer for managing the service account.
 

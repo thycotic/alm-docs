@@ -4,72 +4,74 @@
 
 # Custom Roles
 
-ALM System Administrators can create Custom Roles. To define Roles, you review a list of ALM features paired with the permissions potentially applicable to each feature.
+ALM System Administrators can create Custom Roles. To define Custom Roles, you review a list of ALM features paired with the permissions potentially applicable to each feature.
 
-* The specific permissions assigned to each Role in relation to each ALM feature distinguishes one Custom Role from another.
+* Roles differ from one another in the specific permissions assigned to them in relation to each ALM feature.
 
-Once you have set the per-feature permissions for a Role, you can add Users or Groups (or both) to the Role, thereby granting the Role’s privileges to those Users, and to Users who belong to the Groups.
+* A Custom Role is a Role you create to meet your specific business needs when the built-in Roles will not suffice.
 
-## Functions Applicable to Custom Roles
+Once you have set the per-feature permissions for a Role, you add Users or Groups (or both) to the Role, thereby granting the Role’s permissions to those Users, and to Users who belong to those Groups.
 
-Functions pertinent to Custom Roles include:
+As with the built-in Roles, you can:
 
-* edit Custom Role name
+* edit the name of the Custom Role
 
-* enable/disable Role
+* enable or disable the Custom Role
 
-* enable/disable the option to have all new Users automatically added to the Custom Role
+* enable or disable automatic addition of new Users to the Custom Role
 
-* add/remove Users from the Custom Role
+* add or remove Users from the Custom Role
 
-* add/remove Groups from the Custom Role
-
-## Features
-
-**Features** are ALM objects to which you can apply privileges in the context of defining a Custom Role. Features include:
-
-**API Token**: All endpoints are controlled by a User’s authentication token set, which is used to obtain a Bearer token for further processing. User access to the API Token feature in the ALM application will allow creation, management, and visibility of API Tokens.
-
-**Audit**: Provides a stored log of events that occur within the ALM service. Audit records include user actions within ALM, ALM system events, and remote worker activity.
-
-**Configuration**: Ability to define the System Administrator’s email address.
-
-**Directory-Service**: Configuration of the Active Directory Service. This includes the External Domain, External Groups, External Users, External Group Mapping, and External OU’s.
-
-**Email Notification**: ALM provides a set of stock Email Notification Categories. The Email Notifications alert various Users and Groups about changes and events affecting objects with which they have a connection.
-
-**Group**: A Group is a population of Users. Groups can be configured by the customer to manage the Group’s population within ALM. Groups can be assigned to Approval Steps and Account Ownership.
-
-**Managed Account**: Service Accounts that are created and managed through ALM.
-
-**Provision Approval**: A specific User Role responsible for Reviewing and Approving account Requests made by Requesters. A User with Approval rights will be provided access to the Approvals screen in ALM which lists all Requests awaiting an Approver’s Review. The Approver will be able to see all the details of the Request to make their Approval decision.
-
-**Provision Template**: Users with the ability to Provision Templates can create Workflow Templates. Workflow Templates are used to define the parameters of the accounts that will be provisioned against the Workflow Template.
-
-**Provision Template Workflow**: Permission to Provision Template Workflow allows the User to define the Approval Steps required for an account to be Approved that has been Requested against the Workflow Template. Defining Approval Steps involves prescribing Users and/or Groups to Approval Step(s) required to be passed for the account to be provisioned for the Request.
-
-**Remote Worker**: ALM provides users with the permissions to download the Remote Worker installer. Client-side installed Remote Workers are listed and can assigned to Remote Worker Pools within ALM.
-
-**Role**: Roles in ALM allow users to assign Users to a specific Role or create Custom Roles. Standard Roles are Requester, Approver, and System Administrator.
-
-**User**: A standard user within ALM will hold one of two Roles, Requestor or Approver, as described above. Users with permissions to the User feature will have the ability to add, remove, or update User accounts.
-
-**Vault**: Configuration and management of the Thycotic Secret Server connection to ALM.
-
-**Webhook**: Webhooks provide the ability to tie ALM to an external service. ALM provides the ability to Users with permissions to create additional custom webhooks for their business needs.
+* add or remove Groups from the Custom Role
 
 ## Permissions
 
-Permissions confer abilities to take actions within ALM. Distinct permissions within ALM include:
+Permissions control what actions users can take within ALM. Distinct permissions within ALM include:
 
-**Create**: Ability for role to create a certain features (e.g. Create a managed account)
+**Create** allows creation of the object for which you grant the permission
 
-**Read**: Permission to read various features displayed (e.g. Ability to read and have access to the Managed Accounts page of ALM)
+**Read** allows passive use of a feature, such as to read (view) a list of objects or view an object’s details
 
-**Update**: API operation type that allows change to items for their respective feature.
+**Update**: allows changes to the object for which you grant the permission, for example, update a Managed Account
 
-**Delete**: Ability to delete items for their respective feature.
+**Delete**: allows a user to delete the object for which you grant the permission
 
-**Manage**: Acts as a modifier to indicate that the role allows admin access to a respective feature. This will vary from feature to feature on how items can be managed, e.g. if the role has Manage permissions on the directory-service feature, this would allow the role to perform manual synchronization on Active Directory Objects.
+**Manage**: gives additional, administrative access to the object to which it applies, for which the user must already have non-administrative privileges
+
+* As an example, users with Manage permissions on the Directory-Service feature can perform manual synchronization on Active Directory Objects.
+
+## Features to Which Permissions Apply
+
+In defining a Custom Role, you specify the permissions the Custom Role holds in relation to specific ALM features. The features subject to access control via permissions include:
+
+**API Token**: Access to the API Token feature allows a user to view, create, and manage API Tokens. These enable the user to obtain Bearer tokens, required by ALM for further processing.
+
+**Audit**: ALM logs most events, including user actions, system events, and remote worker activity. Audit permissions allow a user to view these logs.
+
+**Configuration**: A user with Configuration permissions can define the System Administrator’s email address.
+
+**Directory-Service**: With Directory Service permissions, a user can configure ALM’s integration with the organization's directory services provider. Presently ALM supports Active Directory, but anticipating support for other providers, Directory Service permissions allow a user to specify the provider, or External Domain. For Active Directory additional setting include AD Groups, Users, Group Mappings, and OUs.
+
+**Email Notification**: ALM provides several broadly applicable Email Notification Categories. Email Notifications inform Users and Groups of users about events affecting objects with which they have a connection—for example, the user is named in the governing Workflow Template as the Approver for a step in the workflow.
+
+**Group**: Groups are collections of Users. You use groups to more efficiently apply the same management activities to more than one User at once. You can assign Groups to Approval Steps just as you would an individual User; likewise you can assign Account Ownership to a Group.
+
+**Managed Account**: A Managed Account is an AD Service Account created and managed through ALM.
+
+**Provision Template**: With Provision Template permissions, users can create Workflow Templates to govern the approval process for AD service accounts.
+
+**Provision Template Workflow**: Provision Template Workflow permissions allow a User to set a Workflow Template’s Approval Steps. Setting Approval Steps involves designating which Users and Groups must approve the provisioning of a requested service account, and in what order—the workflow.
+
+**Provision Approval**: To be designated as an Approver for Approval Steps set in a Workflow Template , a User must have permissions for Provision Approval. This gives access to ALM’s Approvals section, which lists Requests waiting for an Approver’s review and gives access to all Request details.
+
+**Remote Worker**: A user must have Remote Worker permissions to download the installer for the Remote Worker Windows Service. This permission also enables the user to view in ALM the list of installed Remote Workers and assign Remote Workers to Remote Worker Pools.
+
+**Role**: The Roles permission enables a User to create Custom Roles and assign Users to them. It also allows the user to add Users to the standard Requester, Approver, and System Administrator Roles.
+
+**User**: Users with permissions to the User feature can add, remove, or update User accounts, including to designate whether a User is an Approver or Requester.
+
+**Vault**: With Vault permissions, a user can configure and manage ALM’s connection to your organization’s Thycotic Secret Server.
+
+**Webhook**: Webhooks provide a framework for connecting ALM to external services. With Webhooks permissions, a user can create custom webhooks.
 
 ![Article End](../alm-bug.png)
