@@ -46,6 +46,6 @@ Getting started with ALM requires these tasks:
 
 * build Workflows
 
-![Article End](../../alm-bug.png)
+![Article End](../alm-bug.png)
 
   
