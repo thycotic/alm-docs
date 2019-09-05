@@ -61,6 +61,8 @@ Change the logon account for the Thycotic Remote Worker to an AD account with th
 |                     | read all properties           |
 |                     | write member                  |
 
+---
+
   
   
 To change the logon account:
