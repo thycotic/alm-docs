@@ -4,7 +4,7 @@
 
 # Operations
 
-Routine operations for ALM encompass typical and common service account lifecycle management activities.
+Routine operations for ALM involve straightforward tasks with few steps.
 
 ## Sign In to ALM
 
@@ -12,7 +12,7 @@ Navigate to your organization’s ALM URL.
 
 * Use **Sign In** to visit Thycotic One for authentication.
 
-After you authenticate, Thycotic One will display the ALM Dashboard.
+After you authenticate, Thycotic One will display your ALM Dashboard.
 
 ## Request a Service Account
 
@@ -20,15 +20,15 @@ Use these steps to request a new service account via the approval process set by
 
 * Use the **Create New Request** button to open the Workflow Templates page.
 
-* Select a Workflow Template to control the provisioning of the Account Request.
+* Select a Workflow Template to control the approval process for the Account Request.
 
 * Supply an **Account Name**.
 
-* Write a **Justification and Reason Statement** for the Account Request. The Approver will review this.
+* Write a **Justification and Reason Statement** for the Account Request. Approvers review this.
 
-* Select the **Review Interval** for the Account. The template controls the available review interval options.
+* Choose the **Review Interval** for the account. The Workflow Template controls the available selection of Review Intervals.
 
-* Determine whether the Account will have the ability to add users as Account Owners.
+* Determine whether the account will have the ability to add Users as Account Owners.
 
 * Review the **Approval Steps** that apply to this Request.
 
@@ -36,19 +36,19 @@ Use these steps to request a new service account via the approval process set by
 
 ## Workflow Execution
 
-The workflow proceeds unless you withdraw the Request. At any time, you can withdraw the Request by deleting it.
+The workflow proceeds unless you withdraw the Request. At any time, you can withdraw the Request at your Dashboard by deleting it.
 
 ## Notifications of Requests
 
-When you send the Request, ALM will notify the Approver that the Request awaits their action.
+When you submit the Request, ALM will notify the Approver that the Request needs their attention.
 
 ## Approve or Deny a Request
 
-The Approver (or multiple Approvers) listed for Approval Step 1 in the Request record will review the request and decide the outcome:
+The Approver (or multiple Approvers) listed for Approval Step 1 in the Request record will review the Request and decide the outcome:
 
-* **Approve** provisions the account for the Requester. The requesting party receives notification of the approval.
+* **Approve** provisions the account for the Requester. The Requester receives a Notification of the Approval.
 
-* **Deny** requires the Approver to record the reason for the denying the Request. The requesting party receives notification of the denial and the reason given.
+* **Deny** requires the Approver to record the reason for denying the Request. The Requester receives a Notification of the denial and the reason given.
 
 ![Article End](../alm-bug.png)
 

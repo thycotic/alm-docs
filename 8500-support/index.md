@@ -6,13 +6,19 @@
 
 ALM subscribers have access to support by phone and email. You also can open a case in Thycotic’s support ticketing system, which promotes follow-through to issue resolution.
 
-## Support by Phone
+* Use the means you prefer, except for Severity 1 issues—for those, always use phone support.
 
-To obtain support by phone you must first login to the Support Portal to obtain a PIN. You must provide the PIN when you call to show that your license includes support. The PIN also makes it easier for the person helping you to locate your customer records, promoting a better support experience.
+  Severity 1 means a critical problem that has caused *complete loss of service* and work cannot reasonably continue at your worksite.
+
+## Obtaining a Support PIN
+
+To obtain support by email or phone, first log in to the Support Portal to obtain a PIN. The PIN validates that your license includes support, and you must provide the PIN in your email or when you call. The PIN also makes it easier for the person helping you to locate your customer records and give you better support.
 
 * Visit the [Support Portal Login Page](https://thycotic.force.com/support/s/login/) using the credentials you received when your organization subscribed to the ALM service.
 
-* After logging in, you will be on the main page. Click on the large blue bar labeled PIN to obtain a PIN number. Write this down so you will have it ready when you call.
+* After logging in, you will be on the main page. Click on the large blue bar labeled PIN to obtain a PIN number.
+
+## Support by Phone
 
 Thycotic delivers support by phone worldwide. Select the applicable number from this list:
 
@@ -29,23 +35,13 @@ Thycotic delivers support by phone worldwide. Select the applicable number from 
 |            | New Zealand | \+64 9-887 4015    |
 |            | Singapore   | \+65 3157 0602     |
 
-For any Severity 1 issues, use only the phone support channel. For all others, you can use the means you prefer, including by phone.
-
-* Severity 1 means a critical problem that has caused *complete loss of service* and work cannot reasonably continue at your worksite.
-
 ## Support by Email
 
-To obtain support by email you must login to the Support Portal to obtain a PIN to include in your email.
+Send your email to support@thycotic.com **with the PIN number as part of the subject line** of your email, for example:
 
-* Visit the [Support Portal Login Page](https://thycotic.force.com/support/s/login/) using the credentials you received when your organization subscribed to the ALM service.
+* PIN 345 Workflow Stopped Unexpectedly
 
-* After logging in, you will be on the main page. Click on the large blue bar labeled PIN to obtain a PIN number.
-
-* Send your email to support@thycotic.com **with the PIN number as part of the subject line** of your email, for example:
-
-  * PIN 345 My Workflow Stopped Running Unexpectedly
-
-To help Thycotic help you, be sure to include this information in your email body:
+Include this information:
 
 1. company name
 2. contact name
@@ -55,17 +51,17 @@ To help Thycotic help you, be sure to include this information in your email bod
 
 You must send your email using an email address already noted in your account with Thycotic.
 
-* Sending a support request from an email address not on file may delay case assignment.
+* Sending a support request from an email address not on file may delay our response.
 
 ## Support Ticketing
 
-As an alternative to support by email, you can open a support ticket and track your issue to resolution.
+As an alternative to support by email or phone, you can open a support ticket and track your issue to resolution.
 
 * Visit the [Support Portal Login Page](https://thycotic.force.com/support/s/login/) using the credentials you received when your organization subscribed to the ALM service.
 
 * After logging in, you will be on the main page. Click the **Cases** tab, then **Create a Case**.
 
-* Follow the instructions to complete the case entry.
+* Follow the instructions to complete your case.
 
 ![Article End](../alm-bug.png)
 

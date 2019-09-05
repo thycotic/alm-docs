@@ -2,15 +2,17 @@
 [tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (1)
 
-# Welcome to the Account Lifecycle Manager (ALM) Technical Documentation Collection
+# Welcome to Account Lifecycle Manager Technical Assistance
 
-This technical documentation collection for Account Lifecycle Manager (ALM) includes short, topically focused, technically oriented material, including product descriptions, diagrams, instructions, general guidance, and reference content. The collection includes two parts, **Core** and **Extended**:
+Thycotic created this collection of short-form technical materials to quickly and directly connect you with answers to your ALM questions. We aim to conserve your time by applying brevity and focus at every turn.
 
-* Core Collection articles form the basic documentation set and appear in the Navigation Panel at left, ordered as an ALM primer.
+The collection includes two parts, **Core** and **Extended**:
 
-* The [Extended Collection](./9000-extended/) has not yet been populated. It will include KB-style articles, and may include training materials, user bulletins, and discussion threads.
+* Core Collection articles form the essential documentation set. These appear in the Navigation Panel at left, ordered as an ALM primer.
+
+* The forthcoming [Extended Collection](./9000-extended/) will include KB-style articles, training materials, user bulletins, and discussion threads.
  
-* The search box at upper right provides direct access to articles relevant to your search terms. It pulls results from the entire collection, both Core and (eventually) Extended.
+* The search box at upper right pulls results from the entire collection, both Core and (eventually) Extended.
 
 The Navigation Panel’s headings pull together information supporting a solid grounding in Account Lifecycle Manager:
 
@@ -20,18 +22,18 @@ The Navigation Panel’s headings pull together information supporting a solid g
 
 [User Interface](./3000-ui-guide/) explains the ALM user interface essentials, depicting the simplicity and obviousness of the ALM UI. 
 
-[Setup](./5000-get-started/) presently forms the bulk of this collection, describing the major steps from initial provisioning to setup both inside and outside of ALM. It includes information about how to configure and customize ALM to fit your organization.
+[Setup](./5000-get-started/) forms the bulk of this collection, describing steps from provisioning to setup inside and outside of ALM. Learn how to configure and customize ALM to fit your organization.
 
-[Operations](./5500-alm-operations/) lists and outlines the tasks ALM users will routinely perform when using ALM for typical purposes.
+[Operations](./5500-alm-operations/) outlines tasks ALM users perform during normal operations.
 
 [Administration](./6000-alm-admin/) describes administrative tasks such as updating templates.
 
-[Tools](./8000-ref-items/) collects information about tools and other software accessories to ALM—so far, a guide to the free [Service Account Risk Snapshot Tool](./8000-ref-items/8400-discovery-tool/).
+[Tools](./8000-ref-items/) provides a guide to the free [Service Account Risk Snapshot Tool](./8000-ref-items/8400-discovery-tool/).
 
-[Support](./8500-support/) connects you to available product support and provides [Release Notes](./8500-support/8510-release-notes.md).
+[Support](./8500-support/) connects you with our support staff. [Release Notes](./8500-support/8510-release-notes.md) post here, along with information pertinent to performance, regulatory, and compliance considerations (SLAs, SOC II, GDPR, and similar).
 
-[Extended Collection](./9000-extended/) will house the forthcoming Extended Document Collection, which (as above) will include a range of materials, most significantly KB-style articles.
+The [Extended Collection](./9000-extended/) will house a range of materials, most significantly KB-style articles.
 
-Additionally, apart from this collection, Thycotic maintains an [Account Lifecycle Manager API Reference](https://thycotic.accountlifecyclecloud.com/docs/api-reference).
+Alongside this collection, Thycotic maintains an [Account Lifecycle Manager API Reference](https://thycotic.accountlifecyclecloud.com/docs/api-reference).
 
 ![Article End](alm-bug.png)

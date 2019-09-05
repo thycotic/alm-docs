@@ -4,13 +4,11 @@
 
 # End of Lifecycle Actions
 
-Account Lifecycle Manager allows the System Administrator to define in the Workflow Template what will happen to an account at the end of its lifecycle.
+Account Lifecycle Manager allows a System Administrator to define in a Workflow Template the End of Lifecycle Actions (EOL Actions) that will apply to accounts provisioned against that Workflow Template. The Template also controls the schedule and pacing of Notifications to be sent by ALM as the End of Lifecycle date approaches, and the parties who will receive the Notifications.
 
-All accounts provisioned against the Workflow Template will have review actions available in accordance with the determined End of Lifecycle Action. The Requester will be displayed the End of Lifecycle Action for the Workflow Template they have chosen to provision the account against, as well as be displayed the End of Lifecycle Action on the Managed page.
+When an account comes up for review at or near the end of its lifecycle, ALM sends Notifications to the Users or Groups designated in the Workflow Template, and as scheduled in that Template.
 
-The End of Lifecycle Action is determined in the Workflow Template will send notifications to the Account Owners indicating attention and action to the account is needed. The date to which the initial notification is sent to Account Owner(s) is also determined by the System Administrator in the Workflow Template. Reminders are sent to the Account Owner(s) periodically on a Workflow Template determined interval before the end of lifecycle. Urgent notifications can be configured in the Workflow Template to remind the Account Owner(s) more frequently leading up to the end of the account’s lifecycle, with an option to include the System Administrator in these notifications.
-
-## End of Lifecycle Actions
+The actions ALM allows reviewers to take correspond to the End of Lifecycle Actions specified by the Workflow Template. These may include:
 
 * Review
 
@@ -22,86 +20,104 @@ The End of Lifecycle Action is determined in the Workflow Template will send not
 
 ### Review
 
-An account provisioned to an End of Lifecycle action of Review will not be turned off in any way when the End of Lifecycle date is met or exceeded. The intention of Review is to provide a record that the user acknowledges that the account is still required.
+An account provisioned with an EOL Action of Review will not be curtailed in any way with passage of the End of Lifecycle date. The Review action serves simply to document a User’s acknowledgement that the account remains necessary.
 
-Accounts that have Review as the End of Lifecycle Action will allow the Account Owner three Actions.
+Reviewers of an account that has Review as the EOL Action have three choices:
 
 * Renew
 
-  This Action button will be enabled on the Managed screen for the account when the date of renewal date is met according to the Workflow Template; on any date prior, the Renew button will be disabled.
+  Before the Renewal Date set in the applicable Workflow Template, the Renew button is disabled. Beginning on the Renewal Date, the Renew button is enabled. 
 
-  Selecting Renew will extend the account’s lifecycle until the next Review, based on the account’s chosen Review Interval. Once an account is renewed, the Renew button will return to a disabled state until the next review date is met.
+  Selecting Renew extends the account’s lifecycle until the next Review, based on the Review Interval set in the Workflow Template. On renewal of the account, the Renew button will return to a disabled state until the next review date.
 
 * Disable
 
-  This Action button is enabled on the Managed screen for the account at any time of the account’s lifecycle. Selecting Disable will disable the account in Account Lifecycle Manager **and** in Active Directory. After an account is disabled the Disable button will pivot to Enable, allowing the user to re-enable the account as needed.
+  The Disable button, always enabled if present, will disable the account in ALM **and** in Active Directory. The button then switches to Enable, allowing the user to re-enable the account as needed.
 
 * Delete Account and Secret
 
-  This Action button is enabled on the Managed screen for the account at any time of the account’s lifecycle. Selecting Delete Account and Secret will delete the account and any associated secrets. The user is expected to confirm or cancel this action.
+  The Delete Account and Secret button, always enabled if present, will delete the account and any associated secrets. Selecting this option requires the user to confirm (or cancel) the action.
 
 ### Disable
 
-An account provisioned to an End of  action of Disable will be disabled in Active Directory at the End of Lifecycle, unless the Account Owner Renews the account prior to the End of Lifecycle.
+An account provisioned with an EOL Action of Disable will be disabled in Active Directory at the End of Lifecycle, unless the Account Owner Renews the account prior to the End of Lifecycle date.
 
-Accounts that have Disable as the End of Lifecycle Action will allow the Account Owner three Actions.
+Reviewers of an account that has Disable as the EOL Action have three choices:
 
 * Renew
 
-  This Action button will be enabled on the Managed screen for the account when the date of renewal date is met according to the configuration of the Workflow Template, any date prior the Renew button will be disabled. Selecting Renew will extend the account’s lifecycle until the next Review, based on the account’s chosen Review Interval. Once an account is renewed the Renew button will return to a disabled state until the next review date is met.
+  Before the Renewal Date set in the applicable Workflow Template, the Renew button is disabled. Beginning on the Renewal Date, the Renew button is enabled. 
+
+  Selecting Renew will extend the account’s lifecycle until the next Review, based on the Review Interval set in the Workflow Template. On renewal of the account, the Renew button will return to a disabled state until the next review date.
 
 * Disable
 
-  This Action button is enabled on the Managed screen for the account at any time of the account’s lifecycle. Selecting Disable will disable the account in Account Lifecycle Manager and Active Directory. After an account is disable the Disable button will pivot to Enable, allowing the user to re-enable the account as needed.
+  The Disable button, always enabled if present, will disable the account in ALM **and** in Active Directory. The button then switches to Enable, allowing the user to re-enable the account as needed.
 
 * Delete Account and Secret
 
-  This Action button is enabled on the Managed screen for the account at any time of the account’s lifecycle. Selecting Delete Account and Secret will delete the account and any associated secrets. The user is expected to confirm or cancel this action.
+  The Delete Account and Secret button, always enabled if present, will delete the account and any associated secrets. Selecting this option requires the user to confirm (or cancel) the action.
 
 ### Expire
 
-An account provisioned to an End of Lifecycle action of Expire will set the expiration date in Active Directory so that Active Directory will turn the account off at that End of Lifecycle date, unless the Account Owner submits a request to initiate a new approval to the account prior to the End of Lifecycle and the Approval process successfully completes with approvals.
+For an account provisioned with an EOL Action of Expire, ALM sets the Expiration date in Active Directory so that AD will disable the account at the End of Lifecycle date, unless the Account Owner renews the account prior to that date.
 
-Accounts that have Expire as the End of Lifecycle Action will allow the Account Owner three Actions.
+* Renewing an account with the Expire EOL Action requires repetition of the entire original approval process.
+
+* A System Administrator who configures a Workflow Template with Expire as the End of Lifecycle Action must decide how far in advance of the End of Lifecycle date to set the Renewal Date, given the requirement for repetition of the original approval process.
+
+* The Renewal Date controls the timing of initial Notifications to the Account Owner. The Start Approvals button is disabled before the Renewal Date.
+
+Reviewers of an account that has Expire as the EOL Action have three choices:
 
 * Start Approvals
 
-  This Action button will be enabled on the Managed screen for the account when the date of renewal date is met according to the configuration of the Workflow Template, any date prior the Start Approvals button will be disabled. Accounts with the End of Lifecycle Action of Expire are required to undergo the Approval Steps again determined by the Workflow Template before the account can be renewed.
+  Before the Renewal Date set in the applicable Workflow Template, the Start Approvals button is disabled. Beginning on the Renewal Date, the Start Approvals button is enabled. 
 
-  When the ‘Start Approvals’ button is selected by user the Approval Steps will be initiated and the button will pivot to ‘Approvals in Process’ until complete. If Approval is denied by Approval Steps the ‘Start Approvals’ button will be re-enabled to the Account Owner. If the Approval is approved by the Approval Steps the button will be disabled until the next renewal is available for the account.
+  Using the Start Approvals button initiates the Approval Steps specified in the associated Workflow Template. The Start Approvals button then relabels as Approvals in Process.
 
-  Note: The System Administrator that configures a Workflow Template to have Expire as the End of Lifecycle Action should factor in an appropriate time period for when the account is available for renewal by the Account Owner(s) to allow the Approval process to complete prior to expiration. This time period is selected on the Workflow Template for sending initial notifications, which also determines the date the renewal is available.
+  * If Approval is denied, the button switches back to Start Approvals.
+
+  * If the Approval is granted, the button label switches back to Start Approvals and the button becomes disabled until the next Renewal Date. 
 
 * Disable
 
-  This Action button is enabled on the Managed screen for the account at any time of the account’s lifecycle. Selecting Disable will disable the account in Account Lifecycle Manager and Active Directory. After an account is disabled the Disable button will pivot to Enable, allowing the user to re-enable the account as needed.
+  The Disable button, always enabled if present, will disable the account in ALM **and** in Active Directory. The button then switches to Enable, allowing the user to re-enable the account if needed.
 
 * Delete Account and Secret
 
-  This Action button is enabled on the Managed screen for the account at any time of the account’s lifecycle. Selecting Delete Account and Secret will delete the account and any associated secrets. The user is expected to confirm or cancel this action.
+  The Delete Account and Secret button, always enabled if present, will delete the account and any associated secrets. Selecting this option requires the user to confirm (or cancel) the action.
 
 ### Delete
 
-An account provisioned to an End of Lifecycle action of Delete will be disabled at the End of Lifecycle, unless the Account Owner Renews the account prior to the End of Lifecycle.
+An account provisioned with an EOL Action of Delete will be disabled (not actually deleted) at the End of Lifecycle date, unless the Account Owner renews the account prior to that date.
 
-Accounts that have Delete as the End of Lifecycle Action will allow the Account Owner four Actions.
+Reviewers of an account that has Delete as the EOL Action have three (sometimes four) choices:
 
 * Renew
 
-  This Action button will be enabled on the Managed screen for the account when the date of renewal date is met according to the configuration of the Workflow Template, any date prior the Renew button will be disabled. Selecting Renew will extend the account’s lifecycle until the next Review, based on the account’s chosen Review Interval. Once an account is renewed the Renew button will return to a disabled state until the next review date is met.
+  Before the Renewal Date set in the applicable Workflow Template, the Renew button is disabled. Beginning on the Renewal Date, the Renew button is enabled. 
+
+  Selecting Renew will extend the account’s lifecycle until the next Review, based on the Review Interval set in the Workflow Template. On renewal of the account, the Renew button will return to a disabled state until the next review date.
 
 * Disable
 
-  This Action button is enabled on the Managed screen for the account at any time of the account’s lifecycle. Selecting Disable will disable the account in Account Lifecycle Manager and Active Directory. After an account is disable the Disable button will pivot to Enable, allowing the user to re-enable the account as needed.
+  The Disable button, always enabled if present, will disable the account in ALM **and** in Active Directory. The button then switches to Enable, allowing the user to re-enable the account as needed.
 
 * Delete Account and Secret
 
-  This Action button is enabled on the Managed screen for the account at any time of the account’s lifecycle. Selecting Delete Account and Secret will delete the account and any associated secrets. The user is expected to confirm or cancel this action.
+  The Delete Account and Secret button, always enabled if present, will delete the account and any associated secrets. Selecting this option requires the user to confirm (or cancel) the action.
 
 * Submit for Approval to Reinstate
 
-  For an account that had an End of Lifecycle Action of 'Delete' and the account wasn't renewed, the account owner may want to 'reinstate' the account. The Review Actions will provide an option to ‘Submit for Approval to Reinstate’.
+  If an account owner does not renew an account that has an EOL Action of Delete, ALM disables the account, and the End of Lifecycle the Review options update to include the Submit for Approval to Reinstate option.
 
-  When the ‘Submit for Approval to Reinstate’ button is selected by user the Approval Steps will be initiated and the button will pivot to ‘Approvals in Process’ until complete. If Approval is denied by Approval Steps the ‘Submit for Approval to Reinstate’ button will be re-enabled to the Account Owner. If the Approval is approved by the Approval Steps the button will be disabled until the next renewal is available for the account.
+  On selection of this option, the original approval process begins anew, and the Submit for Approval to Reinstate button label switches to Approvals in Process.
+
+  Using the Submit for Approval to Reinstate button initiates the Approval Steps specified in the associated Workflow Template; the button relabels as Approvals in Process.
+
+  * If Approval is denied, the button switches back to Submit for Approval to Reinstate.
+
+  * If the Approval is granted, the button label switches back to Submit for Approval to Reinstate and the button becomes disabled until the next Renewal Date. 
 
 ![Article End](../alm-bug.png)
