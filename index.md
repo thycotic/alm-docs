@@ -20,8 +20,6 @@ The Navigation Panel’s headings pull together information supporting a solid g
 
 [ALM Objects](./2000-alm-objects/) describes the four essential objects within ALM—Users, Roles, Groups, and Workflow Templates—and explains how ALM provides governance over service accounts using these objects and a system of End of Lifecycle Actions and related Notifications.
 
-[User Interface](./3000-ui-guide/) explains the ALM user interface essentials, depicting the simplicity and obviousness of the ALM UI. 
-
 [Setup](./5000-get-started/) forms the bulk of this collection, describing steps from provisioning to setup inside and outside of ALM. Learn how to configure and customize ALM to fit your organization.
 
 [Operations](./5500-alm-operations/) outlines tasks ALM users perform during normal operations.
