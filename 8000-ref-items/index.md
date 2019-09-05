@@ -1,14 +1,17 @@
-﻿[title]: # (Reference Topics)
-[tags]: # (Account  Manager,ALM,)
+﻿[title]: # (Tools)
+[tags]: # (Account Lifecycle Manager,ALM,)
 [priority]: # (8000)
 
-# Reference Topics
+# Tools
  
-This section collects reference material, so far including:
+This section collects information about tools related to ALM.
 
-* a summary of ALM user personas and use cases
+## Service Account Risk Snapshot Tool
 
-* a guide to service account end-of-lifecycle actions
+The [Service Account Risk Snapshot Tool User’s Guide](./8400-discovery-tool/) explains how to use this free tool for assessing your organization’s risk profile related to service accounts management.
 
-* a table of events, notifications, and notification recipients
+![Article End](../alm-bug.png)
 
+  
+
+  
