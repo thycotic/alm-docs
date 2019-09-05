@@ -30,12 +30,12 @@ Getting started with ALM requires these tasks:
 
 * verify requirements readiness
 
+* set up a Remote Worker
+
 * integrate with Secret Server
 
 * integrate with Active Directory
-
-* set up a Remote Worker
-
+ 
 * create ALM groups
 
 * create ALM roles
