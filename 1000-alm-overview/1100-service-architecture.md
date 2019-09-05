@@ -12,7 +12,7 @@ ALM’s service architecture centers on a Windows Service called the Remote Work
 
 The [Getting Started](../5000-get-started/) section provides detailed information on [setting up the Remote Worker](../5000-get-started/5120-setup-remote-wrk/).
 
-![Article End](../../alm-bug.png)
+![Article End](../alm-bug.png)
 
   
 

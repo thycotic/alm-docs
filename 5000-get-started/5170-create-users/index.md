@@ -10,7 +10,7 @@ Because ALM originates in the Thycotic cloud, each member of your organization w
 
 Each member of your organization who will use ALM must have a **Thycotic One** account. These free accounts provide authentication to Thycotic’s cloud services, including ALM.
 
-To open a Thycotic One account, visit *login.thycotic.com*.
+To open a Thycotic One account, visit [Thycotic One](https://login.thycotic.com/Account/Login).
 
 The email a user submits when signing up for Thycotic One will be the email they must provide later when obtaining an ALM user account.
 
