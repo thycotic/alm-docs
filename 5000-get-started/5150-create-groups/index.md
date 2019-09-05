@@ -4,8 +4,6 @@
 
 # Create Groups
 
-## Create Groups
-
 **Groups** identify by inclusion users who share the same privileges.
 
 * ALM groups do **not** correspond to Active Directory groups.
