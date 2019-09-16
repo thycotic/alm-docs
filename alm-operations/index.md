@@ -10,7 +10,7 @@ Routine operations for ALM involve straightforward tasks with few steps.
 
 Navigate to your organization’s ALM URL.
 
-* Use **Sign In** to visit Thycotic One for authentications.
+* Use **Sign In** to visit Thycotic One for authentication.
 
 After you authenticate, Thycotic One will display your ALM Dashboard.
 

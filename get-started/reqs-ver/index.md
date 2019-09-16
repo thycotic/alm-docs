@@ -24,7 +24,7 @@ ALM uses Secret Server to store credentials for the accounts it creates in Activ
 
 If you are not using Secret Server Cloud, your Secret Server version must be Version 10.2.000018 or later with the Secret Server Platinum license or the API Add-on. Secret Server’s web services must be running.
 
-Instructions related to Secret Server requirements appear in [Integrate ALM with Secret Server](../5140-integ-secret-serv/).
+Instructions related to Secret Server requirements appear in [Integrate ALM with Secret Server](../integ-secret-serv/).
 
 ## An Active Directory Installation
 
@@ -34,7 +34,7 @@ You must have an Active Directory Domain Controller on **Windows Server 2012** o
 
 * ALM supports only Active Directory, but future releases may support other directory services.
 
-For details on integration with Active Directory, see [Integrate ALM with Active Directory](../5130-integ-active-dir/).
+For details on integration with Active Directory, see [Integrate ALM with Active Directory](../integ-active-dir/).
 
 ## Remote Worker Windows Service
 
@@ -44,7 +44,7 @@ Often initially misunderstood as an actual staff member, the Remote Worker is a 
 
 In the case of ALM, the Remote Worker Windows Service runs on your organization’s hardware. It manages interactions between the ALM cloud service and your Active Directory installation. It also supports ALM’s integration with your organization’s Secret Server instance.
 
-See [Setup the Remote Worker Service](../5120-setup-remote-wrk/) for details.
+See [Setup the Remote Worker Service](../setup-remote-wrk/) for details.
 
 ![Article End](../../alm-bug.png)
 
