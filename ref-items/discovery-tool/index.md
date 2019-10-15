@@ -1,5 +1,5 @@
 ﻿[title]: # (Service Account Risk Snapshot Tool)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (8400)
 
 # Service Account Risk Snapshot Tool
@@ -124,7 +124,7 @@ The reports will be created in the folder you select. They consist of two files.
 
 **A:** Some display drivers or screen resolutions can cause these PDF defects. Run the scan from a different machine, or use the HTML version. The HTML file contains the same information as the PDF.
 
-![Article End](../../alm-bug.png)
+
 
   
 

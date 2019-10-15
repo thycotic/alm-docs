@@ -1,5 +1,5 @@
 ﻿[title]: # (Start Using ALM)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (5200)
 
 # Start Using ALM
@@ -10,7 +10,7 @@ Having set up a Remote Worker; integrated ALM with Secret Server and Active Dire
 
 * [Administration](../alm-admin/) details operations performed only occasionally, for example, managing Roles or administering Workflow Templates.
 
-![Article End](../../alm-bug.png)
+
 
   
 

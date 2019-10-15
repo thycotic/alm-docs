@@ -1,5 +1,5 @@
 ﻿[title]: # (Operations)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (5500)
 
 # Operations
@@ -50,7 +50,7 @@ The Approver (or multiple Approvers) listed for Approval Step 1 in the Request r
 
 * **Deny** requires the Approver to record the reason for denying the Request. The Requester receives a Notification of the denial and the reason given.
 
-![Article End](../alm-bug.png)
+
 
   
 

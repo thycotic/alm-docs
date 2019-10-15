@@ -1,5 +1,5 @@
 ﻿[title]: # (Use or Create Roles)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (5160)
 
 # Use or Create Roles
@@ -52,7 +52,7 @@ After you add a new Role, ALM displays the **Details and Permissions** panel, wh
 
 Continue creating Roles and defining their permissions until you have satisfied the requirements for your organization’s ALM use cases.
 
-![Article End](../../alm-bug.png)
+
 
   
 
