@@ -1,5 +1,5 @@
 ﻿[title]: # (AD Account Expiration Dates)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (2400)
 
 # AD Account Expiration Dates
@@ -40,6 +40,6 @@ If you would like to learn more about this longstanding, solutions-resistant iss
 
 [Account Expiration Article by Richard Mueller](http://www.rlmueller.net/AccountExpires.htm)
 
-![Article End](../alm-bug.png)
+
 
 

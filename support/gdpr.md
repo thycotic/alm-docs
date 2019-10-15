@@ -1,5 +1,5 @@
 ﻿[title]: # (General Data Protection Rule)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (8530)
 
 # General Data Protection Rule (GDPR)
@@ -16,7 +16,7 @@ Each ALM customer entirely controls their users, their user roles, and the acces
 
 Thycotic conducts a Privacy Impact Assessment (PIA) annually to verify continued conformance to GDPR principles.
 
-![Article End](../alm-bug.png)
+
 
   
 

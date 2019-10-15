@@ -1,5 +1,5 @@
 ﻿[title]: # (Support)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (8500)
 
 # Support
@@ -63,7 +63,7 @@ As an alternative to support by email or phone, you can open a support ticket an
 
 * Follow the instructions to complete your case.
 
-![Article End](../alm-bug.png)
+
 
   
 

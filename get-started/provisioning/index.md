@@ -1,5 +1,5 @@
 ﻿[title]: # (Provisioning)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (5100)
 
 # Provisioning
@@ -24,6 +24,6 @@ A major part of getting started with ALM is creating the Groups, Roles, Users, a
 
 * Take time to plan your creation of these many objects, because ALM does not support deleting objects, only disabling them. A little advance planning at the outset will keep your ALM provision tidy for the long haul.
 
-![Article End](../../alm-bug.png)
+
 
 

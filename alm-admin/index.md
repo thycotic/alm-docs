@@ -1,5 +1,5 @@
 ﻿[title]: # (Administration)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (6000)
 
 # Administration
@@ -47,9 +47,3 @@ On the **Manage User** page you can
 System Administrators can replace published Workflow Templates with updated versions, or publish updated versions alongside the earlier versions. The UI used to [create the Templates](../get-started/build-workflows/) also supports updating them.
 
 ALM tracks sequential Workflow Template versions to associate the provisioning of each account with the version of the template that controlled the approval process for the account.
-
-![Article End](../alm-bug.png)
-
-  
-
-  
