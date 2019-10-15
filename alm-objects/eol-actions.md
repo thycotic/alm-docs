@@ -1,5 +1,5 @@
 ﻿[title]: # (End of Lifecycle Actions)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (2300)
 
 # End of Lifecycle Actions
@@ -120,4 +120,4 @@ Reviewers of an account that has Delete as the EOL Action have three (sometimes 
 
   * If the Approval is granted, the button label switches back to Submit for Approval to Reinstate and the button becomes disabled until the next Renewal Date. 
 
-![Article End](../alm-bug.png)
+

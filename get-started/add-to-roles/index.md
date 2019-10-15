@@ -1,5 +1,5 @@
 ﻿[title]: # (Add Users and Groups to Roles)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (5180)
 
 # Add Users and Groups to Roles
@@ -26,7 +26,7 @@ The bottom of the **Manage Role** page displays the **Add User** and **Add Group
 
 * When you have located the Group, check the toggle box to select the Group, and click **Add**.
 
-![Article End](../../alm-bug.png)
+
 
   
 

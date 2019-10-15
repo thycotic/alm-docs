@@ -1,5 +1,5 @@
 ﻿[title]: # (Create Groups)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (5150)
 
 # Create Groups
@@ -18,7 +18,7 @@
 
 Continue creating groups until you have created the ALM groups required for your organization’s ALM use cases.
 
-![Article End](../../alm-bug.png)
+
 
   
 

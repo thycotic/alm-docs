@@ -1,5 +1,5 @@
 ﻿[title]: # (Setup)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (5000)
 
 # Setup
@@ -46,6 +46,6 @@ Getting started with ALM requires these tasks:
 
 * build Workflows
 
-![Article End](../alm-bug.png)
+
 
   

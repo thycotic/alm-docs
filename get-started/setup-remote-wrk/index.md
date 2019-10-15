@@ -1,5 +1,5 @@
 ﻿[title]: # (Setup the Remote Worker Service)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (5120)
 
 # Setup the Remote Worker Service
@@ -121,7 +121,7 @@ If the Remote Worker does not run properly, review its operation logs for clues.
 
 If you cannot resolve the problem, contact Thycotic for support.
 
-![Article End](../../alm-bug.png)
+
 
   
 

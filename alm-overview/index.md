@@ -1,5 +1,5 @@
 ﻿[title]: # (Overview)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (1000)
 
 # Overview
@@ -36,4 +36,4 @@ ALM’s Workflow Templates support its straightforward customization to fit each
 
 ALM logs each step to support a robust audit capacity.
 
-![Article End](../alm-bug.png)
+

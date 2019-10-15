@@ -1,5 +1,5 @@
 ﻿[title]: # (Service Architecture)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (1100)
 
 # Service Architecture
@@ -12,7 +12,7 @@ ALM’s service architecture centers on a Windows Service called the Remote Work
 
 The [Getting Started](../get-started/) section provides detailed information on [setting up the Remote Worker](../get-started/setup-remote-wrk/).
 
-![Article End](../alm-bug.png)
+
 
   
 

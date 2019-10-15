@@ -1,5 +1,5 @@
 ﻿[title]: # (Integrate ALM with Active Directory)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (5130)
 
 # Integrate ALM with Active Directory
@@ -30,8 +30,10 @@ After you create the Active Directory domain in ALM, you must assign it to a Rem
 
 * Depending on the size of the domains, synchronizing each may require up to 15 minutes.
 
-![Article End](../../alm-bug.png)
+## Domain Synchronization
 
-  
+You can control the frequency with which ALM automatically syncs, as well as schedule on-demand syncs. However, note that the soonest a job will schedule is the start of the next hour from now.
 
-  
+* For example, if it is presently 11:16, you cannot schedule a job for 11:30 and have it run in a quarter hour from now. Instead, the sync would run at 11:30 the next day.
+* However, if it is presently 11:16, and you schedule a sync for noon, it will run about 45 minutes from now, because noon meets the requirement of no sooner than the start of the next hour from now.
+

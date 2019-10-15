@@ -1,5 +1,5 @@
 ﻿[title]: # (ALM Storage of Dates)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (2500)
 
 # ALM Storage of Dates
@@ -12,6 +12,6 @@ If you should happen to work directly with the API, note that a call that return
 
 Likewise, when working directly with the API, any date and time information you provide should be in UTC.
 
-![Article End](../alm-bug.png)
+
 
 
