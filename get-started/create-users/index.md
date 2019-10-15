@@ -1,5 +1,5 @@
 ﻿[title]: # (Create ALM Users)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (5170)
 
 # Create ALM Users
@@ -32,7 +32,7 @@ Thycotic refers to ALM accounts and the people who use them as “Users,” with
 
 Continue until you have created the ALM Users that enable your organization’s use cases.
 
-![Article End](../../alm-bug.png)
+
 
   
 

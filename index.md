@@ -1,8 +1,14 @@
 ﻿[title]: # (ALM Technicals Collection)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (1)
 
 # Welcome to Account Lifecycle Manager Technical Assistance
+
+---
+
+This October ALM has new features, improved performance, and design refinements for improved usability. [New This Month](./extended/new-this-month.md) has all the details.
+
+---
 
 Thycotic created this collection of short-form technical materials to quickly and directly connect you with answers to your ALM questions. We aim to conserve your time by applying brevity and focus at every turn.
 
@@ -34,4 +40,4 @@ The [Extended Collection](./extended/) will house a range of materials, most sig
 
 Alongside this collection, Thycotic maintains an [Account Lifecycle Manager API Reference](https://thycotic.accountlifecyclecloud.com/docs/api-reference).
 
-![Article End](alm-bug.png)
+

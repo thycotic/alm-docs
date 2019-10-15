@@ -1,5 +1,5 @@
 ﻿[title]: # (Build Workflow Templates)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (5190)
 
 # Build Workflow Templates
@@ -25,6 +25,8 @@ Use this procedure to create the Workflow Templates necessary to support your or
 * Use the **Create Template** button (upper right of the page) to open the **Add Workflow Template** panel.
 
 * Supply a name for the template.
+
+  * You can specify a prefix for the name, so that all accounts provisioned via this template will bear that prefix as part of the name.
 
 * Select the **Account Type**.
 
@@ -54,7 +56,7 @@ Use this procedure to create the Workflow Templates necessary to support your or
 
 * Publish the completed Workflow Template.
 
-![Article End](../../alm-bug.png)
+
 
   
 

@@ -1,5 +1,5 @@
 ï»¿[title]: # (Requirements Verification)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (5110)
 
 # Requirements Verification 
@@ -46,7 +46,7 @@ In the case of ALM, the Remote Worker Windows Service runs on your organizationâ
 
 See [Setup the Remote Worker Service](../setup-remote-wrk/) for details.
 
-![Article End](../../alm-bug.png)
+
 
   
 

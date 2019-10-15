@@ -1,5 +1,5 @@
 ﻿[title]: # (Integrate ALM with Secret Server)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (5140)
 
 # Integrate ALM with Secret Server
@@ -52,4 +52,4 @@ You must use a template with the following fields, and you must not add new requ
 
 * notes
 
-![Article End](../../alm-bug.png)
+

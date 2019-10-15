@@ -1,5 +1,5 @@
 ﻿[title]: # (SLAs and Related Operational Considerations)
-[tags]: # (Account Lifecycle Manager,ALM,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (8520)
 
 # SLAs and Related Operational Considerations
@@ -40,7 +40,7 @@ Authentication proceeds using OIDC to Thycotic One.
 
 Code signing applies to the Remote Worker software, which is downloaded to the customer’s premises to coordinate interactions among ALM and the customer’s Active Directory and Secret Server resources.
 
-![Article End](../alm-bug.png)
+
 
   
 
