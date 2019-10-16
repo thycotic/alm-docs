@@ -1,6 +1,6 @@
 ﻿[title]: # (New This Month)
 [tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
-[priority]: # (9100)
+[priority]: # (500)
 
 # New This Month
 
@@ -8,7 +8,7 @@ October saw Account Lifecycle Manager add new features, improve performance, and
 
 ## Active Directory Account Discovery
 
-Using ALM’s Active Directory Account Discovery tool, System Administrators can select service accounts in their Active Directory Domains and import them into ALM. The tool follows a simple process to select the desired service accounts, assign accounts to ALM Workflows, and assign ownership. This major new tool allows the customer to bring any or all service accounts under the management of Account Lifecycle Manager.
+Using ALM’s Active Directory Account Discovery tool, System Administrators can select service accounts in their Active Directory Domains and import them into ALM. The tool follows a simple process to select the desired service accounts, assign accounts to ALM Workflows, and assign ownership. This new tool allows the customer to bring any or all service accounts under the management of Account Lifecycle Manager.
 
 ## Domain Synchronization Scheduling
 
@@ -16,7 +16,7 @@ System Administrators can select the frequency at which domains automatically sy
 
 ## Account Name Prefixes
 
-System Administrators can define an account name prefix when they build a Workflow Template, so that any accounts created pursuant to selection of the Workflow Template by account requesters will be named to include the designated prefix. This allows accounts provisioned by ALM to conform to naming conventions for organizational purposes.
+System Administrators can define an account name prefix when they build a Workflow Template, so that any accounts created pursuant to selection of the Workflow Template by account requesters will be named to include the designated prefix. This supports enforcement of organizational naming conventions for accounts provisioned by ALM.
 
 ## Performance Enhancements
 
@@ -36,6 +36,3 @@ Enhancements to the user interface and design language of ALM include:
 * The design of ALM modules appears more uniform across the application.
 * Icons used within ALM have an improved design.
 * The Workflow Template Wizard has a new appearance.
-
-
-
