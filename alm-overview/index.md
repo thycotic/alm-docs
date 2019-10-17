@@ -35,5 +35,3 @@ Once a service account has been provisioned, ALM monitors the account throughout
 ALM’s Workflow Templates support its straightforward customization to fit each organization’s particulars.
 
 ALM logs each step to support a robust audit capacity.
-
-
