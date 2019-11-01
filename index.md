@@ -13,7 +13,7 @@ This October ALM has new features, improved performance, and design refinements 
 Thycotic created this collection of short-form technical materials to quickly and directly connect you with answers to your ALM questions. We aim to conserve your time by applying brevity and focus at every turn.
 
 * When you have a specific topic in mind, the search tool at upper right will be your quickest path to relevant articles.
-* For browsing, the Navigation Panel (menus at left) pulls together information supporting a solid grounding in Account Lifecycle Manager.
+* For browsing, the Navigation Panel (menus at left) pulls together articles giving a solid grounding in Account Lifecycle Manager.
 
 [Overview](./alm-overview/) defines the Account Lifecycle Manager service in broad terms. It describes ALM as typically used and illustrates the service architecture.
 
