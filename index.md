@@ -25,7 +25,7 @@ Thycotic created this collection of short-form technical materials to quickly an
 
 [Administration](./alm-admin/) describes administrative tasks such as updating templates.
 
-[Tools](./ref-items/) provides a guide to the free [Service Account Risk Snapshot Tool](./ref-items/discovery-tool/).
+[Tools](./ref-items/) provides a guide to the free [Service Account Discovery Tool](./ref-items/discovery-tool/).
 
 [Support](./support/) connects you with our support staff. [Release Notes](./support/release-notes.md) post here, along with information pertinent to performance, regulatory, and compliance considerations (SLAs, SOC II, GDPR, and similar).
 
