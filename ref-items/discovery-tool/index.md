@@ -1,14 +1,14 @@
-﻿[title]: # (Service Account Risk Snapshot Tool)
+﻿[title]: # (Service Account Discovery Tool)
 [tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (8400)
 
-# Service Account Risk Snapshot Tool
+# Service Account Discovery Tool
 
 This free tool helps assess the level of risk associated with your inventory of service accounts in AD by connecting to Windows machines across your network and scanning for local and service account usage.
  
 ## Prerequisites
 
-The Service Account Risk Snapshot Tool supports Windows 7, 8, 8.1, and 10.
+The Service Account Discovery Tool supports Windows 7, 8, 8.1, and 10.
 
 The machine on which it executes must have Microsoft’s .NET Framework 4.5.1 or higher.
 
