@@ -9,7 +9,6 @@ Thycotic Software offers Account Lifecycle Manager as a tool for achieving and m
 Being a cloud service, ALM requires no boxed software installation.
 
 * However, to successfully use ALM from access points within your enterprise requires that your organization’s IT infrastructure meet several criteria.
-
 * Additionally, ALM as provisioned requires initial setup and configuration steps to correctly connect to your organization’s enterprise architecture.
 
 Neither onerous nor time consuming, these steps do justify advance consideration, and most require elevated privileges in ALM or on your corporate infrastructure.
@@ -27,25 +26,12 @@ Nobody should routinely log in with elevated privileges ‘just in case’ they 
 Getting started with ALM requires these tasks:
 
 * provisioning
-
 * verify requirements readiness
-
 * set up a Remote Worker
-
-* integrate with Secret Server
-
 * integrate with Active Directory
- 
-* create ALM groups
-
-* create ALM roles
-
-* create ALM users
-
-* add ALM users to ALM Groups; add ALM Users and ALM Groups to ALM roles
-
+* integrate with Secret Server
+* create ALM Groups
+* create ALM Roles
+* create ALM Users
+* add ALM Users to ALM Groups; add ALM Users and ALM Groups to ALM Roles
 * build Workflows
-
-
-
-  

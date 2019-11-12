@@ -12,7 +12,7 @@ Each member of your organization who will use ALM must have a **Thycotic One** a
 
 To open a Thycotic One account, visit [Thycotic One](https://login.thycotic.com/Account/Login).
 
-The email a user submits when signing up for Thycotic One will be the email they must provide later when obtaining an ALM user account.
+The email a User submits when signing up for Thycotic One will be the email they must provide later when obtaining an ALM User account.
 
 ## Suitable Browsers
 
@@ -28,9 +28,9 @@ Instructions related to Secret Server requirements appear in [Integrate ALM with
 
 ## An Active Directory Installation
 
-You must have an Active Directory Domain Controller on **Windows Server 2012** or later, *or* **Azure AD Domain Services** and a user account with the privileges to create an AD account (for ALM to use) that will be privileged, itself, to create accounts in AD. ALM will authenticate to Active Directory using that account.
+You must have an Active Directory Domain Controller on **Windows Server 2012** or later, *or* **Azure AD Domain Services** and a User account with the privileges to create an AD account (for ALM to use) that will be privileged, itself, to create accounts in AD. ALM will authenticate to Active Directory using that account.
 
-* ALM users create proxies for new Active Directory service accounts in ALM, and ALM replicates these in Active Directory, creating the actual service accounts.
+* ALM Users create proxies for new Active Directory service accounts in ALM, and ALM replicates these in Active Directory, creating the actual service accounts.
 
 * ALM supports only Active Directory, but future releases may support other directory services.
 

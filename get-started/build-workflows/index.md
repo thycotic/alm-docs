@@ -10,15 +10,15 @@ To use ALM, you must define the approval processes your organization intends to 
 
 ALM supplies a straightforward, Roles-driven workflow system to support your oversight of new AD account creation, review, and eventual renewal or retirement.
 
-ALM represents your approval processes as Workflow Templates. Each template defines the approval process for a particular service account kind or category as defined by your organization—for example, service accounts belonging to specific Active Directory groups.
+ALM represents your approval processes as Workflow Templates. Each template defines the approval process for a particular service account kind or category as defined by your organization—for example, service accounts belonging to specific Active Directory Groups.
 
 As illustrated, ALM’s workflow system follows a simple, linear process from template definition through account Requests and Approvals.
 
-![Workflow Process](workflow-process.png)
+![Workflow Process](images/workflow-process.png)
 
 ## Create a Workflow Template to Define a Workflow
 
-Use this procedure to create the Workflow Templates necessary to support your organization’s use cases. You must have the System Administrator role to perform this procedure, and you must have already connected ALM to your Secret Server.
+Use this procedure to create the Workflow Templates necessary to support your organization’s use cases. You must have the System Administrator Role to perform this procedure, and you must have already connected ALM to your Secret Server.
 
 * Select the **Workflow Templates** page.
 
