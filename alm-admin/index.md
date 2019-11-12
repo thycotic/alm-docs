@@ -13,9 +13,7 @@ ALM automatically enables newly created Roles.
 To enable or disable a Role:
 
 * Go to **Roles \> [Select Role] \> Manage Role**.
-
 * Use **Edit** to adjust the name of the Role.
-
 * Use **Enable** or **Disable** to recommission or decommission a Role, respectively.
 
 ## Manage Groups
@@ -51,7 +49,7 @@ Users with permissions to access Workflow Templates will be able to view the spe
 
 ## Remote Worker Calibration
 
-ALM’s**Remote Worker Calibration** tool automatically determines which of your Remote Workers can access what Vaults and which External Domains (Active Directory domains).
+ALM’s **Remote Worker Calibration** tool automatically determines which of your Remote Workers can access what Vaults and which External Domains (Active Directory domains).
 
 To use the Remote Worker Calibration tool:
 

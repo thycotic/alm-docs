@@ -21,43 +21,20 @@ As illustrated, ALM’s workflow system follows a simple, linear process from te
 Use this procedure to create the Workflow Templates necessary to support your organization’s use cases. You must have the System Administrator Role to perform this procedure, and you must have already connected ALM to your Secret Server.
 
 * Select the **Workflow Templates** page.
-
 * Use the **Create Template** button (upper right of the page) to open the **Add Workflow Template** panel.
-
 * Supply a name for the template.
-
   * You can specify a prefix for the name, so that all accounts provisioned via this template will bear that prefix as part of the name.
-
 * Select the **Account Type**.
-
 * Supply the **Terms of Service**.
-
 * Define the **Purpose** of the Workflow Template.
-
 * Set up the **Active Directory**.
-
 * Connect the **Secrets Vault**.
-
 * Choose the **End of Lifecycle Action** for accounts based on this template:
-
   * Review, Disable, Expire, or Delete
-
 * Define the **Review Intervals** available to the Requester.
-
 * Choose **Notification Options**:
-
   * Before End of Lifecycle Notifications
-
   * On/After End of Lifecycle Notifications
-
 * Define the **Approval Steps**.
-
 * Add **Approvers** to at least one Approval Step. You can add individual Users, or Groups thereof.
-
 * Publish the completed Workflow Template.
-
-
-
-  
-
-  

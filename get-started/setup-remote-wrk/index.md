@@ -57,7 +57,7 @@ Change the logon account for the Thycotic Remote Worker to an AD account with th
 
 | AD Object           | Permissions for Remote Worker |
 |---------------------|-------------------------------|
-| Oganizational Unit  | list contents                 |
+| Organizational Unit | list contents                 |
 |                     | read all properties           |
 |                     | create User objects           |
 |                     | delete User objects           |

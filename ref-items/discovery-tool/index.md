@@ -26,7 +26,7 @@ These steps will ensure the account has the appropriate privileges to run a succ
 
 * Leave the **Action** value set as **Update**.
 
-* For **Group name:**, use the drop-down menu to select **Administrators (Built-in)**.
+* For **Group name:** use the drop-down menu to select **Administrators (Built-in)**.
 
 ![](images/002.png)
 
@@ -122,7 +122,7 @@ The reports will be created in the folder you select. They consist of two files.
 
 **Q:** The PDF report has inconsistent margins or page breaks.
 
-**A:** Some display drivers or screen resolutions can cause these PDF defects. Run the scan from a different machine, or use the HTML version. The HTML file contains the same information as the PDF.
+**A:** Some display drivers or screen resolutions can cause these PDF defects. Run the scan from a different machine or use the HTML version. The HTML file contains the same information as the PDF.
 
 
 

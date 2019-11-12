@@ -4,7 +4,7 @@
 
 # Overview
 
-ALM came from a straightforward idea—provide a cloud app’s clean design and intuitive UI as a front end to Active Directory (and in the future, other directory services), allowing enterprise IT Users to more easily and efficiently request, approve, privilege, manage, and retire service accounts by delegating the Active Directory intricacies to the cloud app.
+ALM came from a straightforward idea—provide a Cloud app’s clean design and intuitive UI as a front end to Active Directory (and in the future, other directory services), allowing enterprise IT Users to more easily and efficiently request, approve, privilege, manage, and retire service accounts by delegating the Active Directory intricacies to the cloud app.
 
 That is the essence of ALM. The tasks involved form a simple, linear workflow:
 
