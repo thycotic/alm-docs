@@ -12,7 +12,7 @@ The Service Account Discovery Tool supports Windows 7, 8, 8.1, and 10.
 
 The machine on which it executes must have Microsoft’s .NET Framework 4.5.1 or higher.
 
-In order to scan for service accounts, the account entered must be a domain account that is in the Administrators group on the target machines. Using a domain admin account to run the tool will often be sufficient for scanning your network.
+In order to scan for service accounts, the account entered must be a domain account that is in the Administrators Group on the target machines. Using a domain admin account to run the tool will often be sufficient for scanning your network.
 
 These steps will ensure the account has the appropriate privileges to run a successful scan.
 
@@ -20,33 +20,33 @@ These steps will ensure the account has the appropriate privileges to run a succ
 
 * Go to **Computer Configuration** \> **Preferences** \> **Control Panel Settings**.
 
-* Right-click **Local Users and groups** and select **New** \> **Local Group**.
+* Right-click **Local Users and Groups** and select **New** \> **Local Group**.
 
-![](001.png)
+![](images/001.png)
 
 * Leave the **Action** value set as **Update**.
 
 * For **Group name:**, use the drop-down menu to select **Administrators (Built-in)**.
 
-![](002.png)
+![](images/002.png)
 
 * Click **Add…** and search for the account you will use for Discovery scanning.
 
-![](003.png)
+![](images/003.png)
 
-* Click **OK** to save your changes. The next time the group policy updates across your environment, the Discovery Account will be part of the Local Administrators group.
+* Click **OK** to save your changes. The next time the Group policy updates across your environment, the Discovery Account will be part of the Local Administrators Group.
 
 For the best security, configure Group Policy to limit the logon privileges of that account:
 
 * In the Group Policy editor for your domain policy, go to **Computer Configuration** \> **Policies** \> **Windows Settings** \> **Security Settings** \> **Local Policies** \> **User Rights Assignment**.
 
-![](004.png)
+![](images/004.png)
 
 * Add your Discovery account to the **Deny log on locally** and **Deny log on through Remote Desktop Services** policies at right.
 
-![](005.png)
+![](images/005.png)
 
-* Optional: make sure that the account is not part of the Remote Desktop Users group.
+* Optional: make sure that the account is not part of the Remote Desktop Users Group.
 
 ## Ports
 
@@ -75,9 +75,9 @@ The scanner will first prompt for credentials and the fully-qualified domain nam
 
 If the scanner cannot reach the domain or the credentials are not valid, it will state that it cannot connect to the domain with supplied credentials.
 
-![](006.png)
+![](images/006.png)
 
-![](007.png)
+![](images/007.png)
 
 In that case, check your credentials or use different credentials. 
 
@@ -93,15 +93,15 @@ While the scan runs, you will see the number of computers scanned progress. You 
 
 The time to complete the scan will vary based on network latency, the number of machines, and how many machines actually exist. Testing in a large environment resulted in a scan of approximately 1,000 Windows machines in slightly under an hour.
 
-![](008.png)
+![](images/008.png)
 
-![](009.png)
+![](images/009.png)
 
 ### Results
 
 Once the scan completes, you can generate the Executive Summary report and the detailed CSV reports. Just enter a company name and click **Generate Reports**.
 
-![](010.png)
+![](images/010.png)
 
 The reports will be created in the folder you select. They consist of two files.
 

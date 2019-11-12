@@ -12,7 +12,7 @@ Each member of your organization who will use ALM must have a **Thycotic One** a
 
 To open a Thycotic One account, visit [Thycotic One](https://login.thycotic.com/Account/Login).
 
-The email a user submits when signing up for Thycotic One will be the email they must provide later when obtaining an ALM user account.
+The email a User submits when signing up for Thycotic One will be the email they must provide later when obtaining an ALM User account.
 
 ## Steps to Create ALM Users
 
