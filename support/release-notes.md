@@ -36,7 +36,7 @@ In this November beta release of the feature it has been set not to autoload. To
 
 | **Update**             | **Notes**                                                                                                                                                           |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| November 2019          | improvement: the Active Directory Account Discovery tool now supports New Account Notification to help ensure all AD accounts benefit from ALM govdernance tools    |
+| November 2019          | improvement: the Active Directory Account Discovery tool now supports New Account Notification to help ensure all AD accounts benefit from ALM governance tools     |
 |                        | improvement: new Remote Worker Calibration feature automates the determination of what Remote Workers have access to what Vaults and AD farms                       |
 |                        | improvement: tabbed interface for Vault Details page brings improved usability                                                                                      |
 |                        | a beta tool: a new tool for Remote Worker Configuration, intended to streamline the processes related to setting up Remote Workers, is accessible in this update    |

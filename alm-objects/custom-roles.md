@@ -49,11 +49,11 @@ In defining a Custom Role, you specify the permissions the Custom Role holds in 
 **Directory-Service**: With Directory Service permissions, a User can configure ALM’s integration with the organization's directory services provider—its **External Domain**:
 
 * Presently ALM supports only one External Domain, that being Active Directory.
-* For Active Directory, additional setting include AD Groups, Users, Group Mappings, and OUs.
+* For Active Directory, additional settings include AD Groups, Users, Group Mappings, and OUs.
 
 **Email Notification**: ALM provides several broadly applicable Email Notification Categories. Email Notifications inform Users and Groups of Users about events affecting objects with which they have a connection—for example, the User is named in the governing Workflow Template as the Approver for a step in the workflow.
 
-**Group**: Groups are collections of Users. You use Groups to more efficiently apply the same management activities to more than one User at once. You can assign Groups to Approval Steps just as you would an individual User; likewise you can assign Account Ownership to a Group.
+**Group**: Groups are collections of Users. You use Groups to more efficiently apply the same management activities to more than one User at once. You can assign Groups to Approval Steps just as you would an individual User; likewise, you can assign Account Ownership to a Group.
 
 **Managed Account**: A Managed Account is an AD Service Account created and managed through ALM.
 
@@ -61,7 +61,7 @@ In defining a Custom Role, you specify the permissions the Custom Role holds in 
 
 **Provision Template Workflow**: Provision Template Workflow permissions allow a User to set a Workflow Template’s Approval Steps. Setting Approval Steps involves designating which Users and Groups must approve the provisioning of a requested service account, and in what order—the workflow.
 
-**Provision Approval**: To be designated as an Approver for Approval Steps set in a Workflow Template , a User must have permissions for Provision Approval. This gives access to ALM’s Approvals section, which lists Requests waiting for an Approver’s review and gives access to all Request details.
+**Provision Approval**: To be designated as an Approver for Approval Steps set in a Workflow Template, a User must have permissions for Provision Approval. This gives access to ALM’s Approvals section, which lists Requests waiting for an Approver’s review and gives access to all Request details.
 
 **Remote Worker**: A User must have Remote Worker permissions to download the installer for the Remote Worker Windows Service. This permission also enables the User to view in ALM the list of installed Remote Workers and assign Remote Workers to Remote Worker Pools.
 

@@ -4,7 +4,7 @@
 
 # Active Directory Account Discovery Tool
 
-The AD Account Discovery Tool allows System Administrators to select any or all service Accounts within a specific domain and import them to ALM, where they can be managed by aassociating them with Workflow Templates and assigning Owners.
+The AD Account Discovery Tool allows System Administrators to select any or all service Accounts within a specific domain and import them to ALM, where they can be managed by associating them with Workflow Templates and assigning Owners.
 
 Located under Administration > Account Discovery, the tool presents a simple four-step process for bringing AD service Accounts under ALM management.
 

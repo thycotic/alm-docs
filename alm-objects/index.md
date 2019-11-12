@@ -8,19 +8,19 @@ ALM relies on four fundamental object types to provide governance over service a
 
 ## Users
 
-An ALM **user** object is an ALM proxy for either a **user account** or a **service account** that is **stored in Active Directory**.
+An ALM **User** object is an ALM proxy for either a **User account** or a **service account** that is **stored in Active Directory**.
 
-* When the ALM user object is a proxy for an Active Directory **user account**, you will perform ALM operations on the ALM proxy purely to control what a person authenticated as that AD user account can do within ALM.
+* When the ALM User object is a proxy for an Active Directory **User account**, you will perform ALM operations on the ALM proxy purely to control what a person authenticated as that AD User account can do within ALM.
 
-* When the ALM user object is a proxy for an Active Directory **service account**, you will perform ALM operations on the ALM proxy to deliver lifecycle management of the proxied AD service account.
+* When the ALM User object is a proxy for an Active Directory **service account**, you will perform ALM operations on the ALM proxy to deliver lifecycle management of the proxied AD service account.
 
-* When you use ALM to create an ALM user object as a proxy for an Active Directory service account that **does not yet exist** in Active Directory, **ALM will create the service account in Active Directory**.
+* When you use ALM to create an ALM User object as a proxy for an Active Directory service account that **does not yet exist** in Active Directory, **ALM will create the service account in Active Directory**.
 
 * **After this initial creation** of a service account in Active Directory, ALM operations performed on ALM proxies for AD accounts usually do not directly affect the AD accounts as stored in Active Directory, although there are obvious exceptions such as when an account is disabled.
 
 ## Roles
 
-An ALM **Role** object exists to define the ALM privileges appropriate for a particular kind of ALM user, given the tasks that kind of ALM user will perform in ALM.
+An ALM **Role** object exists to define the ALM privileges appropriate for a particular kind of ALM User, given the tasks that kind of ALM User will perform in ALM.
 
 * ALM Roles have **nothing to do** with Active Directory Roles and should not be confused with them.
 
@@ -38,7 +38,7 @@ On approval, ALM provisions the account and designates the Requester as the firs
 
 ### System Administrator
 
-This Role holds all privileges. Organizations use this all-powerful Role to perform initial customer configurations of Account Lifecycle Manager. A System Administrator can provision users, integrate ALM with external systems, set up Remote Workers, and create Workflow Templates.
+This Role holds all privileges. Organizations use this all-powerful Role to perform initial customer configurations of Account Lifecycle Manager. A System Administrator can provision Users, integrate ALM with external systems, set up Remote Workers, and create Workflow Templates.
 
 Because the System Administrator Role is so highly privileged, its use carries risk of accidental macro-scale changes to your ALM configuration. As a best practice, use the System Administrator Role only for tasks that require its privileges, and when done with those tasks, log out and resume use of less privileged Roles.
 
@@ -50,7 +50,7 @@ Once familiar with ALM, you may decide to use the [Custom Roles](custom-roles.md
 
 ## Groups
 
-An ALM **Group** object defines Groups of ALM user objects that have something in common with each other, such as access to a resource.
+An ALM **Group** object defines Groups of ALM User objects that have something in common with each other, such as access to a resource.
 
 * ALM Groups have **nothing to do** with Active Directory Groups and should not be confused with them.
 

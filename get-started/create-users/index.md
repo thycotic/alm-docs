@@ -21,19 +21,9 @@ You set up ALM User accounts entirely within your ALM provision. Unlike Thycotic
 Thycotic refers to ALM accounts and the people who use them as “Users,” without distinction.
 
 * To create ALM User accounts for your organization’s members, go to **Users \> Create User**.
-
 * Assign a **Display Name** and set the User’s **Email Address**.
-
 * The email address should match the one used to open the User’s Thycotic One account.
-
 * Add the User to ALM Groups, as appropriate for the User.
-
 * **Save** the new User record.
 
 Continue until you have created the ALM Users that enable your organization’s use cases.
-
-
-
-  
-
-  
