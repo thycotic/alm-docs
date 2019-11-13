@@ -8,7 +8,7 @@ When working with account expiration dates in Active Directory, you may notice t
 
 In the case of Active Directory, the problem shows up in the convoluted relationship between Active Directory’s **Account expires** entry (on the Account tab of AD’s Account Properties dialog) and its **accountExpires** attribute (visible on the Attribute Editor tab).
 
-![Account expires Entry on Account Tab](ad-01.png) ![accountExpires Attribute on Attribute Editor Tab](ad-02.png)
+![Account expires Entry on Account Tab](images/ad-01.png) ![accountExpires Attribute on Attribute Editor Tab](images/ad-02.png)
 
 In a typical environment, **Account expires** and **accountExpires** may appear to be out of sync. As an example, in the illustration above The **Account expires** entry indicates that the account should expire at the “End of” the day entered on the Account tab, while **accountExpires** shows the account expiring at 8:00 PM the following day.
 
@@ -32,7 +32,7 @@ In the illustrated example, it works out like this:
 
 * In displaying 12:00 AM UTC July 2 as the **accountExpires** attribute value, Active Directory adjusts for the time zone context; in the example, with the context being Eastern Daylight Time, this works out to 8:00 PM July 1.
 
-In the final outcome, the entries do not align, creating a substantial time window for an account to remain active beyond the end of day it is supposed to expire.
+In the final outcome, the entries do not align, creating a substantial time window for an account to remain active beyond the end of the day it is supposed to expire.
 
 Efforts by Microsoft to fix this issue face challenges having nothing to do with the technical aspects, such as the imperative to remain interoperable with the world’s installed base of software, and the risk that by correcting a problem you will break all the workarounds to the problem, causing widespread problems for your customers and other software vendors. For these and many other reasons, peculiarities related to account expiration persist in Active Directory.
 
