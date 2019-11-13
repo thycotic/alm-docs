@@ -4,22 +4,14 @@
 
 # Create Groups
 
-**Groups** identify by inclusion users who share the same privileges.
+**Groups** confer to their User members the set of privileges defined for the Group, not to the exclusion of other privileges Users may have due to membership in other Groups or by direct assignment. Accordingly, if two Users belong to a Group, they will have in common the privileges of that Group, but will not necessarily have the same privileges as each other, overall.
 
-* ALM groups do **not** correspond to Active Directory groups.
+* ALM Groups do **not** correspond to Active Directory Groups.
+  *They are ALM objects used to control ALM User privileges, entirely within ALM.
+* To create Groups, go to **Groups \> Create Group**.
+* Type a name for the Group.
+* Add Users to the Group.
+  * You can return later to add more Users or remove Users.
+* **Add** the new Group to ALM.
 
-  They are ALM objects used to control ALM user privileges, entirely within ALM.
-
-* To create groups, go to **Groups \> Create Group**.
-
-* Type a name for the group.
-
-* **Add** the new group to ALM.
-
-Continue creating groups until you have created the ALM groups required for your organization’s ALM use cases.
-
-
-
-  
-
-  
+Continue creating Groups until you have created the ALM Groups required for your organization’s ALM use cases.

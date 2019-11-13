@@ -1,5 +1,5 @@
 ﻿[title]: # (Events, Notifications, and Recipients)
-[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,AEOL,BEOL,End of Lifecycle,Before End of Lifecycle,)
 [priority]: # (2200)
 
 # Events, Notifications, and Recipients
@@ -14,7 +14,7 @@ Provisioning marks the beginning of the account’s lifecycle—the period of ti
 
 ALM provides for varied and strongly granular lifecycle event tracking and notification activities, as in the following table.
 
-**Account Lifecycle Manager Events, Notifications, and Recipients**
+**Table:** *Account Lifecycle Manager Events, Notifications, and Recipients*
 
 | **Object**          | **Event**               | **Description**                                   | **Email Notification Recipients**                 |
 |---------------------|-------------------------|---------------------------------------------------|---------------------------------------------------|
@@ -34,9 +34,7 @@ ALM provides for varied and strongly granular lifecycle event tracking and notif
 | **Managed Account** | Ownership Changed       |                                                   | Account Owners                                    |
 |                     | Requires Renewal        |                                                   | Account Owners                                    |
 
-
-
 ---
-Closely related to these notifications, ALM [End of Lifecycle Actions (EOLAs)](eol-actions.md) define the actions Account Owners can take when an account expires, for example, renew the account. Similarly, BEOLs refers to Before End of Lifecycle Actions, the steps Account Owners can take when an account nears its expiration date.
+Closely related to these notifications, ALM [At End of Lifecycle Actions (EOLAs)](eol-actions.md) define the actions Account Owners can take when an account expires, for example, they can renew the account. Similarly, **BEOLs** refers to Before End of Lifecycle Actions, the steps Account Owners can take when an account nears its expiration date.
 
 

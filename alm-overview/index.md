@@ -4,7 +4,7 @@
 
 # Overview
 
-ALM came from a straightforward idea—provide a cloud app’s clean design and intuitive UI as a front end to Active Directory (and in the future, other directory services), allowing enterprise IT users to more easily and efficiently request, approve, privilege, manage, and retire service accounts by delegating the Active Directory intricacies to the cloud app.
+ALM came from a straightforward idea—provide a Cloud app’s clean design and intuitive UI as a front end to Active Directory (and in the future, other directory services), allowing enterprise IT Users to more easily and efficiently request, approve, privilege, manage, and retire service accounts by delegating the Active Directory intricacies to the cloud app.
 
 That is the essence of ALM. The tasks involved form a simple, linear workflow:
 
@@ -18,9 +18,9 @@ That is the essence of ALM. The tasks involved form a simple, linear workflow:
 
 * For approvals,
 
-  * The approver (or other designated role) **creates proxies within ALM for the requested Active Directory service accounts**.
+  * The Approver (or other designated Role) **creates proxies within ALM for the requested Active Directory service accounts**.
 
-  * ALM **logs in to Active Directory** using a suitably privileged service account and **creates the actual AD user accounts**, naming them the same as their proxies in ALM.
+  * ALM **logs in to Active Directory** using a suitably privileged service account and **creates the actual AD User accounts**, naming them the same as their proxies in ALM.
 
   * ALM **notifies the requester** of the account’s provisioning in Active Directory.
 
@@ -35,5 +35,3 @@ Once a service account has been provisioned, ALM monitors the account throughout
 ALM’s Workflow Templates support its straightforward customization to fit each organization’s particulars.
 
 ALM logs each step to support a robust audit capacity.
-
-
