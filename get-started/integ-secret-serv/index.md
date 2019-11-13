@@ -24,7 +24,7 @@ Use these steps to enable the Secret Server web services:
 
 You must also set up a Secret Server account for ALM that has privileges to:
 
-* view folders accessible to ALM users
+* view folders accessible to ALM Users
 
 * create Secrets in those folders
 
@@ -46,7 +46,7 @@ You must use a template with the following fields, and you must not add new requ
 
 * domain
 
-* username
+* Username
 
 * password
 

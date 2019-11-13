@@ -1,5 +1,5 @@
 ﻿[title]: # (ALM Storage of Dates)
-[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,Date Handling,UTC,local time)
 [priority]: # (2500)
 
 # ALM Storage of Dates
@@ -11,7 +11,3 @@ When you work within the ALM UI, ALM handles the interpretation of UTC to local 
 If you should happen to work directly with the API, note that a call that returns a date and time will return it in UTC.
 
 Likewise, when working directly with the API, any date and time information you provide should be in UTC.
-
-
-
-
