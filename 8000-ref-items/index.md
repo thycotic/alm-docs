@@ -1,7 +1,7 @@
 [title]: # (Redirect 2)
 [tags]: # ()
 [priority]: # (10110)
-[display]: # (content)
+[display]: # ()
 
 # Redirect 2
 
