@@ -27,7 +27,7 @@ Thycotic created this collection of short-form technical materials to quickly an
 
 [Tools](ref-items/) provides a guide to the free [Service Account Discovery Tool](ref-items/discovery-tool/).
 
-The [Release Notes](release-notes.md) alerts you to any changes or other considerations related to service updates (releases).
+The [Release Notes](release-notes.md) alert you to any changes or other considerations related to service updates (releases).
 
 [Support Resources](./support/index.md) connects you to available product support, and includes articles on performance, regulatory, and compliance considerations (SLAs, SOC II, GDPR, and similar).
 

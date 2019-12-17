@@ -24,7 +24,7 @@ In this December’s second monthly release of the feature in beta, it remains s
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | December 2019          | improvement: syncing with Active Directory now takes less effort, with sync consolidation more automated and secured                                                |
 |                        | a new built-in Everyone Group and Account Owner Role combine to remove much administrative overhead for the bulk of ALM users                                       |
-|                        | the Remote Worker tool, now named ALM Enginer, continues to mature, with its advanced configuration tool again available this month in beta                         |
+|                        | the Remote Worker tool, now named ALM Engineer, continues to mature, with its advanced configuration tool again available this month in beta                         |
 |                        |                                                                                                                                                                     |
 | November 2019          | improvement: the Active Directory Account Discovery tool now supports New Account Notification to help ensure all AD accounts benefit from ALM governance tools     |
 |                        | improvement: new ALM Engine Calibration feature automates the determination of what ALM Engines have access to what Vaults and AD farms                             |
