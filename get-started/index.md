@@ -27,7 +27,7 @@ Getting started with ALM requires these tasks:
 
 * provisioning
 * verify requirements readiness
-* set up a Remote Worker
+* set up an ALM Engine
 * integrate with Active Directory
 * integrate with Secret Server
 * create ALM Groups

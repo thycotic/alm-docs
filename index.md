@@ -6,7 +6,7 @@
 
 ---
 
-In November, ALM gained new features related to the Remote Worker component and an improved interface for Vault Details. [New This Month](support/new-this-month.md) runs down the changes.
+In December, consolidation brought improved efficiency and ease of use for ALM’s Active Directory syncing features. Formerly separately initiated syncs with Active Directory may now be performed as single operations. Additionally, a new built-in ALM group, Everyone, automatically includes all ALM users and applies a new built-in Account Owner Role. The Remote Worker has been renamed ALM Engine to make its function more readily understood, and its beta features previewed in November continue to be available in December as they mature.
 
 ---
 
@@ -27,6 +27,8 @@ Thycotic created this collection of short-form technical materials to quickly an
 
 [Tools](ref-items/) provides a guide to the free [Service Account Discovery Tool](ref-items/discovery-tool/).
 
-[Support](support/) connects you with our support staff. [Release Notes](support/release-notes.md) post here, along with information pertinent to performance, regulatory, and compliance considerations (SLAs, SOC II, GDPR, and similar).
+The [Release Notes](release-notes.md) alerts you to any changes or other considerations related to service updates (releases).
+
+[Support Resources](./support/index.md) connects you to available product support, and includes articles on performance, regulatory, and compliance considerations (SLAs, SOC II, GDPR, and similar).
 
 Alongside this collection, Thycotic maintains an [Account Lifecycle Manager API Reference](https://thycotic.accountlifecyclecloud.com/docs/api-reference).

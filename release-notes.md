@@ -1,6 +1,6 @@
 ﻿[title]: # (Release Notes)
 [tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
-[priority]: # (8510)
+[priority]: # (8450)
 
 # Release Notes
 
@@ -8,38 +8,28 @@ As a cloud application, ALM lacks version numbers, because updates become availa
 
 This article tracks those changes to ALM. Highlights of the most recent update appear first. The same information appears in abbreviated form in the table that follows, forming a change log.
 
-## November 2019 Release Notes Highlights
+## December 2019 Release Highlights
 
-November saw Account Lifecycle Manager add New Account Notifications (an Account Discovery feature), Remote Worker Calibration (a Vault tool), and more usable Vault Detail pages, which now sport a tabbed interface. You can also opt to try out the beta release of a tool that will streamline the processes for setting up Remote Workers.
+With December’s release, Account Lifecycle Manager gained more robust Active Directory user synchronization, with formerly separate sync operations consolidated to obtain full domain synchronization. Two new built-in objects, the Everyone Group and the Account Owner Role, combine to remove much of the administrative overhead for the bulk of ALM users. Finally, a matured Remote Worker has taken on a new name, ALM Engine, to better indicate its nature, and its recently released beta features continue to mature with the December release.
 
-### New Account Notifications
+### Beta Feature Release: ALM Engine Configuration Website Tool
 
-October saw the addition of the Active Directory Account Discovery Tool, which provided bulk discovery and import of extant AD accounts when introducing ALM to the enterprise or extending its reach. With this November’s update, you can catch new accounts as they appear—when ALM discovers new accounts in AD that have been created with no corresponding managed account record in ALM, it sends an email naming the AD accounts to the System Administrator.
+On successful installation of an ALM Engine on a machine, a website hosted locally on that machine will be set to automatically load to provide an interface and toolset for configuring the Secret Server vault, setting up the External Domain (Active Directory), and creating ALM Engine Pools. This should streamline the overall setup process for ALM Engines.
 
-ALM includes a Webhook for this event notification, allowing you to set up additional events to occur automatically when ALM finds unmanaged accounts in AD.
-
-### Remote Worker Calibration
-
-ALM can automatically assess which Remote Workers can connect to what Secrets vaults and directory services. MSPs may particularly embrace this tool, as they often must deal with multiple Secrets vaults and AD environments.
-
-### Tabbed Interface for Vault Detail Pages
-
-The tabbed interface now applied to Vault Detail pages increases the volume of information available for ready perusal, while making the User interface less cluttered.
-
-### Beta Feature Release: Remote Worker Configuration Website Tool
-
-On successful installation of a Remote Worker on a machine, a website hosted locally on that machine will be set to automatically load to provide an interface and toolset for configuring the Secret Server vault, setting up the External Domain (Active Directory), and creating Remote Worker Pools. This should streamline the overall setup process for Remote Workers.
-
-In this November beta release of the feature it has been set not to autoload. To learn how you can try out this beta feature, see [Setup the Remote Worker Service](../get-started/setup-remote-wrk/).
+In this December’s second monthly release of the feature in beta, it remains set not to autoload. To learn how you can try out this beta feature, see [Setup the ALM Engine Service](../get-started/setup-alm-engine/).
 
 ## Account Lifecycle Manager: Change Log
 
 | **Update**             | **Notes**                                                                                                                                                           |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| December 2019          | improvement: syncing with Active Directory now takes less effort, with sync consolidation more automated and secured                                                |
+|                        | a new built-in Everyone Group and Account Owner Role combine to remove much administrative overhead for the bulk of ALM users                                       |
+|                        | the Remote Worker tool, now named ALM Enginer, continues to mature, with its advanced configuration tool again available this month in beta                         |
+|                        |                                                                                                                                                                     |
 | November 2019          | improvement: the Active Directory Account Discovery tool now supports New Account Notification to help ensure all AD accounts benefit from ALM governance tools     |
-|                        | improvement: new Remote Worker Calibration feature automates the determination of what Remote Workers have access to what Vaults and AD farms                       |
+|                        | improvement: new ALM Engine Calibration feature automates the determination of what ALM Engines have access to what Vaults and AD farms                             |
 |                        | improvement: tabbed interface for Vault Details page brings improved usability                                                                                      |
-|                        | a beta tool: a new tool for Remote Worker Configuration, intended to streamline the processes related to setting up Remote Workers, is accessible in this update    |
+|                        | a beta tool: a new tool for ALM Engine Configuration, intended to streamline the processes related to setting up ALM Engines, is accessible in this update          |
 |                        |                                                                                                                                                                     |
 | October 2019           | improvement: new Active Directory Account Discovery tool supports bringing any or all service accounts under the management of ALM                                  |
 |                        | improvement: System Administrators can select the frequency at which domains automatically sync with ALM, plus commit on-demand sync                                |

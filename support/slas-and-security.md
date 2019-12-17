@@ -26,11 +26,11 @@ To recover from such, Thycotic would rebuild an ALM instance in another Azure re
 
 ALM encrypts some critical data, including requests, audits, Secret Server connection information, and any other stored credentials such as API Tokens.
 
-Encryption transparently applies to all data stored in the Azure SQL Server databases. This includes application audit logging. ALM does not encrypt the Remote Worker logs.
+Encryption transparently applies to all data stored in the Azure SQL Server databases. This includes application audit logging. ALM does not encrypt the ALM Engine logs.
 
 ### Data-in-Transit
 
-ALM establishes HTTPS connections in conformance with TLS 1.2 protocols. This includes API and Remote Worker connections.
+ALM establishes HTTPS connections in conformance with TLS 1.2 protocols. This includes API and ALM Engine connections.
 
 ## Client Authentication
 
@@ -38,7 +38,7 @@ Authentication proceeds using OIDC to Thycotic One.
 
 ## Integrity: Code Signing
 
-Code signing applies to the Remote Worker software, which is downloaded to the customer’s premises to coordinate interactions among ALM and the customer’s Active Directory and Secret Server resources.
+Code signing applies to the ALM Engine software, which is downloaded to the customer’s premises to coordinate interactions among ALM and the customer’s Active Directory and Secret Server resources.
 
 
 

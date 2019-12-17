@@ -89,12 +89,6 @@ An account provisioned with an AEOL action of **Delete** will be disabled (not a
 
 Reviewers of an account that has Delete as the AEOL action have three (sometimes four) choices:
 
-* Renew
-
-  Before the Renewal Date set in the applicable Workflow Template, the **Renew** option is unavailable. Beginning on the Renewal Date, the Renew option is available. 
-
-  Selecting Renew will extend the account’s lifecycle until the next Review, based on the Review Interval set in the Workflow Template. On renewal of the account, the Renew option will be unavailable until the next review date.
-
 * Disable
 
   The **Disable** option will disable the account in ALM **and** in Active Directory. Once selected, this option is replaced by a choice to **Enable**, allowing the User to re-enable the account as needed.
