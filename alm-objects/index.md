@@ -38,7 +38,7 @@ On approval, ALM provisions the account and designates the Requester as the firs
 
 ### System Administrator
 
-This Role holds all privileges. Organizations use this all-powerful Role to perform initial customer configurations of Account Lifecycle Manager. A System Administrator can provision Users, integrate ALM with external systems, set up Remote Workers, and create Workflow Templates.
+This Role holds all privileges. Organizations use this all-powerful Role to perform initial customer configurations of Account Lifecycle Manager. A System Administrator can provision Users, integrate ALM with external systems, set up ALM Engines, and create Workflow Templates.
 
 Because the System Administrator Role is so highly privileged, its use carries risk of accidental macro-scale changes to your ALM configuration. As a best practice, use the System Administrator Role only for tasks that require its privileges, and when done with those tasks, log out and resume use of less privileged Roles.
 

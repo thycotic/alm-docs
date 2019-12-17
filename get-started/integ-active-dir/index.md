@@ -14,15 +14,15 @@ Use these steps to integrate ALM with Active Directory:
 
 * **Add** the domain to ALM.
 
-After you create the Active Directory domain in ALM, you must assign it to a Remote Worker Pool:
+After you create the Active Directory domain in ALM, you must assign it to an ALM Engine Pool:
 
-* Browse to the **Remote Worker Pools** section.
+* Browse to the **ALM Engine Pools** section.
 
-* Select the intended Remote Worker Pool and choose **Manage Pool**.
+* Select the intended ALM Engine Pool and choose **Manage Pool**.
 
 * Use **Assign** and select the Active Directory domain to assign to the pool.
 
-* Once you assign the domain to a Remote Worker Pool, synchronize the Groups, Organizational Units and Attributes.
+* Once you assign the domain to an ALM Engine Pool, synchronize the Groups, Organizational Units and Attributes.
 
 * Start synchronization by managing the External Domain.
 
