@@ -27,3 +27,10 @@ Thycotic refers to ALM accounts and the people who use them as “Users,” with
 * **Save** the new User record.
 
 Continue until you have created the ALM Users that enable your organization’s use cases.
+
+Note that:
+
+* All ALM users automatically belong to a built-in Group called **Everyone**.
+* Membership in Everyone onfers status as an **Account Owner** without conferring any privileges beyond those of an Account Owner.
+* An Account Owner cannot do anything in ALM except see Accounts assigned to the Account Owner.
+* To act on assigned Accounts, the Account Owner would require additional permissions such as the capacity to approve or decline these requests for credentials. 
