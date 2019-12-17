@@ -21,7 +21,7 @@ ALM supplies several default Roles, as in the following table, that your organiz
 | Provision Approver   | Approve Requests                                 |
 | System Administrator | authorize all Role types                         |
 |                      | create Workflow Templates                        |
-|                      | set up Remote Workers                            |
+|                      | set up ALM Engines                            |
 |                      | perform ALM Integration with Active Directory    |
 |                      | perform ALM Integration with Secret Server       |
 

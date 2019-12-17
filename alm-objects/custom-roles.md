@@ -63,7 +63,7 @@ In defining a Custom Role, you specify the permissions the Custom Role holds in 
 
 **Provision Approval**: To be designated as an Approver for Approval Steps set in a Workflow Template, a User must have permissions for Provision Approval. This gives access to ALM’s Approvals section, which lists Requests waiting for an Approver’s review and gives access to all Request details.
 
-**Remote Worker**: A User must have Remote Worker permissions to download the installer for the Remote Worker Windows Service. This permission also enables the User to view in ALM the list of installed Remote Workers and assign Remote Workers to Remote Worker Pools.
+**ALM Engine**: A User must have ALM Engine permissions to download the installer for the ALM Engine Windows Service. This permission also enables the User to view in ALM the list of installed ALM Engines and assign ALM Engines to ALM Engine Pools.
 
 **Role**: The Roles permission enables a User to create Custom Roles and assign Users to them. It also allows the User to add Users to the standard Requester, Approver, and System Administrator Roles.
 
