@@ -38,7 +38,7 @@ For details on integration with Active Directory, see [Integrate ALM with Active
 
 ## ALM Engine Windows Service
 
-Often initially misunderstood as an actual staff member, the ALM Engine is a Windows Service that runs on a machine in your organization’s environment.
+The ALM Engine is a Windows Service that runs on a machine in your organization’s environment.
 
 * In software jargon, a “worker” is a process or service that runs to a large degree independently of the main body of software to which it belongs, and that performs tasks the main body of software cannot perform for itself.
 
