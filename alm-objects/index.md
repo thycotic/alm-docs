@@ -30,7 +30,7 @@ Thycotic provisions ALM with several Roles already set up—Account Owner, Reque
 
 The Account Owner Role is fixed to the built-in Everyone Group that contains all users in ALM, so all users automatically have the Account Owner Role.
 
-This role provides entry level features and permissions sufficient for a user to read and update managed accounts assigned to them (that is, that they own).
+This Role provides entry level features and permissions sufficient for a User to read and update managed accounts assigned to them (that is, that they own).
 
 ### Requester
 
