@@ -11,7 +11,7 @@ The December update to Account Lifecycle Manager brought a number of improvement
 * The release extended support for Secret Server by adding DevOps Secrets Vault as a vault option for managed accounts.
 * Consolidation brought improved efficiency and ease of use to ALM’s Active Directory syncing features. Syncs that until now had to be run separately for particular types of AD objects now can be run together as a single operation.
 * A new tool allows you to select a specific AD Group and have its AD Accounts imported and subsequently synced on a schedule.
-* A new built-in ALM Group, Everyone, automatically includes all ALM Users and applies thereby the new built-in Role of Account Owner. The Account Owner role allows a user to view their owned accounts.
+* A new built-in ALM Group, Everyone, automatically includes all ALM Users and applies thereby the new built-in Role of Account Owner. The Account Owner role allows a user to view and update their assigned (owned) accounts.
 * The Remote Worker has been renamed ALM Engine to make its function more readily understood, and its beta features previewed in November continue to be available in December as they mature.
 * New UI detailing on Left Panel Wizards and certain detail pages provide improved context and cognitive cueing about items displayed to (and actions requested of) the user.
 
