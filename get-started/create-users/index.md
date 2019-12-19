@@ -30,7 +30,7 @@ Continue until you have created the ALM Users that enable your organization’s 
 
 Note that:
 
-* All ALM users automatically belong to a built-in Group called **Everyone**.
-* Membership in Everyone onfers status as an **Account Owner** without conferring any privileges beyond those of an Account Owner.
-* An Account Owner cannot do anything in ALM except see Accounts assigned to the Account Owner.
-* To act on assigned Accounts, the Account Owner would require additional permissions such as the capacity to approve or decline these requests for credentials. 
+* All ALM Users automatically belong to a built-in Group called **Everyone**.
+* The built-in Role called **Account Owner** cannot be removed from the **Everyone** Group.
+* Accordingly, all ALM Users have the Account Owner Role.
+* An Account Owner can read and update Accounts that the User has been assigned, that is, Accounts for which they are the Account Owner.
