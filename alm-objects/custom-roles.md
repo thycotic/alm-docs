@@ -65,7 +65,7 @@ In defining a Custom Role, you specify the permissions the Custom Role holds in 
 
 **ALM Engine**: A User must have ALM Engine permissions to download the installer for the ALM Engine Windows Service. This permission also enables the User to view in ALM the list of installed ALM Engines and assign ALM Engines to ALM Engine Pools.
 
-**Role**: The Roles permission enables a User to create Custom Roles and assign Users to them. It also allows the User to add Users to the standard Requester, Approver, and System Administrator Roles.
+**Role**: The Roles permission enables a User to create Custom Roles and assign Users to them. It also allows the User to add Users to the standard Account Owner, Requester, Approver, and System Administrator Roles.
 
 **User**: Users with permissions to the User feature can add, remove, or update User accounts, including to designate whether a User is an Approver or Requester.
 

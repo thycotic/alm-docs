@@ -10,9 +10,19 @@ This article tracks those changes to ALM. Highlights of the most recent update a
 
 ## December 2019 Release Highlights
 
-With December’s release, Account Lifecycle Manager gained more robust Active Directory user synchronization, with formerly separate sync operations consolidated to obtain full domain synchronization. Two new built-in objects, the Everyone Group and the Account Owner Role, combine to remove much of the administrative overhead for the bulk of ALM users. Finally, a matured Remote Worker has taken on a new name, ALM Engine, to better indicate its nature, and its recently released beta features continue to mature with the December release.
+ALM has increased Secret Server support by adding DevOps Secrets Vault as a vault option for managed accounts.
 
-### Beta Feature Release: ALM Engine Configuration Website Tool
+ALM’s Active Directory syncing features improved via consolidation of formerly separate syncs. Syncs that until now had to be run separately for particular types of AD objects now can be run together as a single operation.
+
+A new tool allows you to select a specific AD Group and have its AD Accounts imported and subsequently synced on a schedule.
+
+A new built-in ALM Group, Everyone, automatically includes all ALM Users and applies thereby the new built-in Role of Account Owner, allowing a user to view their owned (assigned) accounts.
+
+The Remote Worker has been renamed ALM Engine to make its function more readily understood, and its beta features previewed in November continue to be available in December as they mature.
+
+New UI detailing on Left Panel Wizards and certain detail pages provide improved context and cognitive cueing about items displayed to (and actions requested of) the user.
+
+## Beta Feature Release: ALM Engine Configuration Website Tool
 
 On successful installation of an ALM Engine on a machine, a website hosted locally on that machine will be set to automatically load to provide an interface and toolset for configuring the Secret Server vault, setting up the External Domain (Active Directory), and creating ALM Engine Pools. This should streamline the overall setup process for ALM Engines.
 
@@ -22,9 +32,12 @@ In this December’s second monthly release of the feature in beta, it remains s
 
 | **Update**             | **Notes**                                                                                                                                                           |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| December 2019          | improvement: syncing with Active Directory now takes less effort, with sync consolidation more automated and secured                                                |
-|                        | a new built-in Everyone Group and Account Owner Role combine to remove much administrative overhead for the bulk of ALM users                                       |
-|                        | the Remote Worker tool, now named ALM Engineer, continues to mature, with its advanced configuration tool again available this month in beta                         |
+| December 2019          | improvement: increased Secret Server support with DSV now a vault option for managed accounts                                                                       |
+|                        | improvement: syncing features improved via consolidation of formerly separate syncs to run as a single operation                                                    |
+|                        | improvement: new tool allows selection of a specific AD Group for its AD Accounts to be imported and then synced on a schedule                                      |
+|                        | improvement: new built-in ALM Group “Everyone” includes all ALM Users; applies new built-in Role of “Account Owner” to let users see their assigned accounts        |
+|                        | improvement: the Remote Worker renamed ALM Engine for clarity; beta features previewed in November continue to be available in December as they mature              |
+|                        | improvement: new UI detailing on Left Panel Wizards and certain detail pages creates more context and helps customers navigate                                      |
 |                        |                                                                                                                                                                     |
 | November 2019          | improvement: the Active Directory Account Discovery tool now supports New Account Notification to help ensure all AD accounts benefit from ALM governance tools     |
 |                        | improvement: new ALM Engine Calibration feature automates the determination of what ALM Engines have access to what Vaults and AD farms                             |

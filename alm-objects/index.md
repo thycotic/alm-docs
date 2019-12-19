@@ -24,7 +24,13 @@ An ALM **Role** object exists to define the ALM privileges appropriate for a par
 
 * ALM Roles have **nothing to do** with Active Directory Roles and should not be confused with them.
 
-Thycotic provisions ALM with several Roles already set up—Requester, Approver, and System Administrator—and for most organizations these will suffice for initial operations.
+Thycotic provisions ALM with several Roles already set up—Account Owner, Requester, Approver, and System Administrator—and for most organizations these will suffice for initial operations.
+
+### Account Owner
+
+The Account Owner Role is fixed to the built-in Everyone Group that contains all users in ALM, so all users automatically have the Account Owner Role.
+
+This role provides entry level features and permissions sufficient for a user to read and update managed accounts assigned to them (that is, that they own).
 
 ### Requester
 
