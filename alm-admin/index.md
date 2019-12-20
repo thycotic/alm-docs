@@ -68,4 +68,4 @@ The ALM Engine Calibration Job connects with the ALM Engines, tasking each one t
 * ALM Engines that did not authenticate will not appear on the list.
 * If no ALM Engine authenticated, the Vault Details page will indicate that “No ALM Engines calibrated to integration.”
 
-A ALM Engines Calibration Job runs as part of any Scheduled Sync for a Vault, with the list of successfully authenticating ALM Engines updating on completion of the sync job.
+An ALM Engines Calibration Job runs as part of any Scheduled Sync for a Vault, with the list of successfully authenticating ALM Engines updating on completion of the sync job.

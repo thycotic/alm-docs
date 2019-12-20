@@ -17,11 +17,13 @@ ALM supplies several default Roles, as in the following table, that your organiz
   
 | Default ALM Role     | Permissions                                      | 
 |----------------------|--------------------------------------------------|
+| Account Owner        | read managed Account                             |
+|                      | update managed Account
 | Provision Requester  | request a new Account                            |
 | Provision Approver   | Approve Requests                                 |
 | System Administrator | authorize all Role types                         |
 |                      | create Workflow Templates                        |
-|                      | set up ALM Engines                            |
+|                      | set up ALM Engines                               |
 |                      | perform ALM Integration with Active Directory    |
 |                      | perform ALM Integration with Secret Server       |
 
