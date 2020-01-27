@@ -8,31 +8,22 @@ As a cloud application, ALM lacks version numbers, because updates become availa
 
 This article tracks those changes to ALM. Highlights of the most recent update appear first. The same information appears in abbreviated form in the table that follows, forming a change log.
 
-## December 2019 Release Highlights
+## January 202 Release Highlights
+A new tool, ALM Engine Configuration, will launch a local webpage upon completion of the ALM Engine installer on the machine the ALM Engine was installed upon. The tool will assist with the initial configuration and testing process. 
 
-ALM has increased Secret Server support by adding DevOps Secrets Vault as a vault option for managed accounts.
+An update to the Managed Account feature in Roles allows the use case for a User to see all Managed accounts. A User with a Custom Role assigned that has the “Read” and “Manage” permission enabled on the “Managed Account” feature will allow the User to see all Managed Accounts. Previously, the User could only see Managed Accounts to which they are an assigned owner of, without a method to see the full inventory of Managed Service accounts in ALM. 
 
-ALM’s Active Directory syncing features improved via consolidation of formerly separate syncs. Syncs that until now had to be run separately for particular types of AD objects now can be run together as a single operation.
-
-A new tool allows you to select a specific AD Group and have its AD Accounts imported and subsequently synced on a schedule.
-
-A new built-in ALM Group, Everyone, automatically includes all ALM Users and applies thereby the new built-in Role of Account Owner, allowing a user to view their owned (assigned) accounts.
-
-The Remote Worker has been renamed ALM Engine to make its function more readily understood, and its beta features previewed in November continue to be available in December as they mature.
-
-New UI detailing on Left Panel Wizards and certain detail pages provide improved context and cognitive cueing about items displayed to (and actions requested of) the user.
-
-## Beta Feature Release: ALM Engine Configuration Website Tool
-
-On successful installation of an ALM Engine on a machine, a website hosted locally on that machine will be set to automatically load to provide an interface and toolset for configuring the Secret Server vault, setting up the External Domain (Active Directory), and creating ALM Engine Pools. This should streamline the overall setup process for ALM Engines.
-
-In this December’s second monthly release of the feature in beta, it remains set not to autoload. To learn how you can try out this beta feature, see [Setup the ALM Engine Service](../get-started/setup-alm-engine/).
+ALM has increased the performance across the application. Improvements to the Audit logs in the application will improve load times. 
 
 ## Account Lifecycle Manager: Change Log
 
 | **Update**             | **Notes**                                                                                                                                                           |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| December 2019          | improvement: increased Secret Server support with DSV now a vault option for managed accounts                                                                       |
+|January 2020            |feature: ALM Engine Configuration, will launch a local webpage upon completion of the ALM Engine installer. The tool will assist with testing the setup.             |
+|                        |improvement: General application performance enhancements. Enhancements to the Audit log load time.                                                                  |
+|                        |improvement: Update to the Managed Account feature which allows a permission set to allow Users with an assigned Custom Role to see all Managed Accounts in ALM.     |
+|                        |                                                                                                                                                                     |      
+|December 2019           | improvement: increased Secret Server support with DSV now a vault option for managed accounts                                                                                                                                                                                 |
 |                        | improvement: syncing features improved via consolidation of formerly separate syncs to run as a single operation                                                    |
 |                        | improvement: new tool allows selection of a specific AD Group for its AD Accounts to be imported and then synced on a schedule                                      |
 |                        | improvement: new built-in ALM Group “Everyone” includes all ALM Users; applies new built-in Role of “Account Owner” to let users see their assigned accounts        |
