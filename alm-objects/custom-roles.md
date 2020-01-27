@@ -34,7 +34,7 @@ Permissions control what actions Users can take within ALM. Distinct permissions
 
 **Manage**: gives additional, administrative access to the object to which it applies, for which the User must already have non-administrative privileges
 
-* As an example, Users with Manage permissions on the Directory-Service feature can perform manual synchronization on Active Directory Objects.
+* As an example, Users with Manage permission on Managed Account feature would give access to all the Managed Accounts. 
 
 ## Features to Which Permissions Apply
 
@@ -56,6 +56,8 @@ In defining a Custom Role, you specify the permissions the Custom Role holds in 
 **Group**: Groups are collections of Users. You use Groups to more efficiently apply the same management activities to more than one User at once. You can assign Groups to Approval Steps just as you would an individual User; likewise, you can assign Account Ownership to a Group.
 
 **Managed Account**: A Managed Account is an AD Service Account created and managed through ALM.
+
+* Note: Read permission provides visibility to only accounts owned by the User. The Manage permission provides visibility of all managed accounts. In order to see all accounts the Read and Manage permission must be applied to the same Custom Role.
 
 **Provision Template**: With Provision Template permissions, Users can create Workflow Templates to govern the approval process for AD service accounts.
 
