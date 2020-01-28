@@ -8,12 +8,12 @@ As a cloud application, ALM lacks version numbers, because updates become availa
 
 This article tracks those changes to ALM. Highlights of the most recent update appear first. The same information appears in abbreviated form in the table that follows, forming a change log.
 
-## January 202 Release Highlights
+## January 2020 Release Highlights
 A new tool, ALM Engine Configuration, will launch a local webpage upon completion of the ALM Engine installer on the machine the ALM Engine was installed upon. The tool will assist with the initial configuration and testing process. 
 
 An update to the Managed Account feature in Roles allows the use case for a User to see all Managed accounts. A User with a Custom Role assigned that has the “Read” and “Manage” permission enabled on the “Managed Account” feature will allow the User to see all Managed Accounts. Previously, the User could only see Managed Accounts to which they are an assigned owner of, without a method to see the full inventory of Managed Service accounts in ALM. 
 
-ALM has increased the performance across the application. Improvements to the Audit logs in the application will improve load times. 
+Increased performance accross areas of the application. Enhancements to the Audit logs in the application improve load times. 
 
 ## Account Lifecycle Manager: Change Log
 
