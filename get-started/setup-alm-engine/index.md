@@ -32,22 +32,13 @@ Copy the installer to the computer that will host the ALM Engine. Unzip the file
 
 Follow the prompts until the installation finishes.
 
-### Beta Feature: ALM Engine Configuration Website Tool
-
-In a future release of ALM, Thycotic intends to provide a **ALM Engine Configuration Website Tool** that will streamline the overall setup process for ALM Engines.
+### ALM Engine Configuration Website Tool
 
 * On successful installation of an ALM Engine on a machine, the ALM Engine Configuration Website Tool (hosted locally on the ALM Engine machine) will automatically load.
 * The website will provide an interface and toolset for these tasks:
-  * configuring the Secret Server Vault
+  * configuring the Vault
   * setting up the External Domain (Active Directory)
   * creating ALM Engine Pools
-
-The ALM version you are already using, released in November 2019, includes a **beta release** of the ALM Engine Configuration Website Tool. Because the tool remains in beta, Thycotic set it not to autoload—but if you have just installed ALM Engine, the tool is there, and this is the point in your ALM Engine setup process when you would use it.
-
-You can test out the new tool, or continue without it:
-
-* To load the beta tool, on the machine on which you have just installed the ALM Engine, open a browser and go to [http://localhost:14568/](http://localhost:14568/).
-* To continue without using the beta tool, skip visiting [http://localhost:14568/](http://localhost:14568/) and continue to *ALM Engine Logon Account Configuration in AD*, immediately next.
 
 ## ALM Engine Logon Account Configuration in AD
 
