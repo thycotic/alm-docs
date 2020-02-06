@@ -18,7 +18,7 @@ To enable or disable a Role:
 
 ## Manage Groups
 
-On the **Manage Groups** page you can edit the Group name, disable or enable the Group, and add Users and Roles to the Group.
+On the **Groups** page, under personnel you can edit the Group name, disable or enable the Group, and add Users and Roles to the Group.
 
 * To add a User to the Group, click **Add User**.
 * Enter search criteria.
