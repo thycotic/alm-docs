@@ -25,7 +25,7 @@ Reviewers of an account that has Review as the AEOL action have three choices:
 
   Before the Renewal Date set in the applicable Workflow Template, the **Renew** option is unavailable. Beginning on the Renewal Date, the Renew option is available.
 
-  Selecting Renew extends the account’s lifecycle until the next Review, based on the Review Interval set in the Workflow Template. On renewal of the Account, the Renew option will become unavailable until the next review date.
+  Selecting Renew extends the account’s lifecycle until the next Review, based on the Review Interval set in the Workflow Template. The renewal period will start at UTC 00:00. On renewal of the Account, the Renew option will become unavailable until the next review date.
 
 * Disable
 
@@ -45,7 +45,7 @@ Reviewers of an account that has Disable as the AEOL action have three choices:
 
   Before the Renewal Date set in the applicable Workflow Template, the **Renew** option is unavailable. Beginning on the Renewal Date, the Renew options is available.
 
-  Selecting Renew will extend the account’s lifecycle until the next Review, based on the Review Interval set in the Workflow Template. On renewal of the account, the Renew option will again be unavailable until the next Review Date.
+  Selecting Renew will extend the account’s lifecycle until the next Review, based on the Review Interval set in the Workflow Template.The renewal period will start at UTC 00:00. On renewal of the account, the Renew option will again be unavailable until the next Review Date.
 
 * Disable
 
@@ -73,7 +73,7 @@ Account Owners reviewing an account that has Expire as the AEOL action have thre
   Choosing to renew initiates the Approval Steps specified in the associated Workflow Template and replaces the selection to *Submit for Approval to Renew* with an *Approvals in Process* notation.
 
   * If Approval is denied, the notation switches back to Submit for Approval to Renew and remains that way until and after the Account expires.
-  * If the Approval is granted, the *Approvals in Process* notation is removed, and the Submit for Approval to Renew option remains unavailable until the next Renewal Date.
+  * If the Approval is granted, the *Approvals in Process* notation is removed, and the account is renewed for the renewal period defined at UTC 00:00. The Submit for Approval to Renew option remains unavailable until the next Renewal Date.
 
 * Disable
 
@@ -105,7 +105,7 @@ Reviewers of an account that has Delete as the AEOL action have three (sometimes
 
   * If Approval is denied, the notation switches back to **Submit for Approval to Reinstate**.
 
-  * If the Approval is granted, the notation is removed, and the Submit for Approval to Reinstate option becomes unavailable until the next Renewal Date.
+  * If the Approval is granted, the notation is removed, and the Submit for Approval to Reinstate option becomes unavailable until the next Renewal Date. The renewal period will start at UTC 00:00 following Approval.
   
   See the [End-of-Lifecycle Account Disposition Logic](eol-actions-logic.md) article for details on the logic of options availability vs. account status and review actions.
   
