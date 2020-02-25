@@ -12,6 +12,9 @@
 * Type a name for the Group.
 * Add Users to the Group.
   * You can return later to add more Users or remove Users.
+* Add Roles to the Group
+  * You can return later to add more Roles or remove Roles.
 * **Add** the new Group to ALM.
+
 
 Continue creating Groups until you have created the ALM Groups required for your organization’s ALM use cases.
