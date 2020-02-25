@@ -6,24 +6,21 @@
 
 As a cloud application, ALM lacks version numbers, because updates become available to all Users as they occur—the current version is always the only version available. Nonetheless, Thycotic expects to periodically update Account Lifecycle Manager, such as to introduce additional features and provide fixes and improvements.
 
-This article tracks those changes to ALM. Highlights of the most recent update appear first. The same information appears in abbreviated form in the table that follows, forming a change log.
-
-## January 2020 Release Highlights
-A new tool, ALM Engine Configuration, will launch a local webpage upon completion of the ALM Engine installer on the machine the ALM Engine was installed upon. The tool will assist with the initial configuration and testing process. 
-
-An update to the Managed Account feature in Roles allows the use case for a User to see all Managed accounts. A User with a Custom Role assigned that has the “Read” and “Manage” permission enabled on the “Managed Account” feature will allow the User to see all Managed Accounts. Previously, the User could only see Managed Accounts to which they are an assigned owner of, without a method to see the full inventory of Managed Service accounts in ALM. 
-
-Increased performance accross areas of the application. Enhancements to the Audit logs in the application improve load times. 
+This article tracks those changes to ALM.
 
 ## Account Lifecycle Manager: Change Log
 
 | **Update**             | **Notes**                                                                                                                                                           |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|January 2020            |feature: ALM Engine Configuration, will launch a local webpage upon completion of the ALM Engine installer. The tool will assist with testing the setup.             |
-|                        |improvement: General application performance enhancements. Enhancements to the Audit log load time.                                                                  |
-|                        |improvement: Update to the Managed Account feature which allows a permission set to allow Users with an assigned Custom Role to see all Managed Accounts in ALM.     |
+|February 2020           | improvement: Left navigation menu styling update.
+|                        | improvement: Update to the design and layout of the Group detail pages. 
+|                        | fix: ALM Engine UI configurator tool now launches after the ALM Engine installer finishes. 
+|                        |                                                                                                                                                                     | 
+|January 2020            | feature: ALM Engine Configuration, will launch a local webpage upon completion of the ALM Engine installer. The tool will assist with testing the setup.             |
+|                        | improvement: General application performance enhancements. Enhancements to the Audit log load time.                                                                  |
+|                        | improvement: Update to the Managed Account feature which allows a permission set to allow Users with an assigned Custom Role to see all Managed Accounts in ALM.     |
 |                        |                                                                                                                                                                     |      
-|December 2019           | improvement: increased Secret Server support with DSV now a vault option for managed accounts                                                                                                                                                                                 |
+|December 2019           | improvement: increased Secret Server support with DSV now a vault option for managed accounts                                                                       |                                                                                                         |
 |                        | improvement: syncing features improved via consolidation of formerly separate syncs to run as a single operation                                                    |
 |                        | improvement: new tool allows selection of a specific AD Group for its AD Accounts to be imported and then synced on a schedule                                      |
 |                        | improvement: new built-in ALM Group “Everyone” includes all ALM Users; applies new built-in Role of “Account Owner” to let users see their assigned accounts        |
