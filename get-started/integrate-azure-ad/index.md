@@ -23,7 +23,7 @@ Navigate to External Domains > Add Domain.
 
 * Select the Add a Redirect URI link. On the Redirect URIs page, locate the Add Platform and select (Mobile and  desktop applications) section. Select the https://login.microsoftonline.com/common/oauth2/nativeclient URI. Click Configure.
  
-  ![Azure AD Step 4A](images/azAD_3A.png)
+ ![Azure AD Step 4A](images/azAD_3A.png)
  
  ![Azure AD Step 4B](images/azAD_4.png)
 
