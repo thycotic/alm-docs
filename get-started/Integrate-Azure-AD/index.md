@@ -1,3 +1,7 @@
+[title]: # (Create Groups)
+[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
+[priority]: # (5150)
+
 Integrate ALM with Azure Active Directory
 
 Use these steps to integrate ALM with Azure Active Directory:
