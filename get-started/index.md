@@ -28,8 +28,7 @@ Getting started with ALM requires these tasks:
 * provisioning
 * verify requirements readiness
 * set up an ALM Engine
-* integrate with Active Directory
-* integrate with Azure Active Directory
+* integrate with Active Directory and/or Azure Active Directory
 * integrate with Secret Server
 * integrate with DevOps Secrets Vault
 * create ALM Groups
