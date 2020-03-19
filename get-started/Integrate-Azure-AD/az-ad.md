@@ -10,6 +10,8 @@ a.	Set Name: (Thycotic ALM)
 b.	Set Supported account types to: Accounts in this organizational directory only – (Single tenant)
 c.	Leave Redirect URI empty.
 
+![Workflow Process](images/azAD_2.png)
+
 3.	Select Register. On the Thycotic ALM App Registration page, copy the value of the Application (client) ID and (tenant) ID and save it
  
 
