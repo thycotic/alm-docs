@@ -9,6 +9,7 @@ Use these steps to integrate ALM with Azure Active Directory:
 Navigate to External Domains > Add Domain.
 
 1.	Select Azure Active Directory in the left-hand navigation, then select App registrations under Manage.
+
 2.	Select New registration. On the Register an application page, set the values as follows.
 a.	Set Name: (Thycotic ALM)
 b.	Set Supported account types to: Accounts in this organizational directory only – (Single tenant)
@@ -25,6 +26,7 @@ c.	Leave Redirect URI empty.
 
 5.	Locate the Default client type section and change the Treat application as a public client toggle to Yes, then choose Save. 
 a.	(same screenshot as step 4)
+
 6.	Select Certificates and secrets
 a.	Click new client secret and name whatever (ALM)
 b.	Copy the client secret for later
@@ -46,5 +48,6 @@ ii.	Application Permissions
  
 8.	Select Grant admin consent
 a.	Grant consent
+
 9.	Switch over to ALM and enter the client, secret, and tenant ID in the created Azure AD Domain
  
