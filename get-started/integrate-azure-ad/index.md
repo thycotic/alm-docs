@@ -33,18 +33,18 @@ b.	Copy the client secret for later
  
 
 7.	Select API Permissions in the Left Nav
-a.	Select Add Permissions
-b.	Select Microsoft Graph
-c.	Add following permissions:
-i.	Delegated Permissions
-1.	Directory.AccessAsuser.All
-ii.	Application Permissions
-1.	Domain.ReadWrite.All
-2.	Group.Read.All
-3.	Group.ReadWrite.All
-4.	Group.Selected
-5.	User.Read.All
-6.	User.ReadWrite.All
+    a.	Select Add Permissions
+    b.	Select Microsoft Graph
+    c.	Add following permissions:
+        i.	Delegated Permissions
+            1.	Directory.AccessAsuser.All
+        ii.	Application Permissions
+            1.	Domain.ReadWrite.All
+            2.	Group.Read.All
+            3.	Group.ReadWrite.All
+            4.	Group.Selected
+            5.	User.Read.All
+            6.	User.ReadWrite.All
  
 8.	Select Grant admin consent
 a.	Grant consent
