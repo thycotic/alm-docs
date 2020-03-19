@@ -3,9 +3,6 @@
 [priority]: # (5130)
 
 # Integrate ALM with Active Directory
-
-ALM presently supports Active Directory only. Future releases of ALM may support other directory services.
-
 Use these steps to integrate ALM with Active Directory:
 
 * Navigate to **External Domains \> Add Domain**.
