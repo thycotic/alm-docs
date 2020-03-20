@@ -6,6 +6,8 @@
 
 Use these steps to integrate ALM with Azure Active Directory:
 
+* Open a browser and navigate to the Azure Active Directory admin center.
+
 * Select Azure Active Directory in the left-hand navigation, then select App registrations under Manage.
 
 * Select New registration. On the Register an application page, set the values as follows.
