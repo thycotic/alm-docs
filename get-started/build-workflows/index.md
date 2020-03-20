@@ -20,7 +20,7 @@ As illustrated, ALM’s workflow system follows a simple, linear process from te
 
 Use this procedure to create the Workflow Templates necessary to support your organization’s use cases. You must have the System Administrator Role to perform this procedure, and you must have already connected ALM to your Secret Server.
 
-* Navigate to *Administration** in the menu, select **Workflow Templates**
+* Navigate to **Administration** in the menu, select **Workflow Templates**
 * Use the **Create Template** button (upper right of the page) to open the **Workflow Template Wizard**.
 * Supply a name for the template.
 * Select the **Account Type**.
