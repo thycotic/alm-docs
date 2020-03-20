@@ -12,6 +12,9 @@ This article tracks those changes to ALM.
 
 | **Update**             | **Notes**                                                                                                                                                           |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|March 2020              |feature: **Azure Active Directory Support** - ALM will extend its directory service support to include Azure AD. This will allow ALM to manage accounts located in Azure AD|
+|                        |feature: **Onboarding Assistance** - Users that are synced into ALM from Active Directory will receive an automated email to assist with onboarding the user to ALM.|
+|                        |                                                                                                                                                                     |                             
 |February 2020           | improvement: Left navigation menu styling update.
 |                        | improvement: Update to the design and layout of the Group detail pages. 
 |                        | fix: ALM Engine UI configurator tool now launches after the ALM Engine installer finishes. 
