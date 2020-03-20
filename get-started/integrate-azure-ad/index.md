@@ -10,6 +10,8 @@ Use these steps to integrate ALM with Azure Active Directory:
 
 * Select Azure Active Directory in the left-hand navigation, then select App registrations under Manage.
 
+    ![Azure AD Step 2](images/azAD_1.png)
+
 * Select New registration. On the Register an application page, set the values as follows.
     * Set Name: (Thycotic ALM)
     * Set Supported account types to: Accounts in this organizational directory only – (Single tenant)
