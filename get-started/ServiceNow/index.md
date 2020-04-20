@@ -1,7 +1,9 @@
-[title]: # (Integrate ALM with Secret Server)
+[title]: # (ServiceNow Integration)
 [tags]: # (Account Lifecycle Manager,ALM,ServiceNow)
-[priority]: # (5150)
+[priority]: # (5195)
 
-ServiceNow
+ServiceNow Integration (Beta)
 
-ServiceNow delivers popular IT service management solutions. Organizations that employ both Account Lifecycle Manager and ServiceNow IT Service Management can benefit from an integrated workflow. In the April release of ALM the integration will allow ServiceNow to interact with the Request Approval process for ALM accounts. As much of other IT management operations are handled in ServiceNow by organizations, now too can service account approval via ALM be handled from the same workflow. 
+ServiceNow delivers popular IT service management solutions. Organizations that employ both Account Lifecycle Manager and ServiceNow IT Service Management can benefit from an integrated workflow. 
+
+In the April release of ALM the integration will allow ServiceNow to interact with the Request Approval process for ALM accounts. As much of other IT management operations are handled in ServiceNow by organizations, now too can service account approval via ALM be handled from the same workflow. 
