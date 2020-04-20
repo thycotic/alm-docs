@@ -1,5 +1,5 @@
 [title]: # (Integrate ALM with Secret Server)
-[tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
+[tags]: # (Account Lifecycle Manager,ALM,ServiceNow)
 [priority]: # (5150)
 
 ServiceNow
