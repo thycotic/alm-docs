@@ -31,7 +31,11 @@ Use this procedure to create the Workflow Templates necessary to support your or
 * Connect the **Secrets Vault**.
 * Set up the **Active Directory**.
 * Choose the **End of Lifecycle Action** for accounts based on this template:
-  * Review, Disable, Expire, or Delete
+  * Review
+  * Disable
+    * Note: Allows for the optional setting to select an Organization Unit (OU) for the account to be sent to automatically when the account is Disabled by ALM at the end of its determined lifecycle. 
+  * Expire
+  * Delete
 * Define the **Review Intervals** available to the Requester.
 * Choose **Notification Options**:
   * Before End of Lifecycle Notifications
