@@ -2,7 +2,7 @@
 [tags]: # (Account Lifecycle Manager,ALM,ServiceNow)
 [priority]: # (5195)
 
-#ServiceNow Integration (Beta)
+# ServiceNow Integration (Beta)
 
 ServiceNow delivers popular IT service management solutions. Organizations that employ both Account Lifecycle Manager and ServiceNow IT Service Management can benefit from an integrated workflow. 
 
@@ -17,7 +17,7 @@ As much of other IT management operations are handled in ServiceNow by organizat
 * It is not recommended to request production service accounts with the beta version of the ServiceNow integration with ALM. The beta version is intended for testing the integration with non-business critical accounts.
 * It is recommended that when adding ServiceNow as an Approver in an ALM Workflow Template that a User, or Group, is added to the same Approval Step. The Approval Step should have a minimum approval count requirement that can be satisfied only by the Users and/or Groups that are in the Approval Step. This allows the Approval Step to be satisfied in the event that the beta ServiceNow integration is unsuccessful of providing the Approval. 
 
-##Download the Thycotic ALM ServiceNow App:
+## Download the Thycotic ALM ServiceNow App:
 
 * Log into the ServiceNow Developer Share portal by browsing to https://developer.servicenow.com/connect.do#!/share, and then sign in.
 
@@ -29,7 +29,7 @@ As much of other IT management operations are handled in ServiceNow by organizat
 
     ![SN Step 2](images/SN2.png)
 
-##Install the Thycotic ALM ServiceNow App:
+## Install the Thycotic ALM ServiceNow App:
 
 * Log in to your instance as a user with the admin role.
 
@@ -71,7 +71,7 @@ As much of other IT management operations are handled in ServiceNow by organizat
     
     ![SN Step 11](images/SN11.png)
 
-##Thycotic ALM ServiceNow App Roles:
+## Thycotic ALM ServiceNow App Roles:
 
 In order to access the Thycotic ALM app within ServiceNow, a user must have the admin role or be assigned one of the following roles:
 
@@ -80,7 +80,7 @@ In order to access the Thycotic ALM app within ServiceNow, a user must have the 
 | alm_admin (x_450483_alm_poc.alm_admin)| Provides a user with the ability to create and modify the Configuration for ALM. The Configuration determines which ALM instance ServiceNow will connect to and which credentials are used.|
 | alm_approver (x_450483_alm_poc.alm_approver)| Provides a user with the ability to view and approve any ALM request that requires ServiceNow approval.|
 
-##Thycotic ALM ServiceNow App Configuration
+## Thycotic ALM ServiceNow App Configuration
 
 * Sign into your ALM instance as a user with the System Administrator role.
 
