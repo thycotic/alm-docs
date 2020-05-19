@@ -4,7 +4,7 @@
 
 # Release Notes
 
-As a cloud application, ALM lacks version numbers, because updates become available to all Users as they occur—the current version is always the only version available. Nonetheless, Thycotic expects to periodically update Account Lifecycle Manager, such as to introduce additional features and provide fixes and improvements.
+As a cloud application updates become available to all Users as they occur—the current version is always the only version available. Thycotic periodically updates Account Lifecycle Manager to introduce additional features and provide fixes and improvements.
 
 This article tracks those changes to ALM.
 
