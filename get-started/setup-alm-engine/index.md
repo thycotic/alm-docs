@@ -35,6 +35,7 @@ Follow the prompts until the installation finishes.
 ### ALM Engine Configuration Website Tool
 
 * On successful installation of an ALM Engine on a machine, the ALM Engine Configuration Website Tool (hosted locally on the ALM Engine machine) will automatically load.
+  * To manually access the address is: localhost:14568
 * The website will provide an interface and toolset for these tasks:
   * configuring the Vault
   * setting up the External Domain (Active Directory)

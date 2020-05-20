@@ -12,8 +12,15 @@ This article tracks those changes to ALM.
 
 | **Update**             | **Notes**                                                                                                                                                           |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|March 2020              |feature: **Azure Active Directory Support** - ALM will extend its directory service support to include Azure AD. This will allow ALM to manage accounts located in Azure AD|
-|                        |feature: **Onboarding Assistance** - Users that are synced into ALM from Active Directory will receive an automated email to assist with onboarding the user to ALM.|
+|May 2020                | beta feature: ServiceNow Integration - Ability to reject an ALM Request in ServiceNow. Note: New version of ServiceNow ALM app must be installed.                                                                             |
+|                        | improvement: Added the ability to select rows to be displayed in any table in ALM.                                                                                  |
+|                        |                                                                                                                                                                     |
+|April 2020              | beta feature: ServiceNow Integration - Provides a integration to from ALM, to ServiceNow, for reviewing and approving requests made in ALM.
+|                        | feature: EOL OU Retirement - For the use case of keeping Organization Units (OUs) organized and manageable, this feature offers the option to select which OU an account is sent to when ALM disables the account at the end of its determined lifecycle.|
+|                        | improvement: Webhook History - A tab in UI of the Webhooks pages allows Administrators and Users with the necessary permissions to view the activity history of a given webhook.|
+|                        |                                                                                                                                                                     |
+|March 2020              | feature: Azure Active Directory Support - ALM will extend its directory service support to include Azure AD. This will allow ALM to manage accounts located in Azure AD|
+|                        | feature: Onboarding Assistance - Users that are synced into ALM from Active Directory will receive an automated email to assist with onboarding the user to ALM.|
 |                        |                                                                                                                                                                     |                             
 |February 2020           | improvement: Left navigation menu styling update.
 |                        | improvement: Update to the design and layout of the Group detail pages. 
