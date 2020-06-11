@@ -12,6 +12,11 @@ This article tracks those changes to ALM.
 
 | **Update**             | **Notes**                                                                                                                                                           |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|June 2020               |feature: Group Managed Service Accounts (gMSA) Support - A group Managed Service Account (gMSA) provides the same functionality within the domain but also extends that functionality over multiple servers. ALM adds support in the form of the ability to control the lifecycle of gMSA’s.|
+|                        |api: The ProvisionTemplate object on a ManagedAccountSummery model now returns {id, name, accounttype, and eolAction} instead of the full ProvisionTemplateModel|
+|                        |improvement: Reason Column on Approvals Table - Approvers are provided the account request reason directly in the Approvals table, for easier access and expedited review. |
+|                        |improvement: Renewal Status in Managed detail screen - To make it easier for Account Owners to view renewal request status, a link has been added in the Account Status row for the ability to navigate from the Managed Account detail page to the request for further detail.|
+|                        |                                                                                                                                                                     |
 |May 2020                | beta feature: ServiceNow Integration - Ability to reject an ALM Request in ServiceNow. Note: New version of ServiceNow ALM app must be installed.                                                                             |
 |                        | improvement: Added the ability to select rows to be displayed in any table in ALM.                                                                                  |
 |                        |                                                                                                                                                                     |
