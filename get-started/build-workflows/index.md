@@ -26,6 +26,7 @@ Use this procedure to create the Workflow Templates necessary to support your or
 * Select the **Account Type**.
   * Active Directory
   * Azure Active Directory
+  * Group Managed Service Account
 * Supply the **Terms of Service** (*optional*)
 * Define the **Purpose** of the Workflow Template.
 * Connect the **Secrets Vault**.
