@@ -4,7 +4,7 @@
 
 # Release Notes
 
-As a cloud application, ALM lacks version numbers, because updates become available to all Users as they occur—the current version is always the only version available. Nonetheless, Thycotic expects to periodically update Account Lifecycle Manager, such as to introduce additional features and provide fixes and improvements.
+As a cloud application updates become available to all Users as they occur—the current version is always the only version available. Thycotic periodically updates Account Lifecycle Manager to introduce additional features and provide fixes and improvements.
 
 This article tracks those changes to ALM.
 
@@ -12,6 +12,10 @@ This article tracks those changes to ALM.
 
 | **Update**             | **Notes**                                                                                                                                                           |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|June 2020               |feature: Group Managed Service Accounts (gMSA) Support - A group Managed Service Account (gMSA) provides the same functionality within the domain but also extends that functionality over multiple servers. ALM adds support in the form of the ability to control the lifecycle of gMSA’s.|
+|                        |improvement: Reason Column on Approvals Table - Approvers are provided the account request reason directly in the Approvals table, for easier access and expedited review. |
+|                        |improvement: Renewal Status in Managed detail screen - To make it easier for Account Owners to view renewal request status, a link has been added in the Account Status row for the ability to navigate from the Managed Account detail page to the request for further detail.|
+|                        |                                                                                                                                                                     |
 |May 2020                | beta feature: ServiceNow Integration - Ability to reject an ALM Request in ServiceNow. Note: New version of ServiceNow ALM app must be installed.                                                                             |
 |                        | improvement: Added the ability to select rows to be displayed in any table in ALM.                                                                                  |
 |                        |                                                                                                                                                                     |
