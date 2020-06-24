@@ -5,6 +5,8 @@
 # Service Account Discovery Tool
 
 This free tool helps assess the level of risk associated with your inventory of service accounts in AD by connecting to Windows machines across your network and scanning for local and service account usage.
+
+To download the tool visit the [Free IT Tool](https://thycotic.com/solutions/free-it-tools/service-account-discovery-tool/) section of the Thycotic website. 
  
 ## Prerequisites
 
@@ -123,6 +125,11 @@ The reports will be created in the folder you select. They consist of two files.
 **Q:** The PDF report has inconsistent margins or page breaks.
 
 **A:** Some display drivers or screen resolutions can cause these PDF defects. Run the scan from a different machine or use the HTML version. The HTML file contains the same information as the PDF.
+
+**Q:** Where can I download the free tool?
+
+**A:** The Service Account Discovery Tool, along with other Free IT Tools, can be found on the Thycotic website [here](https://thycotic.com/solutions/free-it-tools/service-account-discovery-tool/)
+
 
 
 
