@@ -43,16 +43,16 @@ Use these steps to integrate ALM with Azure Active Directory:
 * Select API Permissions in the Left Nav
     * Select Add Permissions
     * Select Microsoft Graph
-    * Add following permissions:
+    * Add the following permission options:
         * Delegated Permissions
-        * Application Permissions
-            * Directory.AccessAsuser.All
-            * Domain.ReadWrite.All
-            * Group.Read.All
-            * Group.ReadWrite.All
-            * Group.Selected
-            * User.Read.All
-            * User.ReadWrite.All
+          * Directory.AccessAsuser.All
+        * Application Permissions            
+          * Domain.ReadWrite.All
+          * Group.Read.All
+          * Group.ReadWrite.All
+          * Group.Selected
+          * User.Read.All
+          * User.ReadWrite.All
 
   ![Azure AD Step 5](images/azAD_7.png)
 
