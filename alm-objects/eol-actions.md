@@ -97,15 +97,9 @@ Reviewers of an account that has Delete as the AEOL action have three (sometimes
 
   The **Delete Account and Secret** option will delete the account and any associated secrets. Selecting this option requires the User to confirm (or cancel) the action.
 
-* Submit for Approval to Reinstate
+* Clone As New Request
 
-  If an account owner does not renew an account that has an AEOL action of Delete, ALM disables the account, and the End of Lifecycle Review options update to include the **Submit for Approval to Reinstate** option.
-
-  On selection of this option, the original Approval Process begins anew, and the Submit for Approval to Reinstate option gives way to an **Approvals in Process** notation.
-
-  * If Approval is denied, the notation switches back to **Submit for Approval to Reinstate**.
-
-  * If the Approval is granted, the notation is removed, and the Submit for Approval to Reinstate option becomes unavailable until the next Renewal Date. The renewal period will start at UTC 00:00 following Approval.
+  Option for bringing a Deleted account back online and active. Performing this option generates a new Request that goes through the Approval process in accordance with the Workflow Template the account was provisioned against. 
   
   See the [End-of-Lifecycle Account Disposition Logic](eol-actions-logic.md) article for details on the logic of options availability vs. account status and review actions.
   

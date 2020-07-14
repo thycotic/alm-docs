@@ -12,6 +12,11 @@ This article tracks those changes to ALM.
 
 | **Update**             | **Notes**                                                                                                                                                           |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|July 2020               |feature: Managed Account Dependencies - Ability for ALM to display the dependencies associated with managed accounts. This is pulled from the Secret Server secret into ALM during the Vault sync. |
+|                        |feature: Vault Sync - : Sync functionality updated to allow ad-hoc sync of the vault, as well as enable dependency synchronization. |
+|                        |improvement: Tool tips and assisting text added to UI to support aspects of gMSA Workflow Template configuration in ALM. |
+|                        |improvement: Dashboard page updated to provide more room for widgets. |
+|                        |                                                                                                                                                                     |
 |June 2020               |feature: Group Managed Service Accounts (gMSA) Support - A group Managed Service Account (gMSA) provides the same functionality within the domain but also extends that functionality over multiple servers. ALM adds support in the form of the ability to control the lifecycle of gMSA’s.|
 |                        |improvement: Reason Column on Approvals Table - Approvers are provided the account request reason directly in the Approvals table, for easier access and expedited review. |
 |                        |improvement: Renewal Status in Managed detail screen - To make it easier for Account Owners to view renewal request status, a link has been added in the Account Status row for the ability to navigate from the Managed Account detail page to the request for further detail.|
