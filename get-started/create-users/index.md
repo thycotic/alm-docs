@@ -34,3 +34,6 @@ Note that:
 * The built-in Role called **Account Owner** cannot be removed from the **Everyone** Group.
 * Accordingly, all ALM Users have the Account Owner Role.
 * An Account Owner can read and update Accounts that the User has been assigned, that is, Accounts for which they are the Account Owner.
+
+## Import Existing Users
+Domain users may be imported to ALM by System Administrators of ALM by using the Account Discovery Tool. For instructions please see this article.
