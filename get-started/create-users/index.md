@@ -36,4 +36,4 @@ Note that:
 * An Account Owner can read and update Accounts that the User has been assigned, that is, Accounts for which they are the Account Owner.
 
 ## Import Existing Users
-Domain users may be imported to ALM by System Administrators of ALM by using the Account Discovery Tool. For instructions please see this article.
+Domain users may be imported to ALM by System Administrators of ALM by using the Account Discovery Tool. For instructions please see this [article](https://docs.thycotic.com/alm/1.0.0/get-started/integ-active-dir/ad-tool.md).
