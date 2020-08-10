@@ -12,6 +12,10 @@ This article tracks those changes to ALM.
 
 | **Update**             | **Notes**                                                                                                                                                           |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|August 2020             |feature: Inbox - Provides in-app notifications within ALM. Inbox is comprised of three categories of notifications which allows a user to see notifications relevant to their Role and Accounts within ALM.  |
+|                        |feature: ALM Engine Local Account Support -  Support for the ALM Engine to allow for a local machine account to run the service. |
+|                        |feature: Orphaned Accounts - Set of controls to prevent accounts going without at least one active User or Group assigned as Account Owner. | 
+|                        |
 |July 2020               |feature: Managed Account Dependencies - Ability for ALM to display the dependencies associated with managed accounts. This is pulled from the Secret Server secret into ALM during the Vault sync. |
 |                        |feature: Vault Sync - : Sync functionality updated to allow ad-hoc sync of the vault, as well as enable dependency synchronization. |
 |                        |improvement: Tool tips and assisting text added to UI to support aspects of gMSA Workflow Template configuration in ALM. |
