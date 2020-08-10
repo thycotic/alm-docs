@@ -94,7 +94,7 @@ Admins can view ALM Engine error messages and sync information in the **ALM Engi
 Use these steps to view the full logs on the machine hosting the ALM Engine service:
 
 * log into the machine where the ALM Engine is located
-* from root, navigate to: ProgramData > Thycotic Software Ltd > RemoteWorker > packages > Thycotic Provision
+* from root, navigate to: ProgramData > Thycotic Software Ltd > ALMEngine > packages > Thycotic Provision
 * locate the `appsettings.json` file
 * open `appsettings.json` with Notepad or other suitable text editor
 * under the **Serilog** section, you will see **MinimumLevel**, and below that, **Default** : **Information**
