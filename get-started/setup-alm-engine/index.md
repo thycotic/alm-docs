@@ -14,11 +14,12 @@ The ALM Engine Windows service must:
 * run on a domain controller or domain-joined machine, with
   * Windows Server 2012 or later, and
   * Microsoft .NET 4.7.1 or later installed
-* run as an AD account with AD permissions to
+* run as a non-domain joined computers automatically using Network Service as the service account, *OR* as an AD account with AD permissions to:
   * create, delete, and manage User accounts
   * reset User passwords and force next-logon password changes
   * read all User information
   * modify the membership of a Group
+
 
 Details for these AD permissions appear later in these instructions.
 
@@ -94,7 +95,7 @@ Admins can view ALM Engine error messages and sync information in the **ALM Engi
 Use these steps to view the full logs on the machine hosting the ALM Engine service:
 
 * log into the machine where the ALM Engine is located
-* from root, navigate to: ProgramData > Thycotic Software Ltd > RemoteWorker > packages > Thycotic Provision
+* from root, navigate to: ProgramData > Thycotic Software Ltd > ALMEngine > packages > Thycotic Provision
 * locate the `appsettings.json` file
 * open `appsettings.json` with Notepad or other suitable text editor
 * under the **Serilog** section, you will see **MinimumLevel**, and below that, **Default** : **Information**
