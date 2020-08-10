@@ -70,4 +70,18 @@ Use these steps to integrate ALM with Azure Active Directory:
     * Select **Save** from the **Actions** menu
  
   ![Azure AD Step 5](images/azAD_9.png)
+
+## Optional: Use these steps to enable **Sync**:
+
+* in ALM, navigate to the **Domains** page
+* select a **Domain** for which you want **Sync** enabled 
+* on the **Manage** tab of of the **Domains** detail page,
+  * use the **Actions** button
+  * select **Edit**
+  * locate the **Sync** tool (in the lower half of the **Manage** tab)
+* set the **Enable Sync** toggle to **Yes**
+* Set the desired sync frequency
+Review your work. To commit the configuration, return to the **Actions** button at the top of the page and select **Save**.
+
+
   
