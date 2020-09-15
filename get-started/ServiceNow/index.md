@@ -2,18 +2,15 @@
 [tags]: # (Account Lifecycle Manager,ALM,ServiceNow)
 [priority]: # (5195)
 
-# ServiceNow Integration (Beta)
+# ServiceNow Integration
 
 ServiceNow delivers popular IT service management solutions. Organizations that employ both Account Lifecycle Manager and ServiceNow IT Service Management can benefit from an integrated workflow. 
 
-The June release of ALM provides to all tenants a beta version of the integration to ServiceNow to interact with the Request Approval process for ALM accounts. 
+As much of other IT management operations are handled in ServiceNow by organizations, now too can the ALM Workflow! This includes the ability in ServiceNow to:
+* Submit a Request using an ALM Workflow Templates
+* View Request statuses
+* View and Approve/Deny Requests for assigned Approvers
 
-As much of other IT management operations are handled in ServiceNow by organizations, now too can service account approvals.
-
-## Beta Notes:
-
-* It is not recommended to request production service accounts with the beta version of the ServiceNow integration with ALM. The beta version is intended for testing the integration with non-business critical accounts.
-* It is recommended that when adding ServiceNow as an Approver in an ALM Workflow Template that a User, or Group, is added to the same Approval Step. The Approval Step should have a minimum approval count requirement that can be satisfied only by the Users and/or Groups that are in the Approval Step. This allows the Approval Step to be satisfied in the event that the beta ServiceNow integration is unsuccessful of providing the Approval. 
 
 ## Download the Thycotic ALM ServiceNow App:
 
