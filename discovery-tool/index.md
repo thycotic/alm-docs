@@ -1,6 +1,6 @@
 ﻿[title]: # (Service Account Discovery Tool)
 [tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
-[priority]: # (8400)
+[priority]: # (5000)
 
 # Service Account Discovery Tool
 

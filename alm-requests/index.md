@@ -1,10 +1,8 @@
-﻿[title]: # (Operations)
+[title]: # (Requests)
 [tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
-[priority]: # (5500)
+[priority]: # (3000)
 
-# Operations
-
-Routine operations for ALM involve straightforward tasks with few steps.
+# Requesting A Service Account
 
 ## Sign In to ALM
 
@@ -14,9 +12,7 @@ Navigate to your organization’s ALM URL.
 
 After you authenticate, Thycotic One will display your ALM Dashboard.
 
-## Request a Service Account
-
-Use these steps to request a new service account via the approval process set by a specific Workflow Template:
+## Request A New Service Account
 
 * Use the **Create New Request** button to open the Workflow Templates page.
 * Select a Workflow Template to control the approval process for the Account Request.
@@ -34,10 +30,3 @@ The workflow proceeds unless you withdraw the Request. At any time, you can with
 ## Notifications of Requests
 
 When you submit the Request, ALM will notify the Approver that the Request needs their attention.
-
-## Approve or Deny a Request
-
-The Approver (or multiple Approvers) listed for Approval Step 1 in the Request record will review the Request and decide the outcome:
-
-* **Approve** provisions the account for the Requester. The Requester receives a Notification of the Approval.
-* **Deny** requires the Approver to record the reason for denying the Request. The Requester receives a Notification of the denial and the reason given.

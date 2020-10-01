@@ -3,6 +3,7 @@
 [priority]: # (5130)
 
 # Integrate ALM with Active Directory
+
 Use these steps to integrate ALM with Active Directory:
 
 * Navigate to **External Domains \> Add Domain**.
@@ -60,4 +61,3 @@ Review your work. To commit the configuration, return to the **Actions** button 
 * You can control the sync schedule using the **Sync this domain** feature on the **Manage** tab of the **Domains** detail page.
 * Be mindful of the number of users your selections will cause to be synced into ALM, as subscription limits apply to how many users come into ALM via this feature.
   * Navigate to the **Subscription** page of ALM to view subscription consumption figures.
-

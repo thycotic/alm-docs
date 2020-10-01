@@ -1,22 +1,22 @@
 ﻿[title]: # (Service Architecture)
 [tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
-[priority]: # (1100)
+[priority]: # (8000)
 
 # Service Architecture
 
 ALM’s service architecture centers on a Windows Service called the ALM Engine.
 
-![ALM Service Architecture](images/ALMsa1.png)
+![ALM Service Architecture](images/almsa1.png)
 
-![ALM Service Architecture](images/ALMsa2.png)
+![ALM Service Architecture](images/almsa2.png)
 
-![ALM Service Architecture](images/ALMsa3.png)
+![ALM Service Architecture](images/almsa3.png)
 
-![ALM Service Architecture](images/ALMsa4.png)
+![ALM Service Architecture](images/almsa4.png)
 
-![ALM Service Architecture](images/ALMsa5.png)
+![ALM Service Architecture](images/almsa5.png)
 
-![ALM Service Architecture](images/ALMsa6.png)
+![ALM Service Architecture](images/almsa6.png)
 
 * Running as a suitably privileged Windows Service on your organization’s hardware, the ALM Engine manages interactions among ALM’s cloud service components and aspects of your enterprise infrastructure, such as Active Directory and Secret Server—whether these be on premises, or cloud located like ALM.
 
@@ -52,14 +52,3 @@ mapping. This implies that ALM Remote Engines can only manage one domain at a ti
 
 *Integrations* - Currently there are additional integrations for Azure AD and ServiceNow that are pictured in the
 reference architecture
-
-
-
-
-
-
-
-
-  
-
-  

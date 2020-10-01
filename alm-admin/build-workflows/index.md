@@ -44,3 +44,16 @@ Use this procedure to create the Workflow Templates necessary to support your or
 * Define the **Approval Steps**.
   * Add **Approvers** to at least one Approval Step. You can add individual Users, or Groups thereof.
 * Publish the completed Workflow Template.
+
+## Workflow Administration
+
+
+
+The **Workflow Template Versioning** feature allows System Administrators to make changes to an already published Workflow Template, instead of creating an entirely new Workflow Template and disabling the previous one.
+
+* The Administrator opens the Template and selects **Create New Version**.
+* ALM will prompt for confirmation that the System Administrator wants to create a new version of the Workflow Template.
+* When a new version of a Workflow Template is created and then Published, all new Account Requests will provision against the latest Published version.
+* All accounts previously provisioned to prior versions will remain associated to the version they were provisioned against.
+
+Users with permissions to access Workflow Templates will be able to view the specification of previous versions for change tracking. The Managed Accounts view will display which version of a Workflow Template the account is provisioned against.
