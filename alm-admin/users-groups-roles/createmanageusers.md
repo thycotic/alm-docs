@@ -6,7 +6,7 @@
 
 ## Thycotic One accounts
 
-Users log into ALM using their **Thycotic One** account. You can create a new account at [Thycotic One](https://login.thycotic.com/Account/Login).
+Users log into ALM using their **Thycotic One** account. New Users can create an account at [Thycotic One](https://login.thycotic.com/Account/Login).
 
 ## Creating an ALM User
 
