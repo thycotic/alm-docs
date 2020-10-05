@@ -6,17 +6,17 @@
 
 ALM’s service architecture centers on a Windows Service called the ALM Engine.
 
-![ALM Service Architecture](images/almsa1.png)
+![almservicearchitecture1](images/almsa1.png)
 
-![ALM Service Architecture](images/almsa2.png)
+![almservicearchitecture2](images/almsa2.png)
 
-![ALM Service Architecture](images/almsa3.png)
+![almservicearchitecture3](images/almsa3.png)
 
-![ALM Service Architecture](images/almsa4.png)
+![almservicearchitecture4](images/almsa4.png)
 
-![ALM Service Architecture](images/almsa5.png)
+![almservicearchitecture5](images/almsa5.png)
 
-![ALM Service Architecture](images/almsa6.png)
+![almservicearchitecture6](images/almsa6.png)
 
 * Running as a suitably privileged Windows Service on your organization’s hardware, the ALM Engine manages interactions among ALM’s cloud service components and aspects of your enterprise infrastructure, such as Active Directory and Secret Server—whether these be on premises, or cloud located like ALM.
 

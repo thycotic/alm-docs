@@ -55,7 +55,7 @@ From the Manage Groups page, you can enable/disable the Group, add/remove Users,
 
 To manage Users within the Group, click the **Users** tab next to Manage Group.
 
-    ![userstab](images/groups-users-tab.png)
+![userstab](images/groups-users-tab.png)
 
 #### To add Users to the Group
 

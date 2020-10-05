@@ -10,8 +10,9 @@ To see pending requests, use the left-hand menu to navigate to **ACCOUNTS** and 
 
 ![approvalsnav](images/approvals-menu.png)
 
-On the Approvals page, the pending requests are listed. 
-![approvalsnav](images/approvals-pending.png)
+On the Approvals page, the pending requests are listed.
+
+![approvalsnav2](images/approvals-pending.png)
 
 * Click the **Name** of the request to see Account Details including the review interval, end-of-lifecycle action, directory server, and attributes. You can also access this menu by clicking the **three dots** on the right-hand side of the row and clicking **details**.
 
