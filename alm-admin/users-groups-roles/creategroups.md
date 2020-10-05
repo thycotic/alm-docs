@@ -1,4 +1,4 @@
-﻿[title]: # (Create Groups)
+﻿[title]: # (Create and Manage Groups)
 [tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (5155)
 
@@ -8,7 +8,7 @@ Groups define privileges for categories of Users. Using Groups, you can assign t
 
 > **note**: ALM Groups do **not** correspond to Active Directory Groups.
 
-## Creating a Group
+## Creating Groups
 
 1. Using the left-hand navigation menu, click **PERSONNEL** and then click **Groups** to open the Groups page. ![groupsnav](images/groups-nav-menu.png)
 1. In the upper right-hand corner, click **Create Group**. The **Add group** window appears.![creategroupwindow1](images/groups-create-step1.png)
