@@ -38,7 +38,9 @@ To create a new Role
 1. Click **Create Role** in the upper right-hand corner of the Role page.
 1. Enter a **Name** for the new Role and click **Add**.
 1. Click **Add** to bring up the **Manage Role** page.
+
     ![manageroles](images/roles-management.png)
+
 1. On the Manage Role page, assign permissions to the Role by checking the boxes next to the privileges the Role should have within ALM. **Settings will update as you check the boxes. You will not need to click apply or save.**
 1. Scroll to the bottom of the page and click **Add user** to bring up a list of available Users. Check the boxes next to the Users to assign to the Role and click **Add**.
 

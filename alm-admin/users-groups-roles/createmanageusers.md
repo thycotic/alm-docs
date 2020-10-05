@@ -21,6 +21,7 @@ To create a new ALM User
 1. Click **next** to continue to the **Groups** window.
 
     ![createuserwindow2](images/users-create-step2.png)
+
 1. Check the boxes of the Groups the new User belongs. By default, all Users belong to the *Everyone* group. Click **next** to continue to the **Roles** window.
 1. Check the boxes next to the **Roles** to give the new User.![createuserwindow3](images/users-create-step3.png)
     >**Note**: Users automatically inherit Roles from the Groups they are assigned.
@@ -53,7 +54,10 @@ The Groups that the User belongs to are listed in the Group row.
 
 To add a Group
 
-* Click **Add group** to bring up a list of available groups. ![addgroup](images/usersaddgroup.png)
+* Click **Add group** to bring up a list of available groups.
+
+    ![addgroup](images/usersaddgroup.png)
+
 * Check the boxes next to the new Group(s) for the User and click **Add**.
 
 To remove a User from a Group
@@ -66,7 +70,10 @@ The Roles that the User has are listed in the Role row.
 
 To add a User Role
 
-* Click **Add role** to bring up a list of available Roles. ![availableroles](images/usersaddrole.png)
+* Click **Add role** to bring up a list of available Roles. 
+
+    ![availableroles](images/usersaddrole.png)
+
 * Check the boxes next to the new Role(s) for the User and click **Add**.
 
 To remove a User Role
@@ -77,6 +84,8 @@ To remove a User Role
 
 To link the User to an AD Account
 
-* On the right side of the Linked AD Account row, click **Locate AD Account** to bring up the *Set AD Account* window. ![setadwindow](images/userslinkad.png)
+* On the right side of the Linked AD Account row, click **Locate AD Account** to bring up the *Set AD Account* window.
+    
+![setadwindow](images/userslinkad.png)
 
 * Select a domain from the drop-down list and click **Set** to link the User's ALM and AD accounts.
