@@ -29,7 +29,7 @@ Groups define privileges for categories of Users. Using Groups, you can assign t
 
 To manage a group, click the **Group name** on the Groups page.
 
-    ![groupspage](images/groups-manage-step1.png)
+![groupspage](images/groups-manage-step1.png)
 
 From the Manage Groups page, you can enable/disable the Group, add/remove Users, and add/remove Roles.
 
