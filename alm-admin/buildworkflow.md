@@ -4,15 +4,15 @@
 
 # Build Workflow Templates
 
-To use ALM, you must define the approval processes your organization intends to apply to Requests for different kinds of service accounts. Some types of service accounts might be approved and provisioned on Request, while others might need more than one Approval before provisioning.
+Workflows in ALM define the approval processes for Service Accounts. Once a Template is completed and published, Requestors can use ALM to request that a Service Account be created.
 
 ## Overview
 
 ALM supplies a straightforward, Roles-driven workflow system to support your oversight of new AD account creation, review, and eventual renewal or retirement.
 
-ALM represents your approval processes as Workflow Templates. Each template defines the approval process for a particular service account kind or category as defined by your organization—for example, service accounts belonging to specific Active Directory Groups.
+ALM represents your approval processes as Workflow Templates. Each template defines the approval process for a particular service account kind or category as defined by your organization.
 
-As illustrated, ALM’s workflow system follows a simple, linear process from template definition through account Requests and Approvals.
+ALM’s workflow system follows a simple, linear process from template definition through account Requests and Approvals.
 
 ![Workflow Process](images/workflow-process.png)
 
@@ -79,7 +79,7 @@ Use this procedure to create the Workflow Templates necessary to support your or
     1. You can add another step to change the number of approvals needed from separate Groups or Users by clicking **Add Step** from the Actions drop-down.
     1. Click **Publish** to finish creating the template. **Once a Template is Published, it cannot be edited further without first being unpublished.**
 
-    > **Note**: Requiring approval from one, specific individual can create a bottleneck. To avoid creating a bottleneck, Thycotic recommends choosing a Group of managers and requiring two approvers.
+> **Note**: Requiring approval from one, specific individual can create a bottleneck. To avoid creating a bottleneck, Thycotic recommends choosing a Group of managers and requiring two approvers.
 
 ### Managing Workflow Templates
 
