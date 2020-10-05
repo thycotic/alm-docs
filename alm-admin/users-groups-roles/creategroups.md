@@ -74,7 +74,9 @@ To manage Users within the Group, click the **Users** tab next to Manage Group.
 
 ### Add/Remove Roles
 
-To manage Roles within the Group, click the **Roles** tab next to Manage Group. ![rolestab](images/groups-roles-tab.png)
+To manage Roles within the Group, click the **Roles** tab next to Manage Group.
+
+![rolestab](images/groups-roles-tab.png)
 
 #### To Add Roles to the Group
 
