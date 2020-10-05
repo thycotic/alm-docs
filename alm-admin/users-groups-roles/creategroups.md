@@ -10,10 +10,17 @@ Groups define privileges for categories of Users. Using Groups, you can assign t
 
 ## Creating Groups
 
-1. Using the left-hand navigation menu, click **PERSONNEL** and then click **Groups** to open the Groups page. ![groupsnav](images/groups-nav-menu.png)
-1. In the upper right-hand corner, click **Create Group**. The **Add group** window appears.![creategroupwindow1](images/groups-create-step1.png)
+1. Using the left-hand navigation menu, click **PERSONNEL** and then click **Groups** to open the Groups page. 
+![groupsnav](images/groups-nav-menu.png)
+
+1. In the upper right-hand corner, click **Create Group**. The **Add group** window appears.
+![creategroupwindow1](images/groups-create-step1.png)
+
 1. Enter a Name for the new Group and click **Next**.
-1. On the **Group Membership** window, choose the Users to add to the group by **checking** the box next to each name. ![creategroupwindow2](images/groups-create-step2.png)
+1. On the **Group Membership** window, choose the Users to add to the group by **checking** the box next to each name. 
+
+1. ![creategroupwindow2](images/groups-create-step2.png)
+
 1. Click **Save** to create the Group. Click **Save and add another** to create the group and restart the process for another new Group.
 
 ## Managing Groups

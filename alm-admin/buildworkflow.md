@@ -91,7 +91,7 @@ From this page you can
 
 * **Disable Workflow Template**- Click **Disable** in the upper right-hand corner. Requestors will no longer be able to select this Template when requesting a new Service Account.
 
-#### Workflow Template Versioning
+### Workflow Template Versioning
 
 **Workflow Template Versioning** allows System Administrators to update a published Workflow without needing to disable or unpublish the Template.
 
