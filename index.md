@@ -30,9 +30,9 @@ ALM manages Service Accounts by assigning each account to a User within your org
 
 The **System Administrator** can create templates that guide how Service Accounts in your organization are approved and monitored. Templates determine the approval process, review intervals, notification options, and end-of-lifecycle action for Service Accounts.
 
-#### Service Account Discovery Tool
+#### Service Account Discovery 
 
-ALM protects your network by controlling newly created privileged accounts. However, you may already have unmanaged Service Accounts running on your network. Using the **Service Account Discovery Tool**, you can scan your network to identify Service Accounts that are active and unmanaged. Using ALM, you can then assign these accounts to Users within your organization or remove the accounts entirely.
+ALM protects your network by controlling newly created privileged accounts. However, you may already have unmanaged Service Accounts running on your network. Using **Service Account Discovery**, you can scan your network to identify Service Accounts that are active and unmanaged. Using ALM, you can then assign these accounts to Users within your organization or remove the accounts entirely.
 
 ### Example Workflow
 

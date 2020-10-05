@@ -39,7 +39,7 @@ Use this procedure to create the Workflow Templates necessary to support your or
         1. Enter the **Purpose** for the Workflow. The purpose will be provided to Users when they request a new account, so they know which template to choose for their request.
         1. Click **Save + Next**.
   
-  ![workflowstep2](images/workflow-wizard-step2.png)
+![workflowstep2](images/workflow-wizard-step2.png)
 
     2. **Secrets Vault** 
         1. For **System**, choose the Secrets Vault to use for Accounts on this Template. The **Type** of Vault should populate automatically based on your selection.
@@ -47,7 +47,7 @@ Use this procedure to create the Workflow Templates necessary to support your or
         3. Click **Select Folders** and choose where the secrets for this workflow will be stored. Checking **Allow Folder Override** will let the Requestor choose folders within the selected index to store the account's secrets.
         4. Click **Save + Next**.
 
-  ![workflowstep3](images/workflow-wizard-step3.png)
+![workflowstep3](images/workflow-wizard-step3.png)
 
     3. **Active Directory**
         1. Choosing a **Name Prefix** is optional, but it is *highly recommended* that you use a prefix if your organization has a large number of Service Accounts. Using prefixes will make organizing large numbers of accounts easier.
@@ -56,7 +56,7 @@ Use this procedure to create the Workflow Templates necessary to support your or
         1. Use the drop-down menu to select the **Attributes** for the Service Accounts. You have the option to **Require** each attribute or mark it as **Read-only**. Click the **plus** to add the attribute. Edit the attribute using the **pencil** icon, or remove it by clicking the red **X**.
         1. Selecting **Groups** will limit access to this template to Users in the selected Group. Use the drop-down menu to find the Group and click the **plus**. You may add multiple Groups.
 
-    ![workflowstep4](images/workflow-wizard-step4.png)
+![workflowstep4](images/workflow-wizard-step4.png)
 
     4. **Account Lifecycle**
         1. The **Review/Expire Period Options** section shows the lifecycle length options that will be available to the Requestor when they request a new account. You can customize the options by editing the **number field** and selecting **Day(s)** or **Year(s)**. Click the **plus** to add the option.
@@ -66,8 +66,8 @@ Use this procedure to create the Workflow Templates necessary to support your or
         1. You can also have more frequent reminders sent. Check **Send urgent notifications** and use the arrows to set an hourly interval to send reminders and the number of days before the end-of-lifecycle to begin sending the hourly reminders.
         1. Check **Include system administrators** to have ALM send the reminder to the Account Owner and the System Admin.
         1. To stop reminders automatically, check **Stop sending notifications** and use the arrows to select the number of days after the start of notifications to stop sending.
-    
-    ![workflowstep5](images/workflow-wizard-step5.png)
+
+![workflowstep5](images/workflow-wizard-step5.png)
 
     5. **Approval Flow**
         1. The Approval Flow will dictate which approvals are required before the account is provisioned. 
