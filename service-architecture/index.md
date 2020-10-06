@@ -47,6 +47,8 @@ The [Getting Started](../get-started/) section provides additional information o
 
 *Databases* - These are customer independent for each ALM instance
 
+![architecture6](images/almsa6.png "Multi Data Center")
+
 *Active Directory Server* - This is the active Directory Server you intend to integrate the ALM Remote Engine with. Please note that relationships between a ALM Remote Engine to a domain within your environment is a 1:1
 mapping. This implies that ALM Remote Engines can only manage one domain at a time.
 
