@@ -4,15 +4,13 @@
 
 # Introduction to Account Lifecycle Manager
 
-## Overview
-
-### Product
+## Product
 
 Account Lifecycle Manager (ALM) controls the creation, management, and decommissioning of Active Directory Service Accounts running on your organization's network. ALM reduces Service Account sprawl and increases security by enforcing governance and creating accountability using role-based permissions. Depending on a user's role, they can request, approve, provision, manage, and retire service accounts.
 
-### Key Features
+## Key Features
 
-#### Role-Based Access Controls
+### Role-Based Access Controls
 
 ALM manages Service Accounts by assigning each account to a User within your organization. ALM uses four **Roles** to define User permissions and determine accountability. A User's Role determines how they interact with ALM and Service Accounts.
 
@@ -26,15 +24,15 @@ ALM manages Service Accounts by assigning each account to a User within your org
 
 > Note: ALM roles are distinct from Active Directory Roles. They do not overlap.
 
-#### Workflow Templates
+### Workflow Templates
 
 The **System Administrator** can create templates that guide how Service Accounts in your organization are approved and monitored. Templates determine the approval process, review intervals, notification options, and end-of-lifecycle action for Service Accounts.
 
-#### Service Account Discovery 
+### Service Account Discovery 
 
 ALM protects your network by controlling newly created privileged accounts. However, you may already have unmanaged Service Accounts running on your network. Using **Service Account Discovery**, you can scan your network to identify Service Accounts that are active and unmanaged. Using ALM, you can then assign these accounts to Users within your organization or remove the accounts entirely.
 
-### Example Workflow
+## Example Workflow
 
 1. The **System Administrator** installs ALM on your network according to your organization's policies.
 
