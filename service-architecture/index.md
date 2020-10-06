@@ -6,19 +6,19 @@
 
 ALM’s service architecture centers on a Windows Service called the ALM Engine.
 
-![architecture1](images/almsa1.png)
+![architecture1](images/almsa1.png "Single Domain Design Minimal")
 
-![architecture2](images/almsa2.png)
+![architecture2](images/almsa2.png "Single Domain Design")
 
-![architecture3](images/almsa3.png)
+![architecture3](images/almsa3.png "Multi Domain Minimal")
 
-![architecture4](images/almsa4.png)
+![architecture4](images/almsa4.png "Multi Domain")
 
-![architecture5](images/almsa5.png)
+![architecture5](images/almsa5.png "Multi Data Center Minimal")
 
-![architecture6](images/almsa6.png)
+![architecture6](images/almsa6.png "Multi Data Center")
 
-* Running as a suitably privileged Windows Service on your organization’s hardware, the ALM Engine manages interactions among ALM’s cloud service components and aspects of your enterprise infrastructure, such as Active Directory and Secret Server—whether these be on premises, or cloud located like ALM.
+Running as a suitably privileged Windows Service on your organization’s hardware, the ALM Engine manages interactions among ALM’s cloud service components and aspects of your enterprise infrastructure, such as Active Directory and Secret Server—whether these be on premises, or cloud located like ALM.
 
 * ALM is deployed to the following Azure datacenter regions:
     * US-East
