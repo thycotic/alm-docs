@@ -17,23 +17,10 @@
 1. Supply a **Description** of the Service Account that you are requesting.
 1. In the **Active Directory Attributes** rows, provide any **values** that are required.
 1. Review the **Approval Steps** at the bottom of the page. It displays a list of Approvers available and the number required.
-1. At the top of the page, click **Submitt**. Your request will be sent to the Approvers for review. You can also **Save the Draft** to complete it later or **Delete the Request**.
+1. At the top of the page, click **Submit**. Your request will be sent to the Approvers for review. You can also **Save the Draft** to complete it later or **Delete the Request**.
 
-## Request A New Service Account
+## Withdraw a Request
 
-* Use the **Create New Request** button to open the Workflow Templates page.
-* Select a Workflow Template to control the approval process for the Account Request.
-* Supply an **Account Name**.
-* Write a **Justification and Reason Statement** for the Account Request. Approvers review this.
-* Choose the **Review Interval** for the account. The Workflow Template controls the available selection of Review Intervals.
-* Determine whether the account will have the ability to add Users as Account Owners.
-* Review the **Approval Steps** that apply to this Request.
-* Submit the Request.
-
-## Workflow Execution
-
-The workflow proceeds unless you withdraw the Request. At any time, you can withdraw the Request at your Dashboard by deleting it.
-
-## Notifications of Requests
-
-When you submit the Request, ALM will notify the Approver that the Request needs their attention.
+To withdraw a request
+* Navigate to the Requests page and click on the request.
+* Click **Delete Request** and click **OK** to confirm.
