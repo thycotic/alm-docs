@@ -33,10 +33,26 @@ Use this procedure to create the Workflow Templates necessary to support your or
 1. **Template Setup**
     1. Give the Template a name and select the **Account Type** from the drop-down menu. The Account Type should correspond to the directory service that will be used for this Template.
     2. Select an **End of Lifecycle Action**. Later in the wizard, you will choose the time interval for these actions to take effect.
-        1. **Review**- a notification will be sent to the User reminding them that the Service Account is active. ALM will not change the account at this point.
-        2. **Disable**- the Service Account will be automatically turned off.
-        3. **Expire**- the Service Account will be automatically deactivated, but it can still be reactivated manually if needed.
-        4. **Delete**- the Service Account is automatically removed and cannot be recovered.
+        1. **Review**- a notification will be sent to the User reminding them that the Service Account is active. ALM will not change the Service Account at this point. Users are given the following options
+            * **Renew**- extends the account's lifecycle until the next Review date. The renewal period starts at UTC 00:00.
+            * **Disable**- deactivates the account in ALM and AD. The User **can** re-enable the account.
+            * **Delete Account and Secret**- removes the Service Account.
+
+        1. **Disable**- the Service Account will be automatically disabled unless it is **Renewed** by the Account Owner. Users are given the following options
+            * **Renew**- extends the account's lifecycle until the next Review date. The renewal period starts at UTC 00:00.
+            * **Disable**- deactivates the account in ALM and AD. The User **can** re-enable the account.
+            * **Delete Account and Secret**- removes the Service Account.
+
+        1. **Expire**- the Service Account will be automatically deactivated, but it can still be reactivated be repeating the Approval process. Users are given the following options
+            * **Submit for Approval to Renew**- the Account is submitted again to the Approvers. If approved, the account is renewed. If denied, the account will expire.
+            * **Disable**- deactivates the account in ALM and AD. The User **can** re-enable the account.
+            * **Delete Account and Secret**- removes the Service Account.
+
+        1. **Delete**- the Service Account is disabled, and **cannot be renewed**. Users are given the following options
+            * **Disable**- deactivates the account in ALM and AD.
+            * **Delete Account and Secret**- removes the Service Account.
+            * **Clone as New Request**- generates a new request identical to the provisioned account. The User then completes the new request and submits for approval.
+
     1. The **Terms of Service** should reflect your organization's guidelines for the use of new Service Accounts. The Requestor of the new account must agree to the terms you set before the account is provisioned.
     1. Enter the **Purpose** for the Workflow. The purpose will be provided to Users when they request a new account, so they know which template to choose for their request.
     1. Click **Save + Next**.
