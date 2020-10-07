@@ -18,9 +18,9 @@ ALM manages Service Accounts by assigning each account to a User within your org
 
 * **System Administrator**- A System Administrator has full access to ALM's configuration and management. They can create and manage Users, Roles, Groups, and Workflows.
 
-* **Requester**- Requesters can request the provisioning of new service accounts.
+* **Requestor**- Requestors can request the provisioning of new service accounts.
 
-* **Approver**- Approvers can approve new service accounts that have been requested.
+* **Approver**- Approvers review requests for new service accounts and approve or deny their provisioning.
 
 > Note: ALM roles are distinct from Active Directory Roles. They do not overlap.
 
