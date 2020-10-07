@@ -8,5 +8,4 @@ This section covers the following administrative topics.
 
 * Create and manage [groups](users-groups-roles/creategroups.md), [roles](users-groups-roles/createroles.md), and [users](users-groups-roles/createmanageusers.md).
 * Create and manage [workflows](buildworkflow.md).
-* Use the [Account Discovery Tool](discoverytool.md).
 * Calibrate the ALM [engine](calibrateengine.md).
