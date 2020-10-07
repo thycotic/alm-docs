@@ -1,6 +1,6 @@
 ﻿[title]: # (Get Started)
 [tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
-[priority]: # (1000)
+[priority]: # (100)
 
 # Get Started
 
