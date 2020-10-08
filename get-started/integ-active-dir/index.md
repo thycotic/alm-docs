@@ -30,10 +30,9 @@ To perform an ad-hoc synchronization of a specific Domain, go to the **Manage** 
 
 ## Domain Synchronization
 
-You can control the frequency with which ALM automatically syncs, as well as schedule on-demand syncs. However, note that the soonest a job will schedule is the start of the next hour from now.
+You can set the interval that ALM automatically syncs and schedule on-demand syncs.
 
-* For example, if it is presently 11:16, you cannot schedule a job for 11:30 and have it run in a quarter hour from now. Instead, the sync would run at 11:30 the next day.
-* However, if it is presently 11:16, and you schedule a sync for noon, it will run about 45 minutes from now, because noon meets the requirement of no sooner than the start of the next hour from now.
+> Note: ALM checks for synchronization requests at the top of each hour. Syncs should be scheduled for the start of the next hour or they will not start until the following day. *Example: If it is 9:30, the soonest a sync can be scheduled is 10:00. If a sync were scheduled at 9:30 for 9:45, ALM Would not sync until 9:45 the following day.*
 
 ## Sync Users
 
@@ -43,17 +42,16 @@ Users within selected Groups and Child Groups will automatically receive the Acc
 
 Use these steps to enable **Sync Users**:
 
-* in ALM, navigate to the **Domains** page
-* select a **Domain** for which you want **Sync Users** enabled 
-* on the **Manage** tab of of the **Domains** detail page,
-  * use the **Actions** button
-  * select **Edit**
-  * locate the **Sync Users** tool (in the lower half of the **Manage** tab)
-* set the **Enable Sync** toggle to **Yes**
-* scroll or search from the **Available Groups** table to locate which of the Domain’s Groups you want synced into ALM
-* when you locate the desired Group, use the green **+** (plus) icon to the right of the Group to place it in the **Synchronized Groups** table to the right
-
-Review your work. To commit the configuration, return to the **Actions** button at the top of the page and select **Save**.
+1. Navigate to the **Domains** page
+1. Select the **Domain** to **Sync Users**.
+1. On the **Manage** tab of of the **Domains** detail page,
+    1. Click **Actions** 
+    1. Select **Edit**
+    1. In the lower half of the **Manage** tab, locate the **Sync Users** tool.
+1. Set the **Enable Sync** toggle to **Yes**
+1. Scroll or search from the **Available Groups** table to locate the Domain’s Groups to sync with ALM.
+1. Click the green **+** (plus) icon to the right of the Group to place it in the **Synchronized Groups** table on the right.
+1. To finalize the configuration, return to **Actions** at the top of the page and click **Save**.
 
 ### Notes
 

@@ -31,7 +31,7 @@ Instructions related to Secret Server requirements appear in [Integrate ALM with
 
 * An Active Directory Domain Controller on **Windows Server 2012 or later** or **Azure AD Domain Services**.
 
-* A User account privileged to create Active Directory accounts. ALM will run authenticate into AD as an account with permission to create other AD accounts.
+* A User account privileged to create Active Directory accounts. ALM will authenticate into AD as an account with permission to create other AD accounts.
 
 For details on integration with Active Directory, see [Integrate ALM with Active Directory](../integ-active-dir/).
 

@@ -4,12 +4,16 @@
 
 # Get Started
 
-Thycotic Software offers Account Lifecycle Manager as a tool for governing Active Directory service accounts and their privileges.
+## ALM Initial Setup Task List
 
-Being a cloud service, ALM requires no boxed software installation.
+Getting started with ALM requires these tasks:
 
-* However, to successfully use ALM from access points within your enterprise requires that your organization’s IT infrastructure meet several criteria.
-* Additionally, ALM as provisioned requires initial setup and configuration steps to correctly connect to your organization’s enterprise architecture.
+* Provisioning
+* Verify requirements readiness
+* Set up an ALM Engine
+* Integrate with Active Directory and/or Azure Active Directory
+* Integrate with Secret Server
+* Integrate with DevOps Secrets Vault
 
 ## Best Practices for Using Highly Privileged Roles
 
@@ -18,14 +22,3 @@ When using accounts with elevated privileges, inside ALM or on your network, be 
 Keeping in mind that with the power to do anything you could accidentally damage everything, use highly privileged accounts only for tasks that require the privileges. When you complete the tasks, log out of the privileged accounts.
 
 Nobody should routinely log in with elevated privileges ‘just in case’ they need to perform administrative tasks.
-
-## ALM Initial Setup Task List
-
-Getting started with ALM requires these tasks:
-
-* provisioning
-* verify requirements readiness
-* set up an ALM Engine
-* integrate with Active Directory and/or Azure Active Directory
-* integrate with Secret Server
-* integrate with DevOps Secrets Vault
