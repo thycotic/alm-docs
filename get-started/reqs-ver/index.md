@@ -1,8 +1,8 @@
-﻿[title]: # (Requirements Verification)
+﻿[title]: # (System Requirements)
 [tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (5110)
 
-# Requirements Verification 
+# System Requirements
 
 Successful use of ALM requires that your organization’s IT infrastructure meet several criteria.
 
@@ -14,9 +14,10 @@ To open a Thycotic One account, visit [Thycotic One](https://login.thycotic.com/
 
 The email a User submits when signing up for Thycotic One will be the email they must provide later when obtaining an ALM User account.
 
-## Suitable Browsers
+## Browser Compatibility
 
-ALM supports Google Chrome and Mozilla Firefox.
+* Google Chrome
+* Mozilla Firefox
 
 ## Thycotic Secret Server
 
@@ -26,13 +27,11 @@ If you are not using Secret Server Cloud, your Secret Server version must be Ver
 
 Instructions related to Secret Server requirements appear in [Integrate ALM with Secret Server](../integ-secret-serv/).
 
-## An Active Directory Installation
+## Active Directory Installation
 
-You must have an Active Directory Domain Controller on **Windows Server 2012** or later, *or* **Azure AD Domain Services** and a User account with the privileges to create an AD account (for ALM to use) that will be privileged, itself, to create accounts in AD. ALM will authenticate to Active Directory using that account.
+* An Active Directory Domain Controller on **Windows Server 2012 or later** or **Azure AD Domain Services**.
 
-* ALM Users create proxies for new Active Directory service accounts in ALM, and ALM replicates these in Active Directory, creating the actual service accounts.
-
-* ALM supports only Active Directory, but future releases may support other directory services.
+* A User account privileged to create Active Directory accounts. ALM will run authenticate into AD as an account with permission to create other AD accounts.
 
 For details on integration with Active Directory, see [Integrate ALM with Active Directory](../integ-active-dir/).
 
@@ -40,14 +39,6 @@ For details on integration with Active Directory, see [Integrate ALM with Active
 
 The ALM Engine is a Windows Service that runs on a machine in your organization’s environment.
 
-* In software jargon, a “worker” is a process or service that runs to a large degree independently of the main body of software to which it belongs, and that performs tasks the main body of software cannot perform for itself.
-
-In the case of ALM, the ALM Engine Windows Service runs on your organization’s hardware. It manages interactions between the ALM cloud service and your Active Directory installation. It also supports ALM’s integration with your organization’s Secret Server instance.
+The ALM Engine Windows Service runs on your organization’s hardware. It manages interactions between the ALM cloud service and your Active Directory installation. It also supports ALM’s integration with your organization’s Secret Server instance.
 
 See [Setup the ALM Engine Service](../setup-alm-engine/) for details.
-
-
-
-  
-
-  
