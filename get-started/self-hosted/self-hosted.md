@@ -71,31 +71,21 @@ Create a directory for the ALM data to be stored.
 mkdir ~/alm
 NOTE: This directory will contain configuration files for ALM.  Permissions should be set to only necessary users. (e.g. the account that installed ALM, an account used for running backups, etc.)
 
-Change to that directory.
+## Change to that directory.
 
 cd ~/alm
-If you’re installing from Dev or QA, log in to the corresponding ALM container registry.  Prod does not require a login.
 
-# DEV
-docker login enzadev.azurecr.io -u 658285a4-836d-4dac-b3b8-2976fe003ac5 -p 27bbfd81-acbb-451f-9fe2-61a8e5cbabf6
-# QA
-docker login enzaqa.azurecr.io -u 8fe19e0f-dacb-442a-b5e4-9a270f39e2b4 -p OYQ_LmyT9I5aC3ypIs4R7EtNPJX1s_h0sy
-Download and run the installation script.
-
-# DEV
-curl https://thycotic-enzadev-dev-cdn01.azureedge.net/scripts/alm.sh -o alm.sh && chmod +x alm.sh && ./alm.sh install
-# QA
-curl https://enzaqa-cdn01.azureedge.net/scripts/alm.sh -o alm.sh && chmod +x alm.sh && ./alm.sh install
-# PROD
+## Download and Install the Script:
 curl https://alc-cdn01.azureedge.net/scripts/alm.sh -o alm.sh && chmod +x alm.sh && ./alm.sh install
-Domain name
+
+##Domain name
 
 What domain name will users use to access ALM?
 If you’re providing a certificate during development, you can use default.local.enzadev.com
 
 To use LetsEncrypt, you’ll need a domain name that points to your public IP, and ports 80 and 443 forwarded from your router to the local IP of the VM that is running ALM.
 
-SSL/TLS Configuration 
+## SSL/TLS Configuration 
 
 --- SSL/TLS Configuration ---
 ALM requires a SSL/TLS certificate to ensure that all web communication is secure.
