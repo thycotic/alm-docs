@@ -20,6 +20,7 @@ The ALM Engine Windows service must:
   * read all User information
   * modify the membership of a Group
 
+Note: ALM Engine will communicate through port 5671.
 
 Details for these AD permissions appear later in these instructions.
 
