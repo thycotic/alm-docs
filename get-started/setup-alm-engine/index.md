@@ -67,16 +67,14 @@ Change the logon account for the Thycotic ALM Engine to an AD account with the f
   
 To change the logon account:
 
-* Run **services.msc** to open the **Services Control Manager**.
-* Find **Thycotic ALM Engine**, right-click, and select **Properties**.
-* In the Properties panel, select **Log On**.
-* Select **This account:**
-* Supply the AD account name for the ALM Engine service.
-* Supply the account credentials.
-* Click **OK**.
-* Restart the ALM Engine service by right clicking **Thycotic ALM Engine** and selecting **Restart**.
-* Back in ALM, the new ALM Engine will appear in the **Unassigned ALM Engines** section.
-* Click the ALM Engine, assign it to a pool, and click **Activate**.
+1. Run **services.msc** to open the **Services Control Manager**.
+1. Find **Thycotic ALM Engine**, right-click, and select **Properties**.
+1. In the Properties panel, select **Log On**.
+1. Select **This account:**
+1. Supply the AD account name for the ALM Engine service and the account credentials. Click **OK**.
+1. Restart the ALM Engine service by right clicking **Thycotic ALM Engine** and selecting **Restart**.
+1. Back in ALM, the new ALM Engine will appear in the **Unassigned ALM Engines** section.
+1. Click the ALM Engine, assign it to a pool, and click **Activate**.
 
 ## Additional ALM Engine Logon Account Information
 
@@ -94,15 +92,15 @@ Admins can view ALM Engine error messages and sync information in the **ALM Engi
 
 Use these steps to view the full logs on the machine hosting the ALM Engine service:
 
-* log into the machine where the ALM Engine is located
-* from root, navigate to: ProgramData > Thycotic Software Ltd > ALMEngine > packages > Thycotic Provision
-* locate the `appsettings.json` file
-* open `appsettings.json` with Notepad or other suitable text editor
-* under the **Serilog** section, you will see **MinimumLevel**, and below that, **Default** : **Information**
-* change that to **Default** : **Verbose**
-* save the file
-* open **Services**
-* restart the ALM Engine service
+1. Log into the machine where the ALM Engine is located.
+1. From root, navigate to: ProgramData > Thycotic Software Ltd > ALMEngine > packages > Thycotic Provision
+1. Locate the `appsettings.json` file.
+1. Open `appsettings.json` with Notepad or other suitable text editor.
+1. Under the **Serilog** section, you will see **MinimumLevel**, and below that, **Default** : **Information**
+1. Change that to **Default** : **Verbose**
+1. Save the file.
+1. Open **Services**
+1. Restart the ALM Engine service.
 
 ## LDAPS
 
