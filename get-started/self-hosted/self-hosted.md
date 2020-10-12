@@ -43,8 +43,7 @@ During installation and configuration, you will need to know the following ahead
 * **Open ID Connect (OIDC) credentials**
   * ALM uses OIDC for user authentication.
   * This can be configured through Azure Active Directory or Thycotic One.
-
-* **SMTP credentials** (optional) - Allows ALM to send email notifications to users.  If you choose to not use SMTP, put in any values for the questions and please understand email notifications will not be sent in ALM.
+* **SMTP credentials** (*optional*) - Allows ALM to send email notifications to users.  If you choose to not use SMTP, put in any values for the questions and please understand email notifications will not be sent in ALM. This can be re-configured in the future by running ```./alm.sh install```, this will initiate the install process again but exclude initial user configuration. 
 
 
 # Docker Configuration
