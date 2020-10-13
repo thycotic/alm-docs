@@ -1,6 +1,6 @@
 ﻿[title]: # (ALM Objects)
 [tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
-[priority]: # (2000)
+[priority]: # (500)
 
 # ALM Objects
 
@@ -69,9 +69,3 @@ An ALM **Workflow Template** defines a workflow applicable to Requests **made in
 * Requests for some kinds of service accounts may require just one step, approved by only one person. Requests for other kinds of service accounts may require multiple steps and Approvals by more than one person at some or all of the approval steps.
 
 * Workflow templates also control the selection of BEOL (before end of lifecycle) and AEOL (at end of lifecycle) Notifications ALM sends, when it sends them, and to whom, plus what options the Notifications will offer for managing the service account.
-
-
-
-  
-
-  
