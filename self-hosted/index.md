@@ -1,6 +1,6 @@
 [title]: # (Self-Hosted)
 [tags]: # (Account Lifecycle Manager,ALM,Active Directory,on-premise,on-prem,self hosted)
-[priority]: # (3500)
+[priority]: # (4500)
 
 
 # Prerequisites

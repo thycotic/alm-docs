@@ -1,6 +1,6 @@
 [title]: # (Auth0 Configuration)
 [tags]: # (Account Lifecycle Manager,ALM,Active Directory,on-premise,on-prem,self hosted,auth0)
-[priority]: # (3540)
+[priority]: # (4540)
 
 # Configure Auth0 Open ID Connect (OIDC)
 
