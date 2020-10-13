@@ -7,31 +7,20 @@
 
 The following are required to install the self-hosted version of ALM:
 
-## Linux Machine
+1. **Linux Machine**
+    >**NOTE**: Tested against the following - Ubuntu 16.04, Ubuntu 18.04, Debian 9, Debian 10, CentOS 8.2, Fedora 32.
+1. **Docker**
+    * Manages the images and containers used by ALM.
+    * Installation Instructions : https://docs.docker.com/get-docker/
+1. **Docker Compose**
+    * This is required for ALM’s installation script to manage the local orchestration of services.
+    * Installation instructions: https://docs.docker.com/compose/install/
+1. **Port Configuration**
+    * After installation, the docker containers will require the following ports to be available on the host system:
+        * TCP/80, if LetsEncrypt certificate management is enabled.
+        * TCP/443 for the web UI.
 
-NOTE: Tested against the following - Ubuntu 16.04, Ubuntu 18.04, Debian 9, Debian 10, CentOS 8.2, Fedora 32.
-
-## Docker
-
-Manages the images and containers used by ALM.
-
-* Installation Instructions : https://docs.docker.com/get-docker/
-
-## Docker Compose
-
-This is required for ALM’s installation script to manage the local orchestration of services.
-
-* Installation instructions: https://docs.docker.com/compose/install/
-
-## Port Configuration
-
-After installation, the docker containers will require the following ports to be available on the host system:
-
-* TCP/80, if LetsEncrypt certificate management is enabled.
-
-* TCP/443 for the web UI.
-
-## Additional Requirements
+# Additional Requirements
 
 During installation and configuration, you will need to know the following ahead of time:
 
