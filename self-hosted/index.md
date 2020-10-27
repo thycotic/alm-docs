@@ -2,6 +2,12 @@
 [tags]: # (Account Lifecycle Manager,ALM,Active Directory,on-premise,on-prem,self hosted)
 [priority]: # (4500)
 
+# Installation Steps
+
+1. Make sure that you meet the System Requirements listed below.
+1. [Configure Docker.](docker.md)
+1. [Install ALM.](installation.md)
+1. [Finish and Add Licenses.](finish.md)
 
 # Prerequisites
 
