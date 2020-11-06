@@ -32,7 +32,7 @@ To perform an ad-hoc synchronization of a specific Domain, go to the **Manage** 
 
 You can set the interval that ALM automatically syncs and schedule on-demand syncs.
 
-> Note: ALM checks for synchronization requests at the top of each hour. Syncs should be scheduled for the start of the next hour or they will not start until the following day. *Example: If it is 9:30, the soonest a sync can be scheduled is 10:00. If a sync were scheduled at 9:30 for 9:45, ALM Would not sync until 9:45 the following day.*
+>**Note**: ALM checks for synchronization requests at the top of each hour. Syncs should be scheduled for the start of the next hour or they will not start until the following day. *Example: If it is 9:30, the soonest a sync can be scheduled is 10:00. If a sync were scheduled at 9:30 for 9:45, ALM Would not sync until 9:45 the following day.*
 
 ## Sync Users
 

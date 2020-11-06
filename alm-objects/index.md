@@ -4,11 +4,11 @@
 
 # ALM Objects
 
-ALM relies on four fundamental object types to provide governance over service accounts: Users, Roles, Groups, and Workflow Templates.
+ALM relies on four objects to govern Service Accounts: Users, Roles, Groups, and Workflow Templates.
 
 ## Users
 
-An ALM **User** object is an ALM proxy for either a **User account** or a **service account** that is **stored in Active Directory**.
+An ALM **User** object is a proxy for either a **User account** or a **service account** that is **stored in Active Directory**.
 
 * When the ALM User object is a proxy for an Active Directory **User account**, you will perform ALM operations on the ALM proxy purely to control what a person authenticated as that AD User account can do within ALM.
 
@@ -20,7 +20,7 @@ An ALM **User** object is an ALM proxy for either a **User account** or a **serv
 
 ## Roles
 
-An ALM **Role** object exists to define the ALM privileges appropriate for a particular kind of ALM User, given the tasks that kind of ALM User will perform in ALM.
+An ALM **Role** defines the privileges that the User has in ALM and the tasks that the User can perform.
 
 * ALM Roles have **nothing to do** with Active Directory Roles and should not be confused with them.
 
@@ -28,19 +28,19 @@ Thycotic provisions ALM with several Roles already set up—Account Owner, Reque
 
 ### Account Owner
 
-The Account Owner Role is fixed to the built-in Everyone Group that contains all users in ALM, so all users automatically have the Account Owner Role.
+All users automatically have the Account Owner Role. The Account Owner Role is also fixed to the built-in Everyone Group that contains all users in ALM.
 
-This Role provides entry level features and permissions sufficient for a User to read and update managed accounts assigned to them (that is, that they own).
+This Role provides entry level features and permissions sufficient for a User to read and update managed accounts assigned to them.
 
-### Requester
+### Requestor
 
-People in this Role request provisioning of service accounts and lifecycle management for same. Requesters begin each Request by selecting a Workflow Template, the specific details of which will drive the rest of the Request and Approval process. The template also controls the specifics of the options selectable for lifecycle management to be applied to the account.
+Users with the Requestor Role can request the provisioning of new service accounts. Requesters begin each Request by selecting a Workflow Template which determines the lifecycle of the account and the approval process.
 
 ### Approver
 
-ALM delivers Requests to Approvers according to the workflow and approval steps specified by the template. An Approver receives notices of account Requests and takes steps to approve or deny each Request, all in conformance with the given workflow; more than one Approver may need to participate for some accounts.
+ALM delivers Requests to Approvers according to the workflow and approval steps specified by the template. An Approver receives notices of account Requests and approves or denies each Request according to the chosen workflow. Some workflows will require multiple Approvers.
 
-On approval, ALM provisions the account and designates the Requester as the first owner.
+On approval, ALM provisions the account and designates the Requestor as the first owner.
 
 ### System Administrator
 
@@ -52,7 +52,7 @@ Because the System Administrator Role is so highly privileged, its use carries r
 
 Once familiar with ALM, you may decide to use the [Custom Roles](custom-roles.md) feature to create Roles that support specific business needs.
 
-* An example would be an Auditor Role, configured with privileges required to view ALM’s Audit Logs but otherwise lacking the full range of privileges given to a System Administrator.
+* Example: A custom Auditor Role configured with privileges required to view ALM’s Audit Logs but otherwise lacking the full range of privileges given to a System Administrator.
 
 ## Groups
 
