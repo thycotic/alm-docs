@@ -14,7 +14,7 @@ This article tracks those changes to ALM.
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | November 2020          | improvement: Administrators can access User data from the Role details page.|
 |                        | improvement: Account rejection explanation appears on the Request details page.|
-|                        | improvement: Requestors can specify a reason when requesting an account renewal.|
+|                        | improvement: Requestors can specify a reason for requesting an account renewal.|
 |                        | fix: The configuration tab on a Managed Account now updates and reloads automatically after updating a SecretID.|
 | October 2020           |First general availability release of ALM Self-Hosted. 
 |                        |
