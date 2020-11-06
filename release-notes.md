@@ -12,7 +12,7 @@ This article tracks those changes to ALM.
 
 | **Update**             | **Notes**                                                                                                                                                           |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| November 2020          | improvement: Administrators can access User data from the Role details page.|
+| November 2020          | improvement: Updated UI for managing Roles in ALM.|
 |                        | improvement: Account rejection explanation appears on the Request details page.|
 |                        | improvement: Requestors can specify a reason for requesting an account renewal.|
 |                        | fix: The configuration tab on a Managed Account now updates and reloads automatically after updating a SecretID.|
