@@ -12,6 +12,10 @@ This article tracks those changes to ALM.
 
 | **Update**             | **Notes**                                                                                                                                                           |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| November 2020          | improvement: Updated UI for managing Roles in ALM.|
+|                        | improvement: Account rejection explanation appears on the Request details page.|
+|                        | improvement: Requestors can specify a reason for requesting an account renewal.|
+|                        | fix: The configuration tab on a Managed Account now updates and reloads automatically after updating a SecretID.|
 | October 2020           |First general availability release of ALM Self-Hosted. 
 |                        |
 | September 2020         |feature: ServiceNow Requests - ALM’s ServiceNow integration will now support submitting ALM Requests via ServiceNow. This update presents the opportunity for users of ALM and ServiceNow to handle both the Requests and Approval process directly within ServiceNow. Requests can be made for Active Directory and AzureAD accounts.  Note: Customers that already have the ALM ServiceNow application installed in ServiceNow must update to latest version. |                                                                                                                                                            | 
