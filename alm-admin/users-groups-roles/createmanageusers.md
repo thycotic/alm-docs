@@ -48,50 +48,50 @@ To create a new ALM User
 
 ### Enable/Disable User
 
-* Click **Disable** to revoke the user's access to ALM. You can return the User's permissions by clicking **Enable**.
+* Use the green toggle switch to **Enable** and **Disable** the User account. Disabling the account will revoke the user's access within ALM. You can return the User's permissions by clicking **Enable**.
 
 ### Add User email
 
-* Click **Add email** to assign the User an additional address. Notifications for this User will be delivered to all listed addresses.
+* Select the **Emails** tab. Click **Add email** to assign the User an additional address. Notifications for this User will be delivered to all listed addresses.
 
 ### Add/Remove User Groups
 
-The Groups that the User belongs to are listed in the Group row.
+Groups can be added/removed from the **Groups tab** at the top of the screen.
 
-To add a Group
+* To add a Group
 
-* Click **Add group** to bring up a list of available groups.
+    * Click **Add group** to bring up a list of available groups.
 
-    ![addgroup](images/usersaddgroup.png)
+        ![addgroup](images/usersaddgroup.png)
 
-* Check the boxes next to the new Group(s) for the User and click **Add**.
+    * Check the boxes next to the new Group(s) for the User and click **Add**.
 
-To remove a User from a Group
+* To remove a User from a Group
 
-* On the right side of the Group name row, click  **Remove**.
+    * On the right side of the Group name row, click  **Remove**.
 
 ### Add/Remove User Roles
 
-The Roles that the User has are listed in the Role row.
+Roles can be added/removed from the **Roles tab** at the top of the screen. The Roles that the User has are listed in the Role row.
 
-To add a User Role
+* To add a User Role
 
-* Click **Add role** to bring up a list of available Roles. 
+    * Click **Add role** to bring up a list of available Roles.
 
-    ![availableroles](images/usersaddrole.png)
+        ![availableroles](images/usersaddrole.png)
 
-* Check the boxes next to the new Role(s) for the User and click **Add**.
+    * Check the boxes next to the new Role(s) for the User and click **Add**.
 
-To remove a User Role
+* To remove a User Role
 
-* On the right hand side of the Role name row, click **Remove**.
+    * On the right hand side of the Role name row, click **Remove**.
 
 ### Link an Active Directory Account
 
-To link the User to an AD Account
+* To link the User to an AD Account
 
-* On the right side of the Linked AD Account row, click **Locate AD Account** to bring up the *Set AD Account* window.
+    * On the right side of the Linked AD Account row, click **Locate AD Account** to bring up the *Set AD Account* window.
     
-![setadwindow](images/userslinkad.png)
+    ![setadwindow](images/userslinkad.png)
 
-* Select a domain from the drop-down list and click **Set** to link the User's ALM and AD accounts.
+    * Select a domain from the drop-down list and click **Set** to link the User's ALM and AD accounts.
