@@ -1,4 +1,4 @@
-[title]: # (Workflow Templates)
+[title]: # (Alert Settings)
 [tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (5180)
 
@@ -6,12 +6,11 @@
 
 ## Email Templates
 
-Administrators can modify and enable/disable emails that are generated and sent automatically by ALM.
+Administrators can modify and enable/disable emails that are generated and sent automatically by ALM. To modify an **Email Template**:
 <table>
 <tr valign="top">
 <td>
 
-To modify an **Email Template**:
 1. Navigate to **Alert Settings** and click **Email Templates**. The Templates are named after the event in ALM that will trigger the Email.
 1. Click the name of the Template to bring up the **Manage Email Template** page. From here you can:
     * Change the **Subject** line of the Email.
@@ -20,7 +19,7 @@ To modify an **Email Template**:
 1. Click **Save** when you are finished. 
 
 </td>
-<td valign="top" halign="right">
+<td valign="top">
 
 ![manageemail](images/manageemail.png)
 
@@ -33,7 +32,7 @@ To modify an **Email Template**:
 <tr valign="top">
 <td>
 
-ALM allows Administrators to set up custom integrations using webhooks. To create a webhook:
+ALM allows Users with **Webhook Permissions** to set up custom integrations using webhooks. To create a webhook:
 1. Navigate to **Alert Settings** and click **Webhooks**.
 1. In the upper right-hand corner, click **Create Webhook** to bring up the **Add Webhook** window.
 1. Enter a description of the webhook.
@@ -61,7 +60,7 @@ ALM allows Administrators to set up custom integrations using webhooks. To creat
 
 </td>
 
-<td halign="right">
+<td>
 
 ![webhook2](images/addwebhook2.png)
 
