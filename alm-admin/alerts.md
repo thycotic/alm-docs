@@ -19,7 +19,7 @@ Administrators can modify and enable/disable emails that are generated and sent 
 1. Click **Save** when you are finished. 
 
 </td>
-<td valign="top">
+<td valign="top" width="33%">
 
 ![manageemail](images/manageemail.png)
 
@@ -60,7 +60,7 @@ ALM allows Users with **Webhook Permissions** to set up custom integrations usin
 
 </td>
 
-<td>
+<td width="33%">
 
 ![webhook2](images/addwebhook2.png)
 
