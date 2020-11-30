@@ -67,7 +67,7 @@ To create a webhook:
 
 </td>
 
-<td style="width:33%">
+<td style="width:40%">
 
 ![webhook2](images/addwebhook2.png "webhook2")
 
@@ -95,7 +95,7 @@ You can enable Webhook authentication using **Webhook Authorization**. To create
 
 </td>
 
-<td halign=right style="width:120px">
+<td halign=right style="width:500px">
 
 ![webhookauth1 "webhookauth1"](images/webhookauth1.png)
 
