@@ -7,7 +7,7 @@
 ## Email Templates
 
 Administrators can modify and enable/disable emails that are generated and sent automatically by ALM. To modify an **Email Template**:
-<table>
+<table style="width:100%">
 <tr valign="top">
 <td>
 
@@ -34,7 +34,7 @@ ALM allows Users with **Webhook Permissions** to set up custom integrations usin
 
 To create a webhook:
 
-<table>
+<table style="width:100%">
 <tr valign="top">
 <td>
 
@@ -44,11 +44,10 @@ To create a webhook:
 1. Enter a description of the webhook.
 1. Choose the **Event** within ALM that will trigger the webhook.
 1. Click **Save** to bring up the **Manage Webhook** page. 
-    > **Note**: The webhook will not be created until after setup is completed.
 
 </td>
 
-<td halign="right">
+<td halign="right" style="width:40%">
 
 ![webhook1](images/addwebhook1.png)
 
@@ -78,7 +77,7 @@ To create a webhook:
 
 You can enable Webhook authentication using **Webhook Authorization**. To create a new Webhook Authorzation:
 
-<table>
+<table style="width:100%">
 <tr valign=top>
 <td>
 
@@ -95,7 +94,7 @@ You can enable Webhook authentication using **Webhook Authorization**. To create
 
 </td>
 
-<td halign=right style="width:500px">
+<td halign=right style="width:40%">
 
 ![webhookauth1 "webhookauth1"](images/webhookauth1.png)
 
