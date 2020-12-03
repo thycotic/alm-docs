@@ -16,6 +16,7 @@ This article tracks those changes to ALM.
 |                        | improvement: Administrators and users with webhook permissions can add custom HTTP headers to webhooks.|
 |                        | improvement: When creating or editing an Active Directory template, administrators can restrict users from changing passwords.|
 |                        | improvement: When creating a workflow template, administrators can define a regex check on Service Account names.|
+|                        | improvement: When a Secret Server vault sync is run, ALM will search for managed accounts without a SecretID.|
 |                        |                |
 | November 2020          | improvement: Updated UI for managing Roles in ALM.|
 |                        | improvement: Account rejection explanation appears on the Request details page.|
