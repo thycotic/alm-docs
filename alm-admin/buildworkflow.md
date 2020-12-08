@@ -69,8 +69,9 @@ Use this procedure to create the Workflow Templates necessary to support your or
 
 3. **Active Directory**
     1. Choosing a **Name Prefix** is optional, but it is *highly recommended* that you use a prefix if your organization has a large number of Service Accounts. Using prefixes will make organizing large numbers of accounts easier.
-    2. Select the **Active Directory Server** that Service Accounts on the template will use.
-    3. For **OU Distinguished Name**, click **select** and choose the Organization Unit(s) that Service Accounts will belong to. Click **add**.
+    1. Defining **Name Regex** is also optional. Setting regex will force Requestors to follow specific naming conventions when using this Template. You can input any limiting pattern using *.NET native* regex. 
+    1. Select the **Active Directory Server** that Service Accounts on the template will use.
+    1. For **OU Distinguished Name**, click **select** and choose the Organization Unit(s) that Service Accounts will belong to. Click **add**.
     1. Use the drop-down menu to select the **Attributes** for the Service Accounts. You have the option to **Require** each attribute or mark it as **Read-only**. Click the **plus** to add the attribute. Edit the attribute using the **pencil** icon, or remove it by clicking the red **X**.
     1. Selecting **Groups** will limit access to this template to Users in the selected Group. Use the drop-down menu to find the Group and click the **plus**. You may add multiple Groups.
 
