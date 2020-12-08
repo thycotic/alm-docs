@@ -12,10 +12,17 @@ This article tracks those changes to ALM.
 
 | **Update**             | **Notes**                                                                                                                                                           |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| December 2020          | feature: The [webhook authorization](./alm-admin/alerts.md) page allows administrators and users with webhook permissions to add authentication to webhooks.|
+|                        | improvement: Administrators and users with webhook permissions can add custom HTTP headers to webhooks.|
+|                        | improvement: When creating or editing an Active Directory template, administrators can restrict users from changing passwords.|
+|                        | improvement: When creating a workflow template, administrators can define a regex check on Service Account names.|
+|                        | improvement: When a Secret Server vault sync is run, ALM will search for managed accounts without a SecretID.|
+|                        |                |
 | November 2020          | improvement: Updated UI for managing Roles in ALM.|
 |                        | improvement: Account rejection explanation appears on the Request details page.|
 |                        | improvement: Requestors can specify a reason for requesting an account renewal.|
 |                        | fix: The configuration tab on a Managed Account now updates and reloads automatically after updating a SecretID.|
+|                        |                                                    |
 | October 2020           |First general availability release of ALM Self-Hosted. 
 |                        |
 | September 2020         |feature: ServiceNow Requests - ALM’s ServiceNow integration will now support submitting ALM Requests via ServiceNow. This update presents the opportunity for users of ALM and ServiceNow to handle both the Requests and Approval process directly within ServiceNow. Requests can be made for Active Directory and AzureAD accounts.  Note: Customers that already have the ALM ServiceNow application installed in ServiceNow must update to latest version. |                                                                                                                                                            | 
