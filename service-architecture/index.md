@@ -29,8 +29,8 @@
     * All regions: 45.60.38.37, 45.60.40.37, 45.60.32.37, 45.60.34.37, 45.60.36.37, 45.60.104.37
 1. Content Delivery Network (CDN): IP Address whitelisting is not necessary unless outbound firewall rules are in place. Public IP is based on geographical location. 
     * All regions: https://docs.microsoft.com/rest/api/cdn/edgenodes/list (type=Standard_Verizon)
-1. Remote Worker: IP Address whitelisting is not necessary unless outbound firewall rules are in place. If outbound firewall rules are in place, the Remote Worker should be allowed to the WAF IP address ranges listed above.
-1. Active Directory Server: Must allow outbound comunication from the ALM Remote Engine over TCP 636 (LDAPS) to your Active Directory Server.
+1. ALM Engine: IP Address whitelisting is not necessary unless outbound firewall rules are in place. If outbound firewall rules are in place, the ALM Engine should be allowed to the WAF IP address ranges listed above.
+1. Active Directory Server: Must allow outbound communication from the ALM Remote Engine over TCP 636 (LDAPS) to your Active Directory Server.
 1. Secret Server / DSV: Must allow outbound communication from the ALM Remote Engine over TCP 443 (HTTPS) to one of the following respective credential stores: Secret Server, Secret Server Cloud, or DSV. Please be mindful that if you are integrating with Secret Server Cloud, the ALM Remote Engine must also be able to communicate with the WAF IP address ranges (above) for Secret Server Cloud.  DSV uses API Gateway regional endpoints with custom domain names in AWS.  If you are integrating with DSV and have outbound restrictions from your ALM Remote Engine, it would be best to whitelist based on the tenant specific DSV custom domain name URL. If there is a hard requirement for outbound filtering based on IP address ranges, your rules will be dependent on this list -
  https://ip-ranges.amazonaws.com/ip-ranges.json (you can filter out EC2 ranges).
 1. Certificate CRLs: Whitelisting is not necessary unless outbound firewall rules are in place. If whitelisting is necessary, access to CRL distribution points is necessary
