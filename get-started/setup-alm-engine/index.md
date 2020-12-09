@@ -20,9 +20,18 @@ The ALM Engine Windows service must:
   * read all User information
   * modify the membership of a Group
 
-Note: ALM Engine will communicate through port 5671.
+### Required Ports
 
-Details for these AD permissions appear later in these instructions.
+The ALM Engine will communicate to *.accountlifecyclecloud.com over port 443
+
+> Note: ALM Engine will communicate through port 5671 to the below Urls for each region
+
+| Region | URL| Port|
+|---|---|---|
+| **US East**| thycotic-enza-prod-eastus-sb01.servicebus.windows.net | 5671|
+| **AU Cen**| thycotic-enza-prod-auscen-sb01.servicebus.windows.net |5671|
+|**CAN Cen**| thycotic-enza-prod-cac-sb01.servicebus.windows.net |5671|
+|**EU West**| thycotic-enza-prod-westeuro-sb01.servicebus.windows.net |5671|
 
 ## ALM Engine Installation
 
@@ -30,7 +39,7 @@ To install a new ALM Engine, go to the **ALM Engine** section of ALM. Use **Down
 
 Copy the installer to the computer that will host the ALM Engine. Unzip the file and run:
 
-  `setup_x86.cmd`
+  `install.cmd`
 
 Follow the prompts until the installation finishes.
 
