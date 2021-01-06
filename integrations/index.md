@@ -4,11 +4,11 @@
 
 # Integrations
 
-ALM Supports Integrations with:
+In addition to [Active Directory](../get-started/integ-active-dir/index.md) & [Group Managed Service Accounts](../get-started/integrate-gmsa/index.md), ALM Supports Integrations with:
 
 |||
 |---|---|
-| [Azure AD](./integrate-azure-ad/index.md)||
+|[Azure AD](./integrate-azure-ad/index.md)||
 |[Secret Server](./integ-secret-serv/index.md)||
 |[DevOps Secret Vault](./integ-dsv/index.md)||
 |[ServiceNow](./ServiceNow/index.md)||
