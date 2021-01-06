@@ -1,4 +1,4 @@
-[title]: # (SIEM Integration)
+[title]: # (Integrate with SIEM)
 [tags]: # (Account Lifecycle Manager,ALM,SIEM)
 [priority]: # (5200)
 

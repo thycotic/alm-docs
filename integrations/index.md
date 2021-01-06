@@ -1,10 +1,11 @@
 [title]: # (Integrations)
 [tags]: # (Account Lifecycle Manager,ALM,Active Directory,Integrations,)
-[priority]: # (200)
+[priority]: # (550)
 
 # Integrations
 
 ALM Supports Integrations with:
+
 |||
 |---|---|
 | [Azure AD](./integrate-azure-ad/index.md)||

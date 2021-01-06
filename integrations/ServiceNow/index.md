@@ -1,4 +1,4 @@
-[title]: # (ServiceNow Integration)
+[title]: # (Integrate with ServiceNow)
 [tags]: # (Account Lifecycle Manager,ALM,ServiceNow)
 [priority]: # (5195)
 
