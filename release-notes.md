@@ -12,7 +12,7 @@ This article tracks those changes to ALM.
 
 | **Update**             | **Notes**                                                                                                                                                           |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| January 2021           | feature: The [SIEM integrations](./get-started/integ-siem/index.md) page allows administrators to integrate ALM with SIEM applications.| 
+| January 2021           | feature: The [SIEM integrations](./integrations/integ-siem/index.md) page allows administrators to integrate ALM with SIEM applications.| 
 |                        | improvement: Updated UI for webhook authorization, workflow templates, account discovery, and custom HTTP headers.|
 |                        | improvement: Administrators can specify the maximum number of service account owners when creating a template.|
 |                        | 
