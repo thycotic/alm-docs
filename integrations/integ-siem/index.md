@@ -4,7 +4,7 @@
 
 # SIEM Integration
 
-ALM support integration with security information and event management (SIEM) tools.
+ALM supports integration with security information and event management (SIEM) tools.
 
 ## Setup a SIEM Integration
 
