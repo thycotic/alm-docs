@@ -10,7 +10,7 @@ ALM Supports Integrations with:
 
 |||
 |---|---|
-| [Azure AD](../../integrations/integrate-azure-ad/index.md)||
+|[Azure AD](../../integrations/integrate-azure-ad/index.md)||
 |[Secret Server](../../integrations/integ-secret-serv/index.md)||
 |[DevOps Secret Vault](../../integrations/integ-dsv/index.md)||
 |[ServiceNow](../../integrations/ServiceNow/index.md)||
