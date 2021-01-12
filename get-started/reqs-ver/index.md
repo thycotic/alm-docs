@@ -25,7 +25,7 @@ ALM uses Secret Server to store credentials for the accounts it creates in Activ
 
 If you are not using Secret Server Cloud, your Secret Server version must be Version 10.2.000018 or later with the Secret Server Platinum or Pro license. Secret Server’s web services must be running.
 
-Instructions related to Secret Server requirements appear in [Integrate ALM with Secret Server](../integ-secret-serv/).
+Instructions related to Secret Server requirements appear in [Integrate ALM with Secret Server](../../integrations/integ-secret-serv/index.md).
 
 ## Active Directory Installation
 
