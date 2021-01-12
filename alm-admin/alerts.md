@@ -31,8 +31,8 @@ To create a webhook:
 1. Choose the **Event** within ALM that will trigger the webhook.
 1. Click **Save** to bring up the **Manage Webhook** page. 
 1. On the **Manage Webhook** page, enter the complete **Callback** URL. The **Message Body** shows the data that will be sent to the URL.
-1. Check the box next to **Enabled** to activate the webhook. Leave the box unchecked to keep the webhook inactive. It can be enabled later from this page.
-1. (Optional) Add **Authorization** to the webhook by clicking the green toggle and selecting the corresponding authorization from the drop-down. You can also adjust the authorization header for the callback url of the webhook. *If you have not previously configured Webhook Authorization, see the section below. If needed, you can save the webhook and return later to add authorization.*
+1. Set the **Enabled** toggle to **Yes** to activate the webhook. Leave the toggle on **No** to keep the webhook inactive. It can be enabled later from this page.
+1. (Optional) Add **Authorization** to the webhook by clicking Edit and selecting the corresponding authorization from the drop-down. You can also adjust the authorization header for the callback url of the webhook. *If you have not previously configured Webhook Authorization, see the section below. If needed, you can save the webhook and return later to add authorization.*
 
     ![webhook "manage webhook"](images/addwebhook2.png)
 1. Click **Save** to create the webhook.
@@ -55,4 +55,4 @@ You can enable Webhook authentication using **Webhook Authorization**. To create
 1. **Message Body** displays the contents of the authorization message. Use **insert** to add tags from Authentication ID and Authentication Secret to the body. You can create lines in the message by clicking **Add Value**. Remove a value by clicking the minus (-) to the right of the value field.
 
     ![webhookauthorization2 "manage webhook auth"](images/webhookauth2.png)
-1. When you are finished, click **Save**. The new Webhook Authorization will now appear as an option when managing webhooks.
+1. When you are finished with each section, click **Submit**. Each section is saved automatically after submission.
