@@ -154,7 +154,7 @@
     * Minimum System Requirements - 2 Cores 2GB RAM
     * Recommended Requirements - 4 Cores 4 GB RAM.
 
-![architecture7](images/serv-arch-d1-9-2020.png "Single Domain (On Prem) Minimal Footprint/Cost")
+![architecture7](images/serv-arch-d1-01-2021.png "Single Domain (On Prem) Minimal Footprint/Cost")
 
 ### ALM Multi Domain Design (On Premise) Example - HA/DR (Engines)
 
@@ -169,7 +169,7 @@
     * Minimum System Requirements - 2 Cores 2GB RAM
     * Recommended Requirements - 4 Cores 4 GB RAM.
 
-![architecture8](images/serv-arch-d2-9-2020.png "Single Domain (On Prem) Minimal Footprint/Cost")
+![architecture8](images/serv-arch-d2-01-2021.png "Single Domain (On Prem) Minimal Footprint/Cost")
 
 ### ALM Multi Domain Design (On Premise) Example - HA/DR (Engines + SQL)
 
@@ -184,4 +184,4 @@
     * Minimum System Requirements - 2 Cores 2GB RAM
     * Recommended Requirements - 4 Cores 4 GB RAM.
 
-![architecture9](images/serv-arch-d3-9-2020.png "Single Domain (On Prem) Minimal Footprint/Cost")
+![architecture9](images/serv-arch-d3-01-2021.png "Single Domain (On Prem) Minimal Footprint/Cost")
