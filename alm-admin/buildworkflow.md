@@ -28,7 +28,7 @@ Use this procedure to create the Workflow Templates necessary to support your or
 
 * Click **Create Template** in the upper right hand corner to bring up the **Workflow Template Wizard**
 
-![workflowstep1](images/workflow-wizard-step1.png)
+![workflowstep1](images/workflow-step1.png)
 
 1. **Template Setup**
     1. Give the Template a name and select the **Account Type** from the drop-down menu. The Account Type should correspond to the directory service that will be used for this Template.
@@ -72,12 +72,21 @@ Use this procedure to create the Workflow Templates necessary to support your or
     1. Defining **Name Regex** is also optional. Setting regex will force Requestors to follow specific naming conventions when using this Template. You can input any limiting pattern using *.NET native* regex. 
     1. Select the **Active Directory Server** that Service Accounts on the template will use.
     1. For **OU Distinguished Name**, click **select** and choose the Organization Unit(s) that Service Accounts will belong to. Click **add**.
+    1. Toggling on the **Allow Choosing Sub-OUs** option will allow the Requester to choose a sub-ou within the folder you have designated. Leaving the option off will restrict the Requester to only the OU you have designated.
     1. Use the drop-down menu to select the **Attributes** for the Service Accounts. You have the option to **Require** each attribute or mark it as **Read-only**. Click the **plus** to add the attribute. Edit the attribute using the **pencil** icon, or remove it by clicking the red **X**.
     1. Selecting **Groups** will limit access to this template to Users in the selected Group. Use the drop-down menu to find the Group and click the **plus**. You may add multiple Groups.
 
 ![workflowstep4](images/workflow-wizard-step4.png)
+
+4. **Ownership Configuration**
+    1. Set the **Allow Group Ownership** toggle to **Yes** to allow the newly created account to be shared among multiple owners without restrictions.
+    1. Setting the toggle to **No** will bring up additional ownership options.
+        1. Toggle **Requester Only Owner** to **Yes** to restrict ownership of new accounts to only the Requester. Toggle to **No** to allow other users ownership of the account.
+        1. Set the number of **Minimum Owners** and **Maximum Owners** for new accounts using this template. 
     
-4. **Account Lifecycle**
+![workflowstep5](images/workflow-wizard-step5.png)
+
+5. **Account Lifecycle**
     1. The **Review/Expire Period Options** section shows the lifecycle length options that will be available to the Requestor when they request a new account. You can customize the options by editing the **number field** and selecting **Day(s)** or **Year(s)**. Click the **plus** to add the option.
     1. **Enable re-approval before end of lifecycle** will allow the Account Owner to request a renewal of the account before the chosen date of Review/Expiration. Use the arrows to set the re-approval time period.
     1. Check **Send notification when renewal is available** to automatically notify the Account Owner when re-approval is available.
@@ -86,9 +95,10 @@ Use this procedure to create the Workflow Templates necessary to support your or
     1. Check **Include system administrators** to have ALM send the reminder to the Account Owner and the System Admin.
     1. To stop reminders automatically, check **Stop sending notifications** and use the arrows to select the number of days after the start of notifications to stop sending.
     
-![workflowstep5](images/workflow-wizard-step5.png)
+![workflowstep5](images/workflow-wizard-step6.png)
 
-5. **Approval Flow**
+6. **Approval Flow**
+    1. Toggling **Hide Approver Names From Requesters** to **Yes** will restrict users requesting a new account from seeing who in the organization can approve their request.
     1. The Approval Flow will dictate which approvals are required before the account is provisioned. 
     1. Click **Add** to add a step to the Approval Flow.
     1. From the **Actions** drop-down list, select a User or Group of Users that can Approve new Accounts using this template.
