@@ -79,8 +79,8 @@ Use this procedure to create the Workflow Templates necessary to support your or
 ![workflowstep4](images/workflow-wizard-step4.png)
 
 4. **Ownership Configuration**
-    1. Set the **Allow Group Ownership** toggle to **Yes** to allow the newly created account to be shared among multiple owners without restrictions.
-    1. Setting the toggle to **No** will bring up additional ownership options.
+    1. Toggling **Allow Group Ownership** to **Yes** will allow the newly created account to be shared among multiple owners without restrictions.
+    1. Toggling **Allow Group Ownership** to **No** will bring up additional ownership options.
         * Toggling **Requester Only Owner** to **Yes** will restrict ownership of new accounts to only the Requester. Toggling to **No** will allow other users to have ownership of the account.
         * Set the number of **Minimum Owners** and **Maximum Owners** for new accounts using this template. 
     
