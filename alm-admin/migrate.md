@@ -31,7 +31,7 @@ Using the **Account Migration Wizard**, administrators can move existing account
 4. **Assign Workflow Template**
     1. Select the new **Workflow Template** from the dropdown menu.
     1. Select the new **Review Interval** from the dropdown menu.
-    1. Choose a new **Lifecycle End Date**.
+    1. Choose a new **Lifecycle End Date**. Choosing a date in the past will cause the accounts to expire as of midnight (00:00) UTC.
     1. Click **Save + Next** in the upper right-hand corner.
 
 ![migratewizard5](images/migrate-wizard-step5.png "Migration Step 5")
