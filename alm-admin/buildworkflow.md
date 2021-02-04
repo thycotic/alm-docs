@@ -72,7 +72,7 @@ Use this procedure to create the Workflow Templates necessary to support your or
     1. Defining **Name Regex** is also optional. Setting regex will force Requestors to follow specific naming conventions when using this Template. You can input any limiting pattern using *.NET native* regex. 
     1. Select the **Active Directory Server** that Service Accounts on the template will use.
     1. For **OU Distinguished Name**, click **select** and choose the Organization Unit(s) that Service Accounts will belong to. Click **add**.
-    1. Toggling on the **Allow Choosing Sub-OUs** option will allow the Requester to choose a sub-ou within the folder you have designated. Leaving the option off will restrict the Requester to only the OU you have designated.
+    1. Toggling **Allow Choosing Sub-OUs** to **Yes** will allow the Requester to choose a sub-ou within the folder you have designated. Toggling to **No** will restrict the Requester to only the OU you have designated.
     1. Use the drop-down menu to select the **Attributes** for the Service Accounts. You have the option to **Require** each attribute or mark it as **Read-only**. Click the **plus** to add the attribute. Edit the attribute using the **pencil** icon, or remove it by clicking the red **X**.
     1. Selecting **Groups** will limit access to this template to Users in the selected Group. Use the drop-down menu to find the Group and click the **plus**. You may add multiple Groups.
 
@@ -81,7 +81,7 @@ Use this procedure to create the Workflow Templates necessary to support your or
 4. **Ownership Configuration**
     1. Set the **Allow Group Ownership** toggle to **Yes** to allow the newly created account to be shared among multiple owners without restrictions.
     1. Setting the toggle to **No** will bring up additional ownership options.
-        * Toggle **Requester Only Owner** to **Yes** to restrict ownership of new accounts to only the Requester. Toggle to **No** to allow other users ownership of the account.
+        * Toggling **Requester Only Owner** to **Yes** will restrict ownership of new accounts to only the Requester. Toggling to **No** will allow other users to have ownership of the account.
         * Set the number of **Minimum Owners** and **Maximum Owners** for new accounts using this template. 
     
 ![workflowstep5](images/workflow-wizard-step5.png)
