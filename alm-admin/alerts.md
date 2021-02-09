@@ -32,6 +32,9 @@ To create a webhook:
 1. Click **Save** to bring up the **Manage Webhook** page. 
 1. On the **Manage Webhook** page, enter the complete **Callback** URL. The **Message Body** shows the data that will be sent to the URL.
 1. Set the **Enabled** toggle to **Yes** to activate the webhook. Leave the toggle on **No** to keep the webhook inactive. It can be enabled later from this page.
+1. (Optional) Once you have enabled the webhook, the **Test Webhook** button will appear in the upper right-hand corner. Click **Test Webhook** to send a test call to the callback URL.
+    
+    ![testwebhook](images/testwebhook.png)
 1. (Optional) Add **Authorization** to the webhook by clicking Edit and selecting the corresponding authorization from the drop-down. You can also adjust the authorization header for the callback url of the webhook. *If you have not previously configured Webhook Authorization, see the section below. If needed, you can save the webhook and return later to add authorization.*
 
     ![webhook "manage webhook"](images/addwebhook2.png)
