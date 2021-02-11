@@ -11,7 +11,7 @@ ALM supports integration with security information and event management (SIEM) t
 |Account Owner Changed| A managed account has had an owner added or removed.|
 |Account Provisioned| An account was successfully provisioned.|
 |Account Requires Renewal| An account is up for renewal.|
-|Account Secret ID changed| An account's secret ID was changed.|
+|Account Secret ID Changed| An account's secret ID was changed.|
 |End of Life Notification| An account's End of Life action will be taken in a number of days.|
 |External Groups Disabled| Some groups in the domain were disabled in ALM during the last domain sync.|
 |New External User| Accounts have been added since the last sync and are not being managed by ALM.|
