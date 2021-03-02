@@ -11,5 +11,6 @@ In addition to [Active Directory](../get-started/integ-active-dir/index.md) & [G
 |[Azure AD](./integrate-azure-ad/index.md)||
 |[Secret Server](./integ-secret-serv/index.md)||
 |[DevOps Secret Vault](./integ-dsv/index.md)||
+|[Third Party Vaults](./integ-vault/index.md)||
 |[ServiceNow](./ServiceNow/index.md)||
 |[SIEM Services](./integ-siem/index.md)||
