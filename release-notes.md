@@ -19,6 +19,7 @@ This article tracks those changes to ALM.
 |                        | improvement: Workflow templates include the option to hide the names of approvers from requesters.|
 |                        | improvement: Workflow templates include the option to allow a requester to choose sub-organization units within a designated folder.|
 |                        | improvement: Webhooks can now be tested from the Webhook Management page.|
+||
 | January 2021           | feature: The [SIEM integrations](./integrations/integ-siem/index.md) page allows administrators to integrate ALM with SIEM applications.| 
 |                        | improvement: Updated UI for webhook authorization, workflow templates, account discovery, and custom HTTP headers.|
 |                        | improvement: Administrators can specify the maximum number of service account owners when creating a template.|
