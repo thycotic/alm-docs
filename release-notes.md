@@ -12,6 +12,9 @@ This article tracks those changes to ALM.
 
 | **Update**             | **Notes**                                                                                                                                                           |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| March 2021             | feature: ALM now integrates with Azure Key Vault and AWS Secrets Manager.|
+|                        | improvement: UI updates throughout ALM.|
+||
 | February 2021          | feature: The [Account Migration](./alm-admin/migrate.md) page allows administrators to change the workflow template, review interval, lifecycle end date, and owners of an existing service account. 
 |                        | improvement: Workflow templates include the option to hide the names of approvers from requesters.|
 |                        | improvement: Workflow templates include the option to allow a requester to choose sub-organization units within a designated folder.|
