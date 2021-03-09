@@ -1,4 +1,4 @@
-﻿[title]: # (Integrate ALM with Secret Server)
+﻿[title]: # (Integrate with Secret Server)
 [tags]: # (Account Lifecycle Manager,ALM,Active Directory,)
 [priority]: # (5145)
 
