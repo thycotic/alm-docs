@@ -1,4 +1,4 @@
-﻿[title]: # (Integrate ALM with DevOps Secrets Vault)
+﻿[title]: # (Integrate with DevOps Secrets Vault)
 [tags]: # (Account Lifecycle Manager,ALM,Active Directory,DevOps Secrets Vault,DSV)
 [priority]: # (5150)
 

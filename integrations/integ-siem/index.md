@@ -4,7 +4,25 @@
 
 # SIEM Integration
 
-ALM supports integration with security information and event management (SIEM) tools.
+ALM supports integration with security information and event management (SIEM) tools. The following is a list of events that can be sent to SIEM:
+
+|Event|Description|
+|-|-|
+|Account Owner Changed| A managed account has had an owner added or removed.|
+|Account Provisioned| An account was successfully provisioned.|
+|Account Requires Renewal| An account is up for renewal.|
+|Account Secret ID Changed| An account's secret ID was changed.|
+|End of Life Notification| An account's End of Life action will be taken in a number of days.|
+|External Groups Disabled| Some groups in the domain were disabled in ALM during the last domain sync.|
+|New External User| Accounts have been added since the last sync and are not being managed by ALM.|
+|New Synced User| Sent a new user welcome email.|
+|Provision Approval Step Changed| A provision step requires approval.|
+|Provision State Changed| A request failed to provision.|
+|Provision Template State Changed| A provision template was updated to a new state.|
+|Remote Worker Integration Access Error| A remote worker cannot access the configured domain.|
+|Request State Changed| The state of a request has changed.|
+|User Disabled by AD User Sync| The last Active Directory Sync disabled a number of users.|
+|Any Audit Record| All audits are sent to SIEM.|
 
 ## Setup a SIEM Integration
 
