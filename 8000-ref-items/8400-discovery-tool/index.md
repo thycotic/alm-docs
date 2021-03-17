@@ -5,7 +5,7 @@
 
 # Redirect 3
 
-Information about the **Service Account Discovery Tool** has moved to a [new location](../../ref-items/discovery-tool/).
+Information about the **Service Account Discovery Tool** has moved to a [new location](../../discovery-tool/index.md).
 
 
 
