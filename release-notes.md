@@ -12,7 +12,7 @@ This article tracks those changes to ALM.
 
 | **Update**             | **Notes**                                                                                                                                                           |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| April 2021             | improvement: The activation token for Engines Downloads is now valid for 8 hours. If the engine needs to be reinstalled, a new token will need to be obtained|
+| April 2021             | improvement: Minor enhancements and improvements.|
 ||
 | March 2021             | feature: ALM now integrates with Azure Key Vault and AWS Secrets Manager.|
 |                        | improvement: UI updates throughout ALM.|
