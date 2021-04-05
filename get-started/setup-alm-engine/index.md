@@ -43,6 +43,8 @@ Copy the installer to the computer that will host the ALM Engine. Unzip the file
 
 Follow the prompts until the installation finishes.
 
+>**NOTE**: The activation token for the ALM Engine will last **8 hours**. If the engine needs to be reinstalled, a new token will need to be obtained.
+
 ### ALM Engine Configuration Website Tool
 
 * On successful installation of an ALM Engine on a machine, the ALM Engine Configuration Website Tool (hosted locally on the ALM Engine machine) will automatically load.
