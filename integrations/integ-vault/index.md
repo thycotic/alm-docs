@@ -38,3 +38,20 @@ Use these steps to integrate ALM with AWS Secrets Manager:
 * Click **Save**.
 
 Once added, you can select AWS Secrets Manager as a vault option when creating Workflow Templates. Accounts created from that template will use AWS Secrets Manager for the storage and management of account credentials.
+
+## Integrate with HashiCorp Vault
+
+ALM currently supports HashiCorp Vault with token-based authentication and the key/value Secrets Engine.
+
+Use these steps to integrate ALM with HashiCorp Vault:
+
+* In ALM, navigate to **Integrations** on the left-hand menu and click **Vaults**.
+* Click **Create Vault** in the upper right-hand corner.
+* On the Add Vault Modal, select **HashiCorp Vault** from the Template drop-down menu. Click **Next**.
+* Fill in the required fields:
+    * **HashiCorp Vault Display Name** is the name that will display for the vault in ALM.
+    * **HashiCorp Vault URL** is the location of the vault. 
+    * **Vault Connection Token** is the authentication token provided in the HashiCorp UI.
+* Click **Save**.
+
+Once added, you can select HashiCorp Vault as a vault option when creating Workflow Templates. Accounts created from that template will use HashiCorp Vault for the storage and management of account credentials.
