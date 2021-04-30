@@ -12,7 +12,7 @@ This article tracks those changes to ALM.
 
 | **Update**             | **Notes**                                                                                                                                                           |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| May 2021               | feature: ALM now integrates with HashiCorp Key Vault.|
+| May 2021               | feature: ALM now integrates with HashiCorp Vault.|
 ||
 | April 2021             | improvement: Minor enhancements and improvements.|
 ||
