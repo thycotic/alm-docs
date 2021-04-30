@@ -12,6 +12,8 @@ This article tracks those changes to ALM.
 
 | **Update**             | **Notes**                                                                                                                                                           |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| May 2021               | feature: ALM now integrates with HashiCorp Key Vault.|
+||
 | April 2021             | improvement: Minor enhancements and improvements.|
 ||
 | March 2021             | feature: ALM now integrates with Azure Key Vault and AWS Secrets Manager.|
