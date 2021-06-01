@@ -18,7 +18,7 @@ Use these steps to integrate ALM with Azure Active Directory:
 
       ![Azure AD Step 2](images/azAD_2.png "Azure Step 2")
 
-1. Select Register. On the Thycotic ALM App Registration page, copy the value of the Application (client) ID and (tenant) ID and save it!
+1. Select Register. On the Thycotic ALM App Registration page, copy the value of the Application (client) ID and (tenant) ID.
 
     ![Azure AD Step 3](images/azAD_Register.png "Azure Step 3")
 
@@ -35,6 +35,7 @@ Use these steps to integrate ALM with Azure Active Directory:
     
     * Click new client secret and name whatever (ALM)
     * Copy the client secret for later
+
         ![Azure AD Step 6](images/azAD_6.png "Azure Step 6")
 
 1. Select API Permissions in the Left Nav
@@ -50,6 +51,10 @@ Use these steps to integrate ALM with Azure Active Directory:
           * Group.Selected
           * User.Read.All
           * User.ReadWrite.All
+          * RoleManagement.Read.All
+          * RoleManagement.Read.Directory
+          * RoleManagement.ReadWrite.Directory
+
         ![Azure AD Step 7](images/azAD_7.png "Azure Step 7")
 
 1. Select Grant admin consent
