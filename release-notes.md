@@ -12,7 +12,10 @@ This article tracks those changes to ALM.
 
 | **Update**             | **Notes**                                                                                                                                                           |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| June 2021              | improvement: Updated Account Lifecycle Managers UI framework for an improved look and feel in the application.|
+| June 2021 Release 2    | improvement: ALM now supports the latest version of SNOW (Paris).|
+|                        | fix: Fixed small, non-critical bugs for enhanced performance and user experience.|
+||
+| June 2021 Release 1            | improvement: Updated Account Lifecycle Managers UI framework for an improved look and feel in the application.|
 |                        | feature: ALM now supports Azure AD [role sync](integrations/integrate-azure-ad/index.md).
 ||
 | May 2021               | feature: ALM now integrates with HashiCorp Vault.|
